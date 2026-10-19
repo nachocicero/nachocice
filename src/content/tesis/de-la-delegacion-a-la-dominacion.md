@@ -4,6 +4,7 @@ bajada: "La desigualdad o concentración de riqueza como nueva forma de concentr
 eje: libertad
 orden: 2
 estado: borrador
+cita: "La casta es el custodio ejecutor, es la guardia pretoriana del sector hegemónico."
 fuentes:
   - "Conversación «Matrix y la predicción del dominio de máquinas» (18/09/2026): la cadena delegación, asimetría, desigualdad, dominación la ordenó Claude a partir del planteo de Nacho sobre las élites que negocian en nombre de todos."
   - "Charla por voz con Claude, 19/10/2026: Nacho la adopta («si lo armaste vos, coincido») y la engancha con la plutocracia y la hegemonía que manipula mayorías."
@@ -11,6 +12,7 @@ fuentes:
   - "Doc, mismo archivo: «Entonces es muy importante, no confundir «La casta» con la Hegemonía…»."
 cambios:
   - "Doc: solo ortografía, tildes y puntuación."
+  - "El párrafo «Es en referencia a lo que se dice de la casta…» es un mensaje escrito de Nacho del 19/10 (confirma que el bloque de la casta es suyo), con ortografía corregida y «ellos» reemplazado por «la hegemonía» para que se entienda fuera de contexto."
   - "La sección «Cuatro pasos» la redactó Claude: la cadena es una formulación conjunta que Nacho adoptó el 19/10, y el cierre sigue lo que dijo por voz ese día. Revisar."
   - "La última línea (enlaces) es de navegación, de Claude."
 actualizado: 2026-10-19
@@ -30,6 +32,8 @@ Empresas pymes afectadas por regulaciones pensadas para grandes empresas, como l
 
 ## La casta no es la hegemonía
 
-Entonces es muy importante no confundir "la casta" con la hegemonía. La casta es el custodio ejecutor, es la guardia pretoriana del sector hegemónico. [DUDA: este bloque del Doc está en negrita y tiene un tono distinto al resto, ¿es texto tuyo o algo que pegaste de otro lado?]
+Entonces es muy importante no confundir "la casta" con la hegemonía. La casta es el custodio ejecutor, es la guardia pretoriana del sector hegemónico.
+
+Es en referencia a lo que se dice de la casta, o sea, los representantes o los burócratas, mal pagos a propósito, para que roben y luego controlarlos (eso es [[correa-de-control|la correa de control]]). Pero el problema es la hegemonía, no sus guardianes, que le responden por remuneración. La cagada es que no les paga la hegemonía, sino que les paga el Estado con impuestos que la hegemonía tampoco paga. Es una locura.
 
 Ver también [[que-representen-bien]].
