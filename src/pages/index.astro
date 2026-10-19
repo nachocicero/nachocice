@@ -1,0 +1,53 @@
+---
+import Base from '../layouts/Base.astro';
+import Engranajes from '../components/Engranajes.astro';
+import Mapa from '../components/Mapa.astro';
+import { tesisVisibles, minutos } from '../lib/datos';
+import { ejes } from '../lib/ejes';
+const lista = await tesisVisibles();
+const porEje = ejes.map(e => ({ ...e, tesis: lista.filter(t => t.data.eje === e.id) })).filter(e => e.tesis.length);
+---
+<Base seccion="inicio">
+  <section class="portada">
+    <div class="ancho portada-in">
+      <div>
+        <p class="eyebrow">Ensayos enlazados · en construcción</p>
+        <h1>El lento proceso retrodemocratizador del poder</h1>
+        <p class="bajada">¿Qué otra cosa puede haber en un Estado sino poder del pueblo?</p>
+        <p class="meta">Un libro que se lee en cualquier orden. Cada tesis enlaza con las que la sostienen y con las que la retoman.</p>
+      </div>
+      <Engranajes animar tam={180} />
+    </div>
+  </section>
+  {lista.length > 2 && <section class="ancho" style="margin:3rem auto"><Mapa alto={420} /></section>}
+  <section class="envoltura" style="margin-top:3rem">
+    {porEje.map((e, n) => (
+      <div class="parte">
+        <p class="eyebrow">Parte {n + 1}</p>
+        <h2>{e.titulo}</h2>
+        {e.bajada && <p class="meta" style="font-size:.9rem">{e.bajada}</p>}
+        <ol class="indice">
+          {e.tesis.map(t => (
+            <li><a href={`/tesis/${t.id}/`}><span class="tt">{t.data.titulo}</span>{t.data.estado !== 'aprobada' && <span class="chip">{t.data.estado}</span>}<span class="mn">{minutos(t)} min</span></a>{t.data.bajada && <p>{t.data.bajada}</p>}</li>
+          ))}
+        </ol>
+      </div>
+    ))}
+    {lista.length === 0 && <p>Todavía no hay tesis publicadas.</p>}
+  </section>
+</Base>
+<style>
+  .portada { border-bottom: 1px solid var(--linea); background: var(--fondo-2); }
+  .portada-in { display: grid; grid-template-columns: 1fr auto; gap: 2rem; align-items: center; padding-block: 4rem 3.5rem; }
+  .portada h1 { font-size: clamp(2.2rem, 6.5vw, 3.8rem); max-width: 16ch; }
+  @media (max-width: 40rem) { .portada-in { grid-template-columns: 1fr; } .portada-in :global(svg) { display: none; } }
+  .parte { margin-bottom: 3rem; }
+  .parte h2 { margin-top: 0; }
+  .indice { list-style: none; padding: 0; margin: 1.2rem 0 0; counter-reset: t; }
+  .indice li { border-top: 1px solid var(--linea); padding: .9rem 0; margin: 0; }
+  .indice a { display: flex; align-items: baseline; gap: .7rem; text-decoration: none; }
+  .indice .tt { font: 600 1.15rem/1.3 var(--f-titulo); flex: 1; }
+  .indice .mn { font: 400 .78rem/1 var(--f-ui); color: var(--tinta-suave); white-space: nowrap; }
+  .indice .chip { font: 600 .66rem/1 var(--f-ui); text-transform: uppercase; letter-spacing: .08em; background: var(--marca-falta); padding: .3rem .45rem; border-radius: 3px; }
+  .indice p { margin: .3rem 0 0; font-size: 1rem; color: var(--tinta-suave); }
+</style>

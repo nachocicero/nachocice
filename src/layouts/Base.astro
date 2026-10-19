@@ -1,0 +1,51 @@
+---
+import '../styles/global.css';
+import Engranajes from '../components/Engranajes.astro';
+const { titulo, descripcion = 'Ensayos enlazados de Nacho Cicero sobre el poder, la democracia y quién decide.', seccion } = Astro.props;
+const tituloCompleto = titulo ? `${titulo} · Nacho Cicero` : 'Nacho Cicero · El poder vuelve a la fuente';
+---
+<!doctype html>
+<html lang="es-AR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>{tituloCompleto}</title>
+  <meta name="description" content={descripcion} />
+  <meta property="og:title" content={tituloCompleto} />
+  <meta property="og:description" content={descripcion} />
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;1,6..72,400&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet" />
+  <script is:inline>
+    try { const t = localStorage.getItem('tema'); if (t) document.documentElement.dataset.tema = t; } catch (e) {}
+  </script>
+</head>
+<body>
+  <header class="cabecera">
+    <div class="ancho">
+      <a class="marca" href="/"><Engranajes /> Nacho Cicero</a>
+      <nav class="nav">
+        <a href="/" aria-current={seccion === 'inicio' ? 'page' : undefined}>Índice</a>
+        <a href="/mapa/" aria-current={seccion === 'mapa' ? 'page' : undefined}>Mapa</a>
+        <a href="/sobre/" aria-current={seccion === 'sobre' ? 'page' : undefined}>Sobre</a>
+        <button class="tema" type="button" aria-label="Cambiar tema claro u oscuro" data-tema>◐</button>
+      </nav>
+    </div>
+  </header>
+  <main><slot /></main>
+  <footer class="pie">
+    <div class="ancho">
+      Texto de Nacho Cicero. Fundamento de <a href="https://elpueblopropone.org">El Pueblo Propone</a>. El texto se versiona en público: cada cambio queda registrado.
+    </div>
+  </footer>
+  <script>
+    document.querySelector('[data-tema]')?.addEventListener('click', () => {
+      const r = document.documentElement;
+      const oscuroAhora = r.dataset.tema ? r.dataset.tema === 'oscuro' : matchMedia('(prefers-color-scheme: dark)').matches;
+      r.dataset.tema = oscuroAhora ? 'claro' : 'oscuro';
+      try { localStorage.setItem('tema', r.dataset.tema); } catch (e) {}
+    });
+  </script>
+</body>
+</html>

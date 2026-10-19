@@ -1,0 +1,70 @@
+---
+// Mapa de tesis: cada nodo es una tesis, cada línea un enlace entre ellas.
+import { grafo } from '../lib/datos';
+import { ejes } from '../lib/ejes';
+const { alto = 520 } = Astro.props;
+const { lista, salientes } = await grafo();
+const nodos = lista.map(t => ({ id: t.id, titulo: t.data.titulo, eje: Math.max(0, ejes.findIndex(e => e.id === t.data.eje)), grado: 0 }));
+const aristas: [string, string][] = [];
+for (const [de, hacia] of salientes) for (const h of hacia) aristas.push([de, h]);
+for (const [a, b] of aristas) { nodos.find(n => n.id === a)!.grado++; nodos.find(n => n.id === b)!.grado++; }
+const datos = JSON.stringify({ nodos, aristas, ejes: ejes.length });
+---
+<figure class="mapa" style={`--alto:${alto}px`}>
+  <svg data-mapa role="img" aria-label="Mapa de conexiones entre las tesis"></svg>
+  <figcaption>Cada punto es una tesis; cada línea, un enlace entre ellas. Tocá un punto para abrirla.</figcaption>
+  <script type="application/json" data-mapa-datos set:html={datos} />
+</figure>
+<style>
+  .mapa { margin: 0; }
+  .mapa svg { width: 100%; height: var(--alto); display: block; background: var(--fondo-2); border-radius: 8px; touch-action: manipulation; }
+  .mapa figcaption { font: 400 .8rem/1.4 var(--f-ui); color: var(--tinta-suave); margin-top: .6rem; }
+  .mapa :global(.n) { cursor: pointer; }
+  .mapa :global(.n text) { font: 500 11px/1 var(--f-ui); fill: var(--tinta); pointer-events: none; }
+  .mapa :global(.n:hover circle), .mapa :global(.n:focus circle) { stroke: var(--tinta); stroke-width: 2; }
+  .mapa :global(line) { stroke: var(--salvia); stroke-opacity: .55; }
+</style>
+<script>
+  const PAL = ['#B87333', '#4A5439', '#D99A5B', '#8A8F80', '#7A5230', '#6E7A55', '#A8623A', '#5B6250'];
+  for (const svg of document.querySelectorAll<SVGSVGElement>('[data-mapa]')) {
+    const raw = svg.parentElement!.querySelector('[data-mapa-datos]')!.textContent!;
+    const { nodos, aristas, ejes } = JSON.parse(raw);
+    const W = svg.clientWidth || 640, H = svg.clientHeight || 520;
+    svg.setAttribute('viewBox', `0 0 ${W} ${H}`);
+    const N = nodos.map((n: any, i: number) => {
+      const a = (2 * Math.PI * n.eje) / Math.max(1, ejes) + i * 0.3;
+      return { ...n, x: W / 2 + Math.cos(a) * W * 0.28 + (i % 5) * 7, y: H / 2 + Math.sin(a) * H * 0.28 + (i % 3) * 7, vx: 0, vy: 0 };
+    });
+    const idx = new Map(N.map((n: any, i: number) => [n.id, i]));
+    const E = aristas.map(([a, b]: [string, string]) => [idx.get(a), idx.get(b)]);
+    for (let it = 0; it < 400; it++) {
+      for (let i = 0; i < N.length; i++) for (let j = i + 1; j < N.length; j++) {
+        const dx = N[j].x - N[i].x, dy = N[j].y - N[i].y, d2 = dx * dx + dy * dy + 0.01, f = 2600 / d2;
+        const d = Math.sqrt(d2); N[i].vx -= f * dx / d; N[i].vy -= f * dy / d; N[j].vx += f * dx / d; N[j].vy += f * dy / d;
+      }
+      for (const [a, b] of E) {
+        const dx = N[b].x - N[a].x, dy = N[b].y - N[a].y, d = Math.sqrt(dx * dx + dy * dy) || 1, f = (d - 110) * 0.02;
+        N[a].vx += f * dx / d; N[a].vy += f * dy / d; N[b].vx -= f * dx / d; N[b].vy -= f * dy / d;
+      }
+      for (const n of N) {
+        n.vx += (W / 2 - n.x) * 0.004; n.vy += (H / 2 - n.y) * 0.004;
+        n.x += n.vx * 0.5; n.y += n.vy * 0.5; n.vx *= 0.6; n.vy *= 0.6;
+        n.x = Math.max(40, Math.min(W - 40, n.x)); n.y = Math.max(24, Math.min(H - 24, n.y));
+      }
+    }
+    const ns = 'http://www.w3.org/2000/svg';
+    const el = (t: string, a: Record<string, any>) => { const e = document.createElementNS(ns, t); for (const k in a) e.setAttribute(k, a[k]); return e; };
+    for (const [a, b] of E) svg.append(el('line', { x1: N[a].x, y1: N[a].y, x2: N[b].x, y2: N[b].y }));
+    for (const n of N) {
+      const g = el('g', { class: 'n', tabindex: 0, role: 'link', 'aria-label': n.titulo });
+      const r = 6 + Math.min(10, n.grado * 1.6);
+      g.append(el('circle', { cx: n.x, cy: n.y, r, fill: PAL[n.eje % PAL.length] }));
+      const tx = el('text', { x: n.x, y: n.y + r + 13, 'text-anchor': 'middle' });
+      tx.textContent = n.titulo.length > 34 ? n.titulo.slice(0, 32) + '…' : n.titulo;
+      g.append(tx);
+      const ir = () => (location.href = `/tesis/${n.id}/`);
+      g.addEventListener('click', ir); g.addEventListener('keydown', (e: any) => e.key === 'Enter' && ir());
+      svg.append(g);
+    }
+  }
+</script>

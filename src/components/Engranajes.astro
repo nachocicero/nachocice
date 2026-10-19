@@ -1,0 +1,29 @@
+---
+// Dos engranajes encastrados: demos y kratos. Giran en sentidos opuestos.
+const { animar = false, tam = 30 } = Astro.props;
+function rueda(cx: number, cy: number, r: number, dientes: number) {
+  const pts: string[] = [];
+  for (let i = 0; i < dientes * 2; i++) {
+    const a = (Math.PI * i) / dientes;
+    const rr = i % 2 === 0 ? r : r * 0.78;
+    pts.push(`${(cx + rr * Math.cos(a)).toFixed(2)},${(cy + rr * Math.sin(a)).toFixed(2)}`);
+  }
+  return pts.join(' ');
+}
+---
+<svg viewBox="0 0 64 64" width={tam} height={tam} aria-hidden="true" class:list={['eng', { animar }]}>
+  <g class="g1" style="transform-origin: 24px 26px">
+    <polygon points={rueda(24, 26, 18, 10)} fill="#B87333" />
+    <circle cx="24" cy="26" r="6" fill="var(--fondo)" />
+  </g>
+  <g class="g2" style="transform-origin: 46px 44px">
+    <polygon points={rueda(46, 44, 13, 8)} fill="#4A5439" />
+    <circle cx="46" cy="44" r="4.2" fill="var(--fondo)" />
+  </g>
+</svg>
+<style>
+  .animar .g1 { animation: giro 18s linear infinite; }
+  .animar .g2 { animation: giro 13.5s linear infinite reverse; }
+  @keyframes giro { to { transform: rotate(360deg); } }
+  @media (prefers-reduced-motion: reduce) { .animar .g1, .animar .g2 { animation: none; } }
+</style>

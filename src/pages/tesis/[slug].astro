@@ -1,0 +1,60 @@
+---
+import { render } from 'astro:content';
+import Base from '../../layouts/Base.astro';
+import Lector from '../../components/Lector.astro';
+import { grafo, minutos } from '../../lib/datos';
+import { eje } from '../../lib/ejes';
+
+export async function getStaticPaths() {
+  const { lista } = await grafo();
+  return lista.map(t => ({ params: { slug: t.id } }));
+}
+const { slug } = Astro.params;
+const { lista, salientes, entrantes } = await grafo();
+const i = lista.findIndex(t => t.id === slug);
+const t = lista[i];
+const { Content } = await render(t);
+const porId = new Map(lista.map(x => [x.id, x]));
+const vienen = (entrantes.get(t.id) ?? []).map(id => porId.get(id)!).filter(Boolean);
+const van = (salientes.get(t.id) ?? []).map(id => porId.get(id)!).filter(Boolean);
+const ant = lista[i - 1], sig = lista[i + 1];
+const e = eje(t.data.eje);
+const etiquetas = { borrador: 'Borrador armado por Claude a partir de tus textos y conversaciones. Sin revisar.', revision: 'En revisión.', aprobada: '' };
+---
+<Base titulo={t.data.titulo} descripcion={t.data.bajada}>
+  <article class="envoltura" data-leer>
+    <p class="eyebrow" style="margin-top:3rem">{e.titulo}</p>
+    <h1>{t.data.titulo}</h1>
+    {t.data.bajada && <p class="bajada">{t.data.bajada}</p>}
+    <div class="meta" style="margin-bottom:1rem"><span>{minutos(t)} min de lectura</span>{t.data.actualizado && <span>Actualizado {t.data.actualizado.toLocaleDateString('es-AR', { day: 'numeric', month: 'long', year: 'numeric', timeZone: 'UTC' })}</span>}</div>
+    {t.data.estado !== 'aprobada' && <p class="aviso-borrador">{etiquetas[t.data.estado]}</p>}
+    <Lector />
+    <Content />
+    {t.data.cita && <p class="placa">{t.data.cita}</p>}
+  </article>
+  <div class="envoltura">
+    {(vienen.length > 0 || van.length > 0) && (
+      <section class="conexiones">
+        {van.length > 0 && <>
+          <h2>Esta tesis se apoya en</h2>
+          <ul class="tarjetas">{van.map(x => <li><a href={`/tesis/${x.id}/`}><strong>{x.data.titulo}</strong>{x.data.bajada && <span>{x.data.bajada}</span>}</a></li>)}</ul>
+        </>}
+        {vienen.length > 0 && <>
+          <h2 style="margin-top:2rem">La retoman</h2>
+          <ul class="tarjetas">{vienen.map(x => <li><a href={`/tesis/${x.id}/`}><strong>{x.data.titulo}</strong>{x.data.bajada && <span>{x.data.bajada}</span>}</a></li>)}</ul>
+        </>}
+      </section>
+    )}
+    {(t.data.fuentes.length > 0 || t.data.cambios.length > 0) && (
+      <details class="fuente">
+        <summary>Control de fuente</summary>
+        {t.data.fuentes.length > 0 && <><p><strong>De dónde sale el texto</strong></p><ul>{t.data.fuentes.map(f => <li>{f}</li>)}</ul></>}
+        {t.data.cambios.length > 0 && <><p><strong>Qué se tocó</strong></p><ul>{t.data.cambios.map(c => <li>{c}</li>)}</ul></>}
+      </details>
+    )}
+    <nav class="pasos">
+      {ant ? <a href={`/tesis/${ant.id}/`}><small>← Anterior</small>{ant.data.titulo}</a> : <span />}
+      {sig ? <a href={`/tesis/${sig.id}/`} style="text-align:right"><small>Siguiente →</small>{sig.data.titulo}</a> : <span />}
+    </nav>
+  </div>
+</Base>

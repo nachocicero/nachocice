@@ -1,0 +1,16 @@
+---
+import Base from '../layouts/Base.astro';
+import Lector from '../components/Lector.astro';
+---
+<Base titulo="Sobre este libro" seccion="sobre">
+  <article class="envoltura" data-leer style="margin-top:3rem">
+    <p class="eyebrow">Sobre</p>
+    <h1>Sobre este libro</h1>
+    <Lector />
+    <p><mark class="falta">FALTA: presentación en primera persona, escrita por Nacho. Quién sos, desde cuándo pensás esto y qué tiene que ver con El Pueblo Propone.</mark></p>
+    <h2>Cómo se lee</h2>
+    <p>No tiene un único orden. Cada página es una tesis y enlaza con las que la sostienen y con las que la retoman. El índice propone un recorrido; el mapa muestra los demás.</p>
+    <h2>Cómo se escribe</h2>
+    <p>El texto es de Nacho Cicero. Cada página lleva al pie un control de fuente: de qué escrito o conversación sale y qué se corrigió. El historial completo de cambios es público.</p>
+  </article>
+</Base>

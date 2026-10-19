@@ -1,0 +1,58 @@
+---
+// Lector de audio: lee en voz alta el contenido marcado con [data-leer].
+---
+<div class="lector" data-lector hidden>
+  <button type="button" data-play aria-label="Escuchar esta página">▶ Escuchar</button>
+  <button type="button" data-stop aria-label="Detener" hidden>■</button>
+  <label>Velocidad
+    <select data-vel>
+      <option value="0.9">0,9×</option><option value="1" selected>1×</option>
+      <option value="1.15">1,15×</option><option value="1.3">1,3×</option>
+    </select>
+  </label>
+</div>
+<style>
+  .lector { display: flex; align-items: center; gap: .6rem; flex-wrap: wrap; margin: 0 0 1.8rem; font: 500 .82rem/1 var(--f-ui); color: var(--tinta-suave); }
+  .lector button { font: inherit; color: var(--tinta); background: var(--fondo-2); border: 1px solid var(--linea); border-radius: 999px; padding: .5rem .95rem; cursor: pointer; }
+  .lector button:hover { border-color: var(--acento-luz); }
+  .lector select { font: inherit; background: transparent; color: inherit; border: 1px solid var(--linea); border-radius: 4px; padding: .2rem; margin-left: .3rem; }
+  :global(.leyendo) { background: color-mix(in srgb, var(--acento-luz) 16%, transparent); border-radius: 3px; }
+</style>
+<script>
+  const caja = document.querySelector<HTMLElement>('[data-lector]');
+  if (caja && 'speechSynthesis' in window) {
+    caja.hidden = false;
+    const play = caja.querySelector<HTMLButtonElement>('[data-play]')!;
+    const stop = caja.querySelector<HTMLButtonElement>('[data-stop]')!;
+    const vel = caja.querySelector<HTMLSelectElement>('[data-vel]')!;
+    const synth = window.speechSynthesis;
+    let cola: HTMLElement[] = [], i = 0, activo = false, pausado = false;
+    const voz = () => {
+      const v = synth.getVoices();
+      return v.find(x => x.lang === 'es-AR') ?? v.find(x => x.lang?.startsWith('es-4')) ?? v.find(x => x.lang?.startsWith('es'));
+    };
+    const limpiar = () => document.querySelectorAll('.leyendo').forEach(e => e.classList.remove('leyendo'));
+    const siguiente = () => {
+      limpiar();
+      if (!activo || i >= cola.length) { terminar(); return; }
+      const el = cola[i++];
+      const u = new SpeechSynthesisUtterance(el.innerText);
+      const v = voz(); if (v) u.voice = v; u.lang = v?.lang ?? 'es-AR';
+      u.rate = parseFloat(vel.value);
+      u.onend = siguiente;
+      el.classList.add('leyendo');
+      synth.speak(u);
+    };
+    const terminar = () => { activo = false; pausado = false; synth.cancel(); limpiar(); play.textContent = '▶ Escuchar'; stop.hidden = true; };
+    play.addEventListener('click', () => {
+      if (!activo) {
+        cola = [...document.querySelectorAll<HTMLElement>('[data-leer] :is(h1,h2,h3,p,li,blockquote,.placa)')];
+        i = 0; activo = true; synth.cancel(); siguiente();
+        play.textContent = '❚❚ Pausa'; stop.hidden = false;
+      } else if (!pausado) { synth.pause(); pausado = true; play.textContent = '▶ Seguir'; }
+      else { synth.resume(); pausado = false; play.textContent = '❚❚ Pausa'; }
+    });
+    stop.addEventListener('click', terminar);
+    window.addEventListener('pagehide', terminar);
+  }
+</script>
