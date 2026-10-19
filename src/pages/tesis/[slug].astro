@@ -22,7 +22,7 @@ const ant = lista[i - 1], sig = lista[i + 1];
 const e = eje(t.data.eje);
 const etiquetas = { borrador: 'Borrador armado por Claude a partir de tus textos y conversaciones. Sin revisar.', revision: 'En revisión.', aprobada: '' };
 ---
-<Base titulo={t.data.titulo} descripcion={t.data.bajada}>
+<Base titulo={t.data.titulo} descripcion={t.data.bajada} noindex={t.data.estado !== 'aprobada'}>
   <article class="envoltura" data-leer>
     <p class="eyebrow" style="margin-top:3rem">{e.titulo}</p>
     <h1>{t.data.titulo}</h1>

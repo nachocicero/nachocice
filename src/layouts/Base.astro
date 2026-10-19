@@ -2,7 +2,7 @@
 import { url } from '../lib/url';
 import '../styles/global.css';
 import Engranajes from '../components/Engranajes.astro';
-const { titulo, descripcion = 'Ensayos enlazados de Nacho Cicero sobre el poder, la democracia y quién decide.', seccion } = Astro.props;
+const { noindex = false, titulo, descripcion = 'Ensayos enlazados de Nacho Cicero sobre el poder, la democracia y quién decide.', seccion } = Astro.props;
 const tituloCompleto = titulo ? `${titulo} · Nacho Cicero` : 'Nacho Cicero · El poder vuelve a la fuente';
 ---
 <!doctype html>
@@ -12,6 +12,7 @@ const tituloCompleto = titulo ? `${titulo} · Nacho Cicero` : 'Nacho Cicero · E
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>{tituloCompleto}</title>
   <meta name="description" content={descripcion} />
+  {noindex && <meta name="robots" content="noindex" />}
   <meta property="og:title" content={tituloCompleto} />
   <meta property="og:description" content={descripcion} />
   <link rel="icon" href={url("/favicon.svg")} type="image/svg+xml" />
