@@ -35,8 +35,11 @@ jobs:
             public/audio
           key: audio-${{ hashFiles('src/content/tesis/*.md', 'scripts/audio.py') }}
           restore-keys: audio-
+      - run: sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg
       - run: pip install piper-tts
-      - run: python scripts/audio.py --voz es_AR-daniela-high --modelos .piper
+      - name: Generar audios
+        continue-on-error: true
+        run: python scripts/audio.py --voz es_AR-daniela-high --modelos .piper
       - run: npm run build
         env:
           # Mientras dure la etapa de revisión se publican también los borradores (con cartel).

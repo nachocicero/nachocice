@@ -73,4 +73,10 @@ def main():
         print('nuevo', md.stem)
 
 if __name__ == '__main__':
-    main()
+    try:
+        main()
+    except Exception:
+        import traceback
+        tb = traceback.format_exc().strip().replace('\n', ' | ')
+        print(f'::error title=audio::{tb[-900:]}')
+        sys.exit(1)
