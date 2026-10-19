@@ -12,14 +12,21 @@ fuentes:
 cambios:
   - "Solo ortografía, tildes y puntuación (dondo → donde, habra → habrá, vasta → basta, justaficativo → justificativo, q → que, vote → voten)."
   - "Afuera: los ejemplos del PRO y de Milei poniendo temas en agenda, porque dependen de la coyuntura. Se pueden recuperar."
-  - "La oración del Doc que termina en «la legitimación es popular pero no querés» quedó cortada en el original: se marcó como FALTA."
+  - "La oración del Doc que termina en «la legitimación es popular pero no querés» estaba cortada en el original. Nacho la completó por voz el 19/10: «…medir lo que el pueblo realmente quiere»."
+  - "La sección «No es democracia directa» la redactó Claude a partir de lo que Nacho dijo por voz el 19/10 (accountability, la suma de las opiniones individuales, la opinión pública difusa, el dedo mojado). Revisar."
   - "Orden: los tres bloques se unieron en este orden, sin agregar conectores. La última línea (enlaces) es de navegación, de Claude."
 actualizado: 2026-10-19
 ---
 
-La idea es ampliarla, pero no una total democracia directa donde todo pase por la votación y plebiscito de las decisiones, sino un aumento en esa tendencia, que habrá que medir y ajustar en cuánto, pero no se puede seguir sosteniendo este freno inamovible cuando el justificativo, la legitimación, es popular pero no querés [FALTA: la frase termina acá en el Doc, completarla].
+La idea es ampliarla, pero no una total democracia directa donde todo pase por la votación y plebiscito de las decisiones, sino un aumento en esa tendencia, que habrá que medir y ajustar en cuánto, pero no se puede seguir sosteniendo este freno inamovible cuando el justificativo, la legitimación, es popular pero no querés medir lo que el pueblo realmente quiere.
 
 O sea, basta de "en nombre del pueblo", sino que midamos mejor lo que dice que quiere el pueblo, no lo que se interpreta desde arriba.
+
+## No es democracia directa
+
+Ahí se confunde con la democracia directa, pero no es eso. El tema es medir bien. Que lo que se diga en nombre del pueblo tenga accountability, que sea la sumatoria de las opiniones individuales y no lo que dicen los medios, o eso que se llama opinión pública, que es una cosa completamente difusa, que no se sabe realmente qué es. La opinión pública tiene que estar medida lo mejor posible.
+
+Es como cuando para saber de dónde viene el viento sacás el dedo, te lo mojás, y sí, viene de por acá, del sureste. Tenemos que tener metodologías de medición acordes a la época, y la época hoy es que con internet y la firma digital podemos medir realmente lo que la gente opina sobre todos los temas. Ahí está el punto de ampliar la democracia y medirla.
 
 ## Democracia pasiva y democracia activa
 

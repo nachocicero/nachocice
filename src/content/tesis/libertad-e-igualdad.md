@@ -3,7 +3,7 @@ titulo: Libertad e igualdad son la misma moneda
 bajada: "La libertad sin cierta igualdad es una falacia o algo secundario."
 eje: libertad
 orden: 1
-estado: borrador
+estado: aprobada
 cita: "Libertad e igualdad son la misma moneda."
 fuentes:
   - "Doc «El lento proceso retrodemocratizador del poder», bloque «Libertad e igualdad» (el parlante y la libertad de expresión) y la línea «sobre la libertad»."
@@ -13,7 +13,7 @@ fuentes:
 cambios:
   - "Doc y mensajes: solo ortografía, tildes y puntuación (q → que, atravezar → atravesar, democratico → democrático)."
   - "Corrección de contenido: el Doc atribuye a Montesquieu la idea de que la libertad son los límites que nos ponemos. Es de Rousseau (Contrato social, I.8). Nacho lo aceptó en la conversación del 18/09. Se reemplazó el nombre y se dejó el resto."
-  - "La sección «Una definición» es la única redactada por Claude: es la formulación que Nacho aprobó en la charla, puesta en su registro. Revisar."
+  - "La sección «Una definición» la redactó Claude: es la formulación que Nacho aprobó en la charla del 18/09. El 19/10 pidió sacar la imagen de la lapicera y dejar el concepto."
   - "Afuera: las líneas del Doc que siguen a la definición (vida, aborto) por decisión editorial."
 actualizado: 2026-10-19
 ---
@@ -42,6 +42,6 @@ Si vos a todo el aparato que legisla, juzga y controla lo desconectás del puebl
 
 La libertad no es la ausencia de límites, porque la gravedad no se vota. Es no estar sujeto a que otro fije, sin tu participación, los límites que sí se pueden cambiar.
 
-Y la igualdad es tener la misma lapicera para fijar esos límites. Si alguien tiene más lapicera que vos, sos menos libre, y si sos menos libre es porque hay una desigualdad de lapicera. No son dos valores para balancear, es la misma moneda.
+Y la igualdad es tener el mismo poder para fijar esos límites. Si otro tiene más poder que vos para fijarlos, sos menos libre. Es la misma moneda.
 
-Por eso [[de-la-delegacion-a-la-dominacion|delegar sin control]] termina siendo un problema de libertad y no solo de igualdad, y por eso [[la-democracia-es-un-pleonasmo|la democracia es un pleonasmo]].
+Ver también [[de-la-delegacion-a-la-dominacion]] y [[la-democracia-es-un-pleonasmo]].

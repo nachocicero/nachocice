@@ -14,6 +14,7 @@ cambios:
   - "Corrección de contenido aprobada por Nacho el 16/09/2026: poli viene de polys, «muchos»; pan es «todo»."
   - "Afuera: la frase dirigida a un comentarista («Lamento desilusionarte…») y la referencia al fotolog, que dependen de su contexto original."
   - "Corrección de dato aprobada por Nacho el 19/10/2026: Polyarchy de Dahl es de 1971 (el Doc decía 1960)."
+  - "Sin puente final: Nacho decidió el 19/10 que termine donde termina su texto. La línea de enlaces es de navegación."
   - "Orden: los tres bloques se unieron en este orden, sin agregar conectores. Bajada, cita y subtítulo son frases textuales del Doc."
 actualizado: 2026-10-19
 ---
@@ -56,6 +57,4 @@ Polis es Estado, pequeño, lo que llamaríamos un pueblo o un Estado pequeño.
 
 Un Estado hoy, eso que se vincula a un país pero puede ser una provincia, para existir debe ser un territorio con un pueblo y un gobierno.
 
-[FALTA: el puente hacia la tesis siguiente. ¿Si la democracia es un pleonasmo, qué es lo que sí se puede medir? Ver la tesis sobre el grado de democracia]
-
-Sigue en [[ampliar-y-medir|ampliar la democracia y medirla]].
+Ver también [[ampliar-y-medir]] y [[libertad-e-igualdad]].

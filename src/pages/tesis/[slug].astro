@@ -29,7 +29,7 @@ const etiquetas = { borrador: 'Borrador armado por Claude a partir de tus textos
     {t.data.bajada && <p class="bajada">{t.data.bajada}</p>}
     <div class="meta" style="margin-bottom:1rem"><span>{minutos(t)} min de lectura</span>{t.data.actualizado && <span>Actualizado {t.data.actualizado.toLocaleDateString('es-AR', { day: 'numeric', month: 'long', year: 'numeric', timeZone: 'UTC' })}</span>}</div>
     {t.data.estado !== 'aprobada' && <p class="aviso-borrador">{etiquetas[t.data.estado]}</p>}
-    <Lector />
+    <Lector slug={t.id} titulo={t.data.titulo} />
     <Content />
     {t.data.cita && <p class="placa">{t.data.cita}</p>}
   </article>

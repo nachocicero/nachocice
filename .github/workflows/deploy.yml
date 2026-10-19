@@ -24,6 +24,19 @@ jobs:
           node-version: 22
           cache: npm
       - run: npm ci
+      # Audio de cada tesis con voz neuronal (Piper, es_AR). Sigue sonando con la pantalla apagada.
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - uses: actions/cache@v4
+        with:
+          path: |
+            .piper
+            public/audio
+          key: audio-${{ hashFiles('src/content/tesis/*.md', 'scripts/audio.py') }}
+          restore-keys: audio-
+      - run: pip install piper-tts
+      - run: python scripts/audio.py --voz es_AR-daniela-high --modelos .piper
       - run: npm run build
         env:
           # Mientras dure la etapa de revisión se publican también los borradores (con cartel).

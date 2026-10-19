@@ -3,7 +3,7 @@ titulo: No es lo mismo una inferencia que una votación
 bajada: "No es lo mismo lo que se presume que la población quiere, que la sumatoria agregada de las opiniones individuales."
 eje: libertad
 orden: 5
-estado: borrador
+estado: aprobada
 cita: "No es lo mismo lo que se presume que la población quiere, que la sumatoria agregada de las opiniones individuales."
 fuentes:
   - "Doc «El lento proceso retrodemocratizador del poder», bloque «Opinión pública, legitimidad de origen y legitimidad de ejercicio» y los dos párrafos que siguen."
@@ -11,7 +11,7 @@ fuentes:
   - "Charla por voz con Claude, 19/10/2026: la reacción visceral, los bots, la falta de unicidad y el efecto espejo."
 cambios:
   - "Doc: solo ortografía, tildes y puntuación."
-  - "La sección «Reacción no es opinión» la redactó Claude a partir de lo que Nacho dijo por voz el 19/10, siguiendo el protocolo de estilo. No hay texto escrito por él de esa parte. Revisar."
+  - "La sección «Reacción no es opinión» la redactó Claude a partir de lo que Nacho dijo por voz el 19/10, siguiendo el protocolo de estilo. No hay texto escrito por él de esa parte. Nacho la aprobó por voz el 19/10."
   - "La última línea (enlaces) es de navegación, de Claude."
 actualizado: 2026-10-19
 ---
@@ -30,7 +30,7 @@ Lo que hacemos en internet, buscar, reaccionar, compartir, es la forma en que la
 
 Y encima la pueden distorsionar, porque no existe la unicidad, la firma. Capaz que una persona sí reacciona, pero después ponen un montón de bots haciendo como que reaccionan, como si fuese gente frente a un tema. Y después otros tienen la misma reacción por una cuestión de espejo, de copiar.
 
-O sea, lo que se presenta como voluntad del pueblo es una inferencia sobre reacciones que nadie firmó, que se pueden fabricar y que se contagian. Una persona, una firma: eso es lo que falta.
+Una persona, una firma: eso es lo que falta.
 
 Las herramientas de participación previstas en la Constitución prácticamente no se han aplicado nunca, y esta es la demanda concreta a la que hay que apuntar todos los cañones: la iniciativa popular (art. 39) y la consulta popular (art. 40).
 

@@ -1,24 +1,58 @@
 ---
-// Lector de audio: lee en voz alta el contenido marcado con [data-leer].
+// Lector de audio. Si existe el MP3 generado con voz neuronal (scripts/audio.py),
+// usa un reproductor nativo: sigue sonando con la pantalla apagada y se controla
+// desde la pantalla de bloqueo. Si no, cae a la voz del navegador.
+import fs from 'node:fs';
+import { url } from '../lib/url';
+const { slug, titulo = '' } = Astro.props;
+const tieneMp3 = slug && fs.existsSync(`public/audio/${slug}.mp3`);
+const src = tieneMp3 ? url(`/audio/${slug}.mp3`) : null;
 ---
-<div class="lector" data-lector hidden>
-  <button type="button" data-play aria-label="Escuchar esta página">▶ Escuchar</button>
-  <button type="button" data-stop aria-label="Detener" hidden>■</button>
-  <label>Velocidad
-    <select data-vel>
-      <option value="0.9">0,9×</option><option value="1" selected>1×</option>
-      <option value="1.15">1,15×</option><option value="1.3">1,3×</option>
-    </select>
-  </label>
-</div>
+{src ? (
+  <div class="lector">
+    <audio controls preload="none" src={src} data-titulo={titulo}></audio>
+    <label>Velocidad
+      <select data-vel-audio>
+        <option value="0.9">0,9×</option><option value="1" selected>1×</option>
+        <option value="1.15">1,15×</option><option value="1.3">1,3×</option>
+      </select>
+    </label>
+  </div>
+) : (
+  <div class="lector" data-lector hidden>
+    <button type="button" data-play aria-label="Escuchar esta página">▶ Escuchar</button>
+    <button type="button" data-stop aria-label="Detener" hidden>■</button>
+    <label>Velocidad
+      <select data-vel>
+        <option value="0.9">0,9×</option><option value="1" selected>1×</option>
+        <option value="1.15">1,15×</option><option value="1.3">1,3×</option>
+      </select>
+    </label>
+  </div>
+)}
 <style>
   .lector { display: flex; align-items: center; gap: .6rem; flex-wrap: wrap; margin: 0 0 1.8rem; font: 500 .82rem/1 var(--f-ui); color: var(--tinta-suave); }
+  .lector audio { width: 100%; max-width: 26rem; height: 40px; }
   .lector button { font: inherit; color: var(--tinta); background: var(--fondo-2); border: 1px solid var(--linea); border-radius: 999px; padding: .5rem .95rem; cursor: pointer; }
   .lector button:hover { border-color: var(--acento-luz); }
   .lector select { font: inherit; background: transparent; color: inherit; border: 1px solid var(--linea); border-radius: 4px; padding: .2rem; margin-left: .3rem; }
   :global(.leyendo) { background: color-mix(in srgb, var(--acento-luz) 16%, transparent); border-radius: 3px; }
 </style>
 <script>
+  // Reproductor con MP3
+  const audio = document.querySelector<HTMLAudioElement>('.lector audio');
+  if (audio) {
+    const vel = document.querySelector<HTMLSelectElement>('[data-vel-audio]')!;
+    vel.addEventListener('change', () => { audio.playbackRate = parseFloat(vel.value); });
+    audio.addEventListener('play', () => {
+      audio.playbackRate = parseFloat(vel.value);
+      if ('mediaSession' in navigator) {
+        navigator.mediaSession.metadata = new MediaMetadata({ title: audio.dataset.titulo || document.title, artist: 'Nacho Cicero', album: 'El lento proceso retrodemocratizador del poder' });
+      }
+    });
+  }
+
+  // Respaldo: voz del navegador
   const caja = document.querySelector<HTMLElement>('[data-lector]');
   if (caja && 'speechSynthesis' in window) {
     caja.hidden = false;

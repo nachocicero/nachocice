@@ -3,14 +3,14 @@ titulo: Que representen bien
 bajada: "La república es un límite a las dictaduras de las mayorías, pero no puede ser la dictadura de una minoría plutocrática."
 eje: libertad
 orden: 6
-estado: borrador
+estado: aprobada
 cita: "La república es un límite a las dictaduras de las mayorías, pero no puede ser la dictadura de una minoría plutocrática."
 fuentes:
   - "Doc «El lento proceso retrodemocratizador del poder»: «La explicación simple es que es una cuestión organizativa…» y «Entonces la democracia hoy es representativa…» (bloque del framework república)."
   - "Charla por voz con Claude, 19/10/2026: el artículo 22 como crítica a El Pueblo Propone, la presión con instrumentos legales y la frase de la minoría plutocrática (textual)."
 cambios:
   - "Doc: solo ortografía, tildes y puntuación (eslavos → esclavos)."
-  - "Las secciones «Respeto el 22, pero que representen» y «Presionar con la ley en la mano» las redactó Claude a partir de lo que Nacho dijo por voz el 19/10. La frase de la minoría plutocrática es textual. Revisar."
+  - "Las secciones «Respeto el 22, pero que representen» y «Presionar con la ley en la mano» las redactó Claude a partir de lo que Nacho dijo por voz el 19/10. La frase de la minoría plutocrática es textual. Nacho la aprobó por voz el 19/10, sin nombrar a change.org."
   - "«Da asco por cómo lo usan…» y la sección «¿Quién controla al que controla?» son mensajes escritos de Nacho del 19/10, con ortografía corregida."
   - "La última línea (enlaces) es de navegación, de Claude."
 actualizado: 2026-10-19
@@ -34,7 +34,7 @@ Y acá está la clave, que es el control. El control tiene que ser con participa
 
 ## Presionar con la ley en la mano
 
-Lo que quiere El Pueblo Propone es presionar, pero a través de instrumentos legales, para que la presión sea más fuerte que, por ejemplo, la de change.org, donde una persona puede tener varios mails. Acá es una persona, un voto, y es bien lo que la persona quiere.
+Lo que quiere El Pueblo Propone es presionar, pero a través de instrumentos legales, para que la presión sea más fuerte que la de las peticiones online o las reacciones en redes sociales, donde una persona puede tener varios mails o varias cuentas. Acá es una persona, un voto, y es bien lo que la persona quiere.
 
 Y se entiende que eso después no se va a traducir en que sí o sí se tenga que hacer lo que la gente propone. O sea, yo entiendo que la república es un límite a las dictaduras de las mayorías, pero no puede ser la dictadura de una minoría plutocrática.
 
