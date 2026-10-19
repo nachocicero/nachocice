@@ -62,7 +62,7 @@ const datos = JSON.stringify({ nodos, aristas, ejes: ejes.length });
       const tx = el('text', { x: n.x, y: n.y + r + 13, 'text-anchor': 'middle' });
       tx.textContent = n.titulo.length > 34 ? n.titulo.slice(0, 32) + '…' : n.titulo;
       g.append(tx);
-      const ir = () => (location.href = `/tesis/${n.id}/`);
+      const ir = () => (location.href = `${import.meta.env.BASE_URL.replace(/\/$/, '')}/tesis/${n.id}/`);
       g.addEventListener('click', ir); g.addEventListener('keydown', (e: any) => e.key === 'Enter' && ir());
       svg.append(g);
     }

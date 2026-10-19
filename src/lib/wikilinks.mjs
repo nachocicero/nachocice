@@ -5,6 +5,7 @@ import fs from 'node:fs';
 import path from 'node:path';
 
 const DIR = path.resolve('src/content/tesis');
+const BASE = '/nachocice'; // mantener igual que base en astro.config.mjs
 const RE = /\[\[([a-z0-9-]+)(?:\|([^\]]+))?\]\]/g;
 
 function existentes() {
@@ -43,7 +44,7 @@ export default function wikilinks() {
         const [, slug, texto] = m;
         const label = texto ?? slug.replace(/-/g, ' ');
         if (slugs.has(slug)) {
-          out.push({ type: 'link', url: `/tesis/${slug}/`, data: { hProperties: { className: ['wl'] } },
+          out.push({ type: 'link', url: `${BASE}/tesis/${slug}/`, data: { hProperties: { className: ['wl'] } },
                      children: [{ type: 'text', value: label }] });
         } else {
           out.push({ type: 'emphasis', data: { hName: 'span', hProperties: { className: ['wl-falta'], title: 'Tesis por escribir' } },

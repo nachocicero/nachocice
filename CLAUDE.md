@@ -1,6 +1,6 @@
 # Blog-libro de Nacho Cicero
 
-Sitio Astro estático publicado en GitHub Pages (`nachocicero.github.io`). Repo público: no subir nunca credenciales, datos personales de terceros ni el manuscrito fuente completo.
+Sitio Astro estático publicado en GitHub Pages (`nachocicero.github.io/nachocice/`, por eso `base: /nachocice` en la config y los enlaces internos pasan por `src/lib/url.ts`). Repo público: no subir nunca credenciales, datos personales de terceros ni el manuscrito fuente completo.
 
 ## La regla de oro: es la voz de Nacho
 

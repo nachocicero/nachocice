@@ -1,4 +1,4 @@
-# nachocicero.github.io
+# nachocice
 
 Ensayos enlazados de Nacho Cicero. El libro *El lento proceso retrodemocratizador del poder* escrito como una red de tesis, y el fundamento de [El Pueblo Propone](https://elpueblopropone.org).
 
@@ -17,7 +17,7 @@ npm run dev        # http://localhost:4321, muestra también los borradores
 npm run build      # lo mismo que se publica
 ```
 
-Cada push a `main` se publica solo en GitHub Pages.
+Cada push a `main` se publica solo en GitHub Pages: https://nachocicero.github.io/nachocice/
 
 ## Reglas editoriales
 

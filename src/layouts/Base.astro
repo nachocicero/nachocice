@@ -1,4 +1,5 @@
 ---
+import { url } from '../lib/url';
 import '../styles/global.css';
 import Engranajes from '../components/Engranajes.astro';
 const { titulo, descripcion = 'Ensayos enlazados de Nacho Cicero sobre el poder, la democracia y quién decide.', seccion } = Astro.props;
@@ -13,7 +14,7 @@ const tituloCompleto = titulo ? `${titulo} · Nacho Cicero` : 'Nacho Cicero · E
   <meta name="description" content={descripcion} />
   <meta property="og:title" content={tituloCompleto} />
   <meta property="og:description" content={descripcion} />
-  <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+  <link rel="icon" href={url("/favicon.svg")} type="image/svg+xml" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;1,6..72,400&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet" />
@@ -24,11 +25,11 @@ const tituloCompleto = titulo ? `${titulo} · Nacho Cicero` : 'Nacho Cicero · E
 <body>
   <header class="cabecera">
     <div class="ancho">
-      <a class="marca" href="/"><Engranajes /> Nacho Cicero</a>
+      <a class="marca" href={url("/")}><Engranajes /> Nacho Cicero</a>
       <nav class="nav">
-        <a href="/" aria-current={seccion === 'inicio' ? 'page' : undefined}>Índice</a>
-        <a href="/mapa/" aria-current={seccion === 'mapa' ? 'page' : undefined}>Mapa</a>
-        <a href="/sobre/" aria-current={seccion === 'sobre' ? 'page' : undefined}>Sobre</a>
+        <a href={url("/")} aria-current={seccion === 'inicio' ? 'page' : undefined}>Índice</a>
+        <a href={url("/mapa/")} aria-current={seccion === 'mapa' ? 'page' : undefined}>Mapa</a>
+        <a href={url("/sobre/")} aria-current={seccion === 'sobre' ? 'page' : undefined}>Sobre</a>
         <button class="tema" type="button" aria-label="Cambiar tema claro u oscuro" data-tema>◐</button>
       </nav>
     </div>
