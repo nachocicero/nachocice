@@ -58,4 +58,4 @@ Un Estado hoy, eso que se vincula a un país pero puede ser una provincia, para 
 
 [FALTA: el puente hacia la tesis siguiente. ¿Si la democracia es un pleonasmo, qué es lo que sí se puede medir? Ver la tesis sobre el grado de democracia]
 
-Sigue en [[grado-de-democracia|ampliar el grado de democracia y poder medirlo]].
+Sigue en [[ampliar-y-medir|ampliar la democracia y medirla]].

@@ -39,17 +39,27 @@ const datos = JSON.stringify({ nodos, aristas, ejes: ejes.length });
     const E = aristas.map(([a, b]: [string, string]) => [idx.get(a), idx.get(b)]);
     for (let it = 0; it < 400; it++) {
       for (let i = 0; i < N.length; i++) for (let j = i + 1; j < N.length; j++) {
-        const dx = N[j].x - N[i].x, dy = N[j].y - N[i].y, d2 = dx * dx + dy * dy + 0.01, f = 2600 / d2;
+        const dx = N[j].x - N[i].x, dy = N[j].y - N[i].y, d2 = dx * dx + dy * dy + 0.01, f = 9000 / d2;
         const d = Math.sqrt(d2); N[i].vx -= f * dx / d; N[i].vy -= f * dy / d; N[j].vx += f * dx / d; N[j].vy += f * dy / d;
       }
       for (const [a, b] of E) {
-        const dx = N[b].x - N[a].x, dy = N[b].y - N[a].y, d = Math.sqrt(dx * dx + dy * dy) || 1, f = (d - 110) * 0.02;
+        const dx = N[b].x - N[a].x, dy = N[b].y - N[a].y, d = Math.sqrt(dx * dx + dy * dy) || 1, f = (d - 170) * 0.02;
         N[a].vx += f * dx / d; N[a].vy += f * dy / d; N[b].vx -= f * dx / d; N[b].vy -= f * dy / d;
       }
       for (const n of N) {
         n.vx += (W / 2 - n.x) * 0.004; n.vy += (H / 2 - n.y) * 0.004;
         n.x += n.vx * 0.5; n.y += n.vy * 0.5; n.vx *= 0.6; n.vy *= 0.6;
         n.x = Math.max(40, Math.min(W - 40, n.x)); n.y = Math.max(24, Math.min(H - 24, n.y));
+      }
+    }
+    // Estirar el dibujo para que ocupe todo el recuadro
+    if (N.length > 1) {
+      const xs = N.map((n: any) => n.x), ys = N.map((n: any) => n.y);
+      const [x0, x1, y0, y1] = [Math.min(...xs), Math.max(...xs), Math.min(...ys), Math.max(...ys)];
+      const px = Math.min(140, W * 0.18), py = 50;
+      for (const n of N) {
+        n.x = px + ((n.x - x0) / ((x1 - x0) || 1)) * (W - 2 * px);
+        n.y = py + ((n.y - y0) / ((y1 - y0) || 1)) * (H - 2 * py - 20);
       }
     }
     const ns = 'http://www.w3.org/2000/svg';

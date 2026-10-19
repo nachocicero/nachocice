@@ -1,0 +1,35 @@
+---
+titulo: De la delegación a la dominación
+bajada: "La desigualdad o concentración de riqueza como nueva forma de concentración de poder supraestatal, o totalitarismo corporativo, tiranía elitista."
+eje: libertad
+orden: 2
+estado: borrador
+fuentes:
+  - "Conversación «Matrix y la predicción del dominio de máquinas» (18/09/2026): la cadena delegación, asimetría, desigualdad, dominación la ordenó Claude a partir del planteo de Nacho sobre las élites que negocian en nombre de todos."
+  - "Charla por voz con Claude, 19/10/2026: Nacho la adopta («si lo armaste vos, coincido») y la engancha con la plutocracia y la hegemonía que manipula mayorías."
+  - "Doc «El lento proceso retrodemocratizador del poder»: título «La desigualdad o concentración de riqueza como nueva forma de concentración de poder…» y las líneas sobre las pymes y la cooptación."
+  - "Doc, mismo archivo: «Entonces es muy importante, no confundir «La casta» con la Hegemonía…»."
+cambios:
+  - "Doc: solo ortografía, tildes y puntuación."
+  - "La sección «Cuatro pasos» la redactó Claude: la cadena es una formulación conjunta que Nacho adoptó el 19/10, y el cierre sigue lo que dijo por voz ese día. Revisar."
+  - "La última línea (enlaces) es de navegación, de Claude."
+actualizado: 2026-10-19
+---
+
+## Cuatro pasos
+
+Cuando delegás en un representante y no lo podés controlar, él sabe y decide cosas que vos no. Eso es una asimetría. Con el tiempo esa asimetría se vuelve desigualdad, y cuando la desigualdad se instala, es dominación: otro te fija las reglas sin vos. Y si otro te fija las reglas sin vos, no sos libre. Por eso [[libertad-e-igualdad|libertad e igualdad son la misma moneda]].
+
+Y tiene que ver con las plutocracias, con la hegemonía manipulando a las mayorías. Si después el representante no representa a los que lo eligieron, termina pasando lo mismo: delegaste y te dominan con tu propia delegación.
+
+## La desigualdad como poder
+
+La desigualdad, o concentración de riqueza, como nueva forma de concentración de poder supraestatal, o totalitarismo corporativo, tiranía elitista.
+
+Empresas pymes afectadas por regulaciones pensadas para grandes empresas, como las indemnizaciones por despido o cargas sociales. Para equiparar eso, los pequeños deben asociarse, y hasta ahora es muy fácil desarticular eso infiltrándose y cooptando las organizaciones.
+
+## La casta no es la hegemonía
+
+Entonces es muy importante no confundir "la casta" con la hegemonía. La casta es el custodio ejecutor, es la guardia pretoriana del sector hegemónico. [DUDA: este bloque del Doc está en negrita y tiene un tono distinto al resto, ¿es texto tuyo o algo que pegaste de otro lado?]
+
+Ver también [[que-representen-bien]].
