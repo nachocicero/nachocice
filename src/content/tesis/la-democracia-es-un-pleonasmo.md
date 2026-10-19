@@ -13,6 +13,7 @@ cambios:
   - "Solo ortografía, tildes y puntuación (democratico → democrático, q → que, Dalh → Dahl, metes → metés)."
   - "Corrección de contenido aprobada por Nacho el 16/09/2026: poli viene de polys, «muchos»; pan es «todo»."
   - "Afuera: la frase dirigida a un comentarista («Lamento desilusionarte…») y la referencia al fotolog, que dependen de su contexto original."
+  - "Corrección de dato aprobada por Nacho el 19/10/2026: Polyarchy de Dahl es de 1971 (el Doc decía 1960)."
   - "Orden: los tres bloques se unieron en este orden, sin agregar conectores. Bajada, cita y subtítulo son frases textuales del Doc."
 actualizado: 2026-10-19
 ---
@@ -45,7 +46,7 @@ Nuestra Constitución habla de sistema representativo y tiene un artículo 22, d
 
 ## La democracia es un término fallido
 
-Sugiero que se instruyan un poco, recomiendo para ello, de Robert Dahl, *La poliarquía*, que se escribió en 1960 [DUDA: la edición original de Polyarchy es de 1971, confirmar qué fecha querés poner] cuando a internet la estaban cocinando en el Pentágono.
+Sugiero que se instruyan un poco, recomiendo para ello, de Robert Dahl, *La poliarquía*, que se escribió en 1971 cuando a internet la estaban cocinando en el Pentágono.
 
 Quizás por eso Dahl acuñó el término poliarquía: poli viene de *polys*, que en griego significa muchos (*pan* es todo). Poliarquía es el gobierno de muchos.
 
