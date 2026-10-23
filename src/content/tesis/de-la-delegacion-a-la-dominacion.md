@@ -34,6 +34,6 @@ Empresas pymes afectadas por regulaciones pensadas para grandes empresas, como l
 
 Entonces es muy importante no confundir "la casta" con la hegemonía. La casta es el custodio ejecutor, es la guardia pretoriana del sector hegemónico.
 
-Es en referencia a lo que se dice de la casta, o sea, los representantes o los burócratas, mal pagos a propósito, para que roben y luego controlarlos (eso es [[correa-de-control|la correa de control]]). Pero el problema es la hegemonía, no sus guardianes, que le responden por remuneración. La cagada es que no les paga la hegemonía, sino que les paga el Estado con impuestos que la hegemonía tampoco paga. Es una locura.
+Es en referencia a lo que se dice de la casta, o sea, los representantes o los burócratas, mal pagos a propósito, para que roben y luego controlarlos (eso es [[ineficiencia-como-diseno|la correa de control]]). Pero el problema es la hegemonía, no sus guardianes, que le responden por remuneración. La cagada es que no les paga la hegemonía, sino que les paga el Estado con impuestos que la hegemonía tampoco paga. Es una locura.
 
 Ver también [[libertad-e-igualdad]] y [[que-representen-bien]].
