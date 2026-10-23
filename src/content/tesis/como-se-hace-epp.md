@@ -10,6 +10,7 @@ fuentes:
 cambios:
   - "Texto técnico redactado por Claude a partir de las decisiones de Nacho. No sigue el protocolo de estilo a propósito."
   - "Los umbrales de firmas por municipio son del relevamiento de Claude."
+  - "Revisado el 23/10/2026: los umbrales no se pudieron confirmar en fuentes públicas. Queda la DUDA."
 actualizado: 2026-10-23
 ---
 
@@ -32,4 +33,4 @@ Primero, municipios chicos con la iniciativa popular reglamentada y pocas firmas
 
 A nivel nacional, doble vía: la plataforma oficial de la Cámara Nacional Electoral, y firma propia en provincias y municipios.
 
-[DUDA: verificar los umbrales vigentes antes de publicar.]
+[DUDA: verificar los umbrales vigentes antes de publicar. (Sin confirmar: dependen del padrón vigente de cada municipio y no se encontraron publicados.)]

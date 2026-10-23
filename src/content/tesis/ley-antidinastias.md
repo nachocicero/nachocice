@@ -11,6 +11,7 @@ fuentes:
 cambios:
   - "Redactada por Claude a partir de esa conversación. La bajada es textual de Nacho. La cita es de Claude en esa charla. Revisar."
   - "El dato de concentración (el 1% concentra el 25% del patrimonio) es investigación de Claude sobre estimaciones de la base mundial de desigualdad, no sobre registros fiscales argentinos."
+  - "Verificado el 23/10/2026: el 1% más rico concentra el 24,7% de la riqueza en Argentina en 2023 (Statista, estimación internacional). Sigue siendo una estimación: se puede cruzar con Bienes Personales."
 actualizado: 2026-10-23
 ---
 
@@ -22,7 +23,7 @@ Entonces el diseño es otro:
 2. Se grava al que recibe, no al muerto.
 3. Se suma todo lo que recibís en tu vida, herencias y donaciones en vida, para que no se pueda esquivar regalando antes de morir.
 
-Con ese piso, 99 de cada 100 no pagan nada. En Argentina el 1% más rico concentra alrededor del 25% del patrimonio [DUDA: dato de estimaciones internacionales, cruzar con Bienes Personales antes de publicar].
+Con ese piso, 99 de cada 100 no pagan nada. En Argentina el 1% más rico concentra alrededor del 25% del patrimonio.
 
 ## El que esquiva se delata
 

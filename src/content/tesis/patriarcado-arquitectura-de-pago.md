@@ -15,6 +15,7 @@ cambios:
   - "El resto lo redactó Claude a partir de lo que Nacho dijo en la conversación del 17/09 y por voz el 23/10. Revisar."
   - "Afuera por ahora: la parte de la conversación sobre mortalidad masculina y suicidio. Queda para que Nacho decida si entra y dónde."
   - "La última línea (enlaces) es de navegación, de Claude."
+  - "Revisado el 23/10/2026: no se pudo confirmar que la ley de salario mínimo de 1964 hablara de una familia tipo. Queda la DUDA."
 actualizado: 2026-10-23
 ---
 
@@ -22,7 +23,7 @@ El patriarcado existió, tuvo forma concreta y fecha de cierre. No fue dominaci�
 
 ## Los tres pilares
 
-La incapacidad civil de la esposa, que sin la firma del marido no podía contratar ni disponer, así que no podía cobrar aparte. El salario familiar, escrito en la definición legal del salario mínimo de 1964, que debía cubrir alimentación, vivienda, educación, salud y esparcimiento de una familia tipo. Y las asignaciones familiares, que el Estado pagaba por esposa e hijos al titular varón. [DUDA: verificar las normas y fechas antes de publicar]
+La incapacidad civil de la esposa, que sin la firma del marido no podía contratar ni disponer, así que no podía cobrar aparte. El salario familiar, escrito en la definición legal del salario mínimo de 1964, que debía cubrir alimentación, vivienda, educación, salud y esparcimiento de una familia tipo. Y las asignaciones familiares, que el Estado pagaba por esposa e hijos al titular varón. [DUDA: verificar las normas y fechas antes de publicar (encontrado: la definición vigente, art. 116 de la Ley de Contrato de Trabajo, habla del «trabajador sin cargas de familia»; no se pudo confirmar la redacción de la ley de 1964)]
 
 ## El cuidado no era gratis
 

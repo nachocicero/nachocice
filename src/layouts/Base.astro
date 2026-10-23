@@ -30,6 +30,7 @@ const tituloCompleto = titulo ? `${titulo} · Nacho Cicero` : 'Nacho Cicero · E
       <nav class="nav">
         <a href={url("/")} aria-current={seccion === 'inicio' ? 'page' : undefined}>Índice</a>
         <a href={url("/mapa/")} aria-current={seccion === 'mapa' ? 'page' : undefined}>Mapa</a>
+        <a href={url("/glosario/")} aria-current={seccion === 'glosario' ? 'page' : undefined}>Glosario</a>
         <a href={url("/sobre/")} aria-current={seccion === 'sobre' ? 'page' : undefined}>Sobre</a>
         <button class="tema" type="button" aria-label="Cambiar tema claro u oscuro" data-tema>◐</button>
       </nav>

@@ -12,6 +12,7 @@ cambios:
   - "Lo redactó Claude a partir de lo que Nacho dijo en las conversaciones del 17/09 y el 23/10. Revisar."
   - "La bajada es una frase de Claude que Nacho adoptó en la charla del 17/09."
   - "La última línea (enlaces) es de navegación, de Claude."
+  - "Verificado el 23/10/2026: el salario real de 2024 fue 37% menor que el pico de 1974 (Schteingart, Argendata/Fundar, en El Economista)."
 actualizado: 2026-10-23
 ---
 
@@ -21,7 +22,7 @@ Entre 1968 y 1985 se desarmó el monopolio: capacidad civil plena, ingreso propi
 
 Ponele que terminó en los 70, porque la mujer salió a trabajar. Pero paralelamente los chicos siguieron naciendo, y alguien los tiene que cuidar en la casa: o le pagás a una niñera, a la que limpia, o la mujer se sigue quedando ahí. Y lo que fue pasando es que paulatinamente se le fue pagando cada vez menos al trabajo. Hoy entran dos salarios a la casa, y entre los dos casi empatan el salario que antes cobraba uno solo. Pero sin el pago del cuidado.
 
-O sea, el hogar vende el doble de horas por un poder de compra parecido. El salario real argentino de 2024 fue más bajo que el de 1974. [DUDA: verificar la serie antes de publicar]
+O sea, el hogar vende el doble de horas por un poder de compra parecido. El salario real argentino de 2024 fue más bajo que el de 1974.
 
 ## El guion intacto
 

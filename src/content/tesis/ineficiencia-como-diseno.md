@@ -15,6 +15,8 @@ cambios:
   - "Doc: solo ortografía, tildes y puntuación (q → que, pensas → pensás, manja → maneja). El bloque está repetido en el Doc en tres versiones: se usó la primera completa."
   - "Las secciones «La correa de control» y «Sueldo por licitación» las redactó Claude a partir de lo que Nacho dijo por voz el 19 y el 23/10. Revisar."
   - "Afuera del Doc: la alegoría del negocio de 1.000 y 800 y el párrafo final sobre la Guerra Fría y otro planeta, que abren otro tema."
+  - "Verificado el 23/10/2026: Menem estuvo detenido en 2001 y fue condenado en 2013 por contrabando de armas; Cristina Kirchner cumple desde junio de 2025 seis años en prisión domiciliaria (causa Vialidad); Lula estuvo preso 580 días (2018-2019) y sus condenas se anularon; Bolsonaro, condenado a 27 años y 3 meses, cumple prisión domiciliaria (prensa argentina y brasileña)."
+  - "Corregido el 23/10/2026: decía «De la Rúa, Macri, enjuiciados», es «De la Rúa, juzgado y absuelto (coimas en el Senado). Macri, procesado y sobreseído (espionaje ARA San Juan)» (prensa argentina)."
 actualizado: 2026-10-23
 ---
 
@@ -36,7 +38,7 @@ La política hoy es la representación de los poderes: los partidos políticos r
 
 La ineficiencia no es un error, es un diseño. Un sueldo bajísimo con presupuestos enormes empuja al político a robar, y la corrupción funciona como correa: cuando deja de convenir, lo meten preso.
 
-Y es una conquista de trincheras: una vez que llegás al Estado, podés hacer lo mismo con tu oponente. Menem, Cristina, Lula, Bolsonaro, presos. De la Rúa, Macri, enjuiciados. Capaz que no te meten preso, pero por lo menos te arman la causa. Y fijate que los que caen presos son los que menos poder de lobby tienen con los sectores reales. Hasta la cárcel se negocia. [DUDA: verificar el estado judicial de cada caso antes de publicar, en particular la situación de Bolsonaro.]
+Y es una conquista de trincheras: una vez que llegás al Estado, podés hacer lo mismo con tu oponente. Menem, Cristina, Lula, Bolsonaro, presos. De la Rúa, juzgado y absuelto. Macri, procesado y sobreseído. Capaz que no te meten preso, pero por lo menos te arman la causa. Y fijate que los que caen presos son los que menos poder de lobby tienen con los sectores reales. Hasta la cárcel se negocia.
 
 Es lo mismo que [[de-la-delegacion-a-la-dominacion|la casta como guardia de la hegemonía]]: mal pagos a propósito, para que roben y luego controlarlos.
 

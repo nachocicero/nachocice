@@ -1,0 +1,23 @@
+// Conceptos propios o usados de modo propio. Cada uno lleva a la tesis que lo explica.
+export const glosario: { termino: string; def: string; slug: string }[] = [
+  { termino: 'Agenda', def: 'Definir cuál es el problema, priorizarlo y decidir cuándo está cerrado. Quien la maneja tiene buena parte del poder.', slug: 'el-poder-es-percibido' },
+  { termino: 'Antidinastías', def: 'Ley que limita lo que una persona puede recibir en herencia a lo largo de su vida. Busca desconcentrar, no recaudar.', slug: 'ley-antidinastias' },
+  { termino: 'Arquitectura de pago', def: 'El diseño legal que define quién cobra por un trabajo.', slug: 'patriarcado-arquitectura-de-pago' },
+  { termino: 'Capital fuera de competencia', def: 'Capital heredado que no compite. Su costo son las empresas que nunca se fundaron.', slug: 'capital-fuera-de-competencia' },
+  { termino: 'Casta', def: 'El custodio ejecutor, la guardia pretoriana de la hegemonía. No es la hegemonía.', slug: 'de-la-delegacion-a-la-dominacion' },
+  { termino: 'Correa de control', def: 'La causa judicial como forma de disciplinar al político. El castigo se gradúa según su llegada a los sectores reales.', slug: 'ineficiencia-como-diseno' },
+  { termino: 'Democracia pasiva y activa', def: 'Mientras se acepta el liderazgo, democracia pasiva. Cuando se lo cuestiona, activa.', slug: 'ampliar-y-medir' },
+  { termino: 'Encargo', def: 'El ciudadano no le pide un favor al político, le encarga un trabajo. Es el dueño, no el arquitecto.', slug: 'no-es-un-favor-es-un-encargo' },
+  { termino: 'Estado burgués', def: 'El Estado nacional como la forma que encontró la burguesía para organizar su poder tras la monarquía.', slug: 'el-estado-es-una-construccion-burguesa' },
+  { termino: 'Hegemonía', def: 'El sector que acumula el poder y no deja que el pueblo se sepa dueño de él.', slug: 'el-poder-es-percibido' },
+  { termino: 'Igualdad', def: 'Tener el mismo poder para fijar los límites que se pueden cambiar.', slug: 'libertad-e-igualdad' },
+  { termino: 'La gran batalla', def: 'Entre la persona como centro y los modelos que no la dejan ser. El nacionalismo es la forma de permitir que algunos valgan más.', slug: 'la-gran-batalla' },
+  { termino: 'Libertad', def: 'No estar sujeto a que otro fije, sin tu participación, los límites que se pueden cambiar.', slug: 'libertad-e-igualdad' },
+  { termino: 'Pleonasmo democrático', def: 'Si hay Estado hay gobierno, y si hay gobierno tiene que salir del pueblo. El "sistema democrático" no existe.', slug: 'la-democracia-es-un-pleonasmo' },
+  { termino: 'Registro que delata', def: 'Un registro cuyo valor es volver visible, y por lo tanto autoincriminante, la evasión.', slug: 'registro-que-delata' },
+  { termino: 'Sueldo por licitación', def: 'El candidato presenta plan, presupuesto y sueldo de su equipo, y cobra a medida que cumple.', slug: 'ineficiencia-como-diseno' },
+  { termino: 'Token de aporte', def: 'El derecho portable que representa lo que aportaste a la salud de otros.', slug: 'salud-portable' },
+  { termino: 'Una persona, una voz', def: 'Unicidad: cada persona cuenta una sola vez, para votar y también para debatir.', slug: 'una-persona-una-voz' },
+  { termino: 'Válvula de escape', def: 'Peticiones online y redes como forma de descomprimir el ideal democrático que abría internet, sin obligar a nadie.', slug: 'atencion-vs-obligacion' },
+  { termino: 'Voluntad inferida', def: 'Lo que se presume que la gente quiere a partir de reacciones que nadie firmó. No es lo mismo que una votación.', slug: 'voluntad-inferida' },
+];

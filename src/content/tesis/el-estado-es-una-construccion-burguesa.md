@@ -14,6 +14,7 @@ cambios:
   - "El párrafo «El Pueblo Propone nunca fue pensado para un país…» lo redactó Claude a partir de lo que Nacho dijo por voz el 23/10 (el límite nunca es el Estado, EPP siempre fue global). Revisar."
   - "Dato aportado por Claude: el petróleo de Malvinas se descubrió en 2010 y lo nuevo es que ahora se va a explotar. Verificar antes de publicar."
   - "La última línea (enlaces) es de navegación, de Claude."
+  - "Verificado el 23/10/2026: el yacimiento Sea Lion se descubrió en 2010, Navitas y Rockhopper tomaron la decisión final de inversión y el primer petróleo está previsto para el primer trimestre de 2028 (Rockhopper, prensa del sector)."
 actualizado: 2026-10-23
 ---
 
@@ -31,7 +32,7 @@ El tema es que, si nos van a hacer ese relato, te tomo el relato y te lo profund
 
 ## Los países no quieren nada
 
-Cuando se dice que un país quiere algo, son las burguesías las que quieren. Las Malvinas también le interesan a la burguesía: antes eran otros recursos naturales, ahora es el petróleo, que se descubrió en 2010 y que ahora se va a explotar [DUDA: verificar el estado de la explotación antes de publicar], y está también lo geopolítico del paso que quiere Estados Unidos.
+Cuando se dice que un país quiere algo, son las burguesías las que quieren. Las Malvinas también le interesan a la burguesía: antes eran otros recursos naturales, ahora es el petróleo, que se descubrió en 2010 y que ahora se va a explotar, con el primer petróleo previsto para 2028, y está también lo geopolítico del paso que quiere Estados Unidos.
 
 Y otra vez: Estados Unidos no es Estados Unidos, el que atiende el bar en Twin Peaks. Son las burguesías yanquis.
 
