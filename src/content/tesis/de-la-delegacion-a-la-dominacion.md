@@ -20,9 +20,9 @@ actualizado: 2026-10-19
 
 ## Cuatro pasos
 
-Cuando delegás en un representante y no lo podés controlar, él sabe y decide cosas que vos no. Eso es una asimetría. Con el tiempo esa asimetría se vuelve desigualdad, y cuando la desigualdad se instala, es dominación: otro te fija las reglas sin vos.
+Cuando delegás en un representante y [[que-representen-bien|no lo podés controlar]], él sabe y decide cosas que vos no. Eso es una asimetría. Con el tiempo esa asimetría se vuelve desigualdad, y cuando la desigualdad se instala, es dominación: [[libertad-e-igualdad|otro te fija las reglas sin vos]].
 
-Y tiene que ver con las plutocracias, con la hegemonía manipulando a las mayorías. Si después el representante no representa a los que lo eligieron, termina pasando lo mismo.
+Y tiene que ver con las plutocracias, con la hegemonía [[voluntad-inferida|manipulando a las mayorías]]. Si después el representante no representa a los que lo eligieron, termina pasando lo mismo.
 
 ## La desigualdad como poder
 

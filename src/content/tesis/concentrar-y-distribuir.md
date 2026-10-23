@@ -24,13 +24,13 @@ Pero la inversión siempre existió, o sea, antes los reyes o familias ricas tam
 
 Claro, en ese momento eran solo los nobles quienes tenían esa facultad, porque no todos eran sujetos de pleno derecho. Y ahora tampoco, como ya lo veremos.
 
-Es decir, el capitalismo no es un sistema en los términos que se cree. Sí es un sistema en tanto ordenamiento social, es decir, que el que tiene plata puede influir y conseguir beneficios por sobre la igualdad ante la ley. Pero no es un sistema de reglas claras que arroja siempre los mismos resultados.
+Es decir, el capitalismo no es un sistema en los términos que se cree. Sí es un sistema en tanto ordenamiento social, es decir, que el que tiene plata puede influir y conseguir beneficios por sobre [[libertad-e-igualdad|la igualdad ante la ley]]. Pero no es un sistema de reglas claras que arroja siempre los mismos resultados.
 
 Lo que se infiere es que lo que mejora el nivel de vida es el capital humano, pero la discrecionalidad personal de seguir los sueños, de decidir, y de reglas claras conformadas por todos.
 
 ## Un ciclo
 
-En la línea histórica grande el capitalismo distribuye, porque viene de algo concentrado: las monarquías, las familias como los Medici, plata concentrada. Cuando la distribuís, los burgueses, los comerciantes, los inventores, tienen acceso a perseguir su sueño. Y eso permitió un florecimiento de un montón de ideas que no tenían que pasar por la decisión de un monarca, por resumirlo muy bruscamente.
+En la línea histórica grande el capitalismo distribuye, porque viene de algo concentrado: las monarquías, las familias como los Medici, plata concentrada. Cuando la distribuís, [[el-estado-es-una-construccion-burguesa|los burgueses]], los comerciantes, los inventores, tienen acceso a perseguir su sueño. Y eso permitió un florecimiento de un montón de ideas que no tenían que pasar por la decisión de un monarca, por resumirlo muy bruscamente.
 
 Ahora, cuando ya tenés algo concreto, ya sea un problema o una solución que querés escalar, ahí necesitás concentrar capital. O si querés resolver un problema concreto, también necesitás concentrar para investigar cómo resolverlo. O sea, cuando tenés bien identificado el objetivo, hay que centralizar. Cuando no tenés el objetivo claro, lo mejor es la distribución, no acaparar. Y hay que marcar bien el límite de cuándo eso fue resuelto.
 
@@ -38,6 +38,6 @@ En la charla en que lo pensamos, Claude lo puso en otros términos: lo vertical 
 
 ## Bitcoin
 
-Bitcoin es un ejemplo del poder de la descentralización: descentralizó el control, quién emite y quién valida. Pero no la tenencia de las monedas, que quedó concentrada. Cuando descentralizás un eje, el poder se va al que dejaste quieto.
+Bitcoin es un ejemplo del poder de la descentralización: descentralizó el control, quién emite y quién valida. Pero no la tenencia de las monedas, que quedó concentrada, como el [[capital-fuera-de-competencia|capital que sale de la competencia]]. Cuando descentralizás un eje, el poder se va al que dejaste quieto.
 
 Ver también [[el-poder-es-percibido]] y [[el-estado-es-una-construccion-burguesa]].

@@ -35,7 +35,7 @@ Tiene varias reglas claras para lograr esto, como la división de poderes, la al
 
 Ahora, democracia hay siempre que haya pueblo, a menos que este esté siendo dominado por algo externo: si sale del pueblo, es democracia. Vamos a lo más "supuestamente" contrario: un rey puesto por Dios, el dios de una religión que el mismo pueblo profesa. Por eso la democracia es un pleonasmo.
 
-La democracia es un pleonasmo, quiero decir que si hay Estado hay gobierno, y si hay gobierno tiene que ser del pueblo, debe de alguna manera estar legitimado por el pueblo.
+La democracia es un pleonasmo, quiero decir que si hay Estado hay gobierno, y si hay gobierno tiene que ser del pueblo, debe de alguna manera estar [[ampliar-y-medir|legitimado por el pueblo]].
 
 Un rey se debía a su pueblo, y si este no lo aprobaba le sería muy difícil llevar adelante su agenda.
 
@@ -43,7 +43,7 @@ Alguna vez un profesor me dijo que gobernar es llevar la agenda, y creo que es l
 
 La democracia no es un sistema, es un pleonasmo: ¿qué otra cosa puede haber en un Estado sino poder del pueblo?
 
-Nuestra Constitución habla de sistema representativo y tiene un artículo 22, de los viejos e inamovibles, que da asco. Recién en el 94 se comienza a nombrar la democracia realmente, previo a eso se la menciona con suerte una o dos veces al pasar. Incorpora dos artículos plenamente democráticos que no se utilizaron jamás y otro bien "casta", que le da muchísimo poder a los partidos.
+Nuestra Constitución habla de sistema representativo y tiene un artículo 22, de los viejos e inamovibles, que da asco. Recién en el 94 se comienza a nombrar la democracia realmente, previo a eso se la menciona con suerte una o dos veces al pasar. Incorpora dos [[que-representen-bien|artículos plenamente democráticos]] que no se utilizaron jamás y otro bien "casta", que le da muchísimo poder a los partidos.
 
 ## La democracia es un término fallido
 

@@ -20,7 +20,7 @@ actualizado: 2026-10-19
 
 La libertad de expresión es el mejor ejemplo para explicar que la libertad sin cierta igualdad es una falacia o algo secundario. Si todos tenemos libertad de expresión pero unos tienen un parlante que no permite hablar a otros, porque tapan y acallan las voces, ¿dónde queda la libertad de expresión de quienes no tienen un parlante?
 
-Un libertario respondería que todo se acomoda con la mano invisible de los mercados y que, si querés expresarte, tenés que ir a comprarte un parlante. Pero el que tiene mayor poder económico siempre será el que imponga el relato. Entonces sucede que esa desigualdad económica determina la libertad de quienes menos tienen.
+Un libertario respondería que todo se acomoda con la mano invisible de los mercados y que, si querés expresarte, tenés que ir a comprarte un parlante. Pero el que tiene mayor poder económico siempre será el que imponga [[el-poder-es-percibido|el relato]]. Entonces sucede que esa desigualdad económica determina la libertad de quienes menos tienen.
 
 Además, la libertad es relativa y una invención humana, un hermoso objetivo pero no algo concreto y palpable.
 
@@ -34,7 +34,7 @@ Quizás la mejor definición de libertad sea la de Rousseau, donde la libertad s
 
 ## La negociación que se hizo sin nosotros
 
-Puede haber negociación. Para mí no, pero en este esquema que vivimos, sí: si los que negociaron fueron la élite, supuestamente representante legítima de todos los que ignoramos esa negociación pero delegamos nuestro poder. Volvemos a la misma cuestión de siempre, y por eso va a ser central en mi pensamiento: libertad e igualdad son la misma moneda.
+Puede haber negociación. Para mí no, pero en este esquema que vivimos, sí: si los que negociaron fueron [[que-representen-bien|la élite]], supuestamente representante legítima de todos los que ignoramos esa negociación pero [[de-la-delegacion-a-la-dominacion|delegamos nuestro poder]]. Volvemos a la misma cuestión de siempre, y por eso va a ser central en mi pensamiento: libertad e igualdad son la misma moneda.
 
 Si vos a todo el aparato que legisla, juzga y controla lo desconectás del pueblo, y vale aclarar que la conexión se encuentra en la creación de las normas, porque es ahí donde se genera ese concepto puramente humano llamado libertad, entramos en la perversión absoluta.
 

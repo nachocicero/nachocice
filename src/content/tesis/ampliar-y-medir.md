@@ -24,13 +24,13 @@ O sea, basta de "en nombre del pueblo", sino que midamos mejor lo que dice que q
 
 ## No es democracia directa
 
-Ahí se confunde con la democracia directa, pero no es eso. El tema es medir bien. Que lo que se diga en nombre del pueblo tenga accountability, que sea la sumatoria de las opiniones individuales y no lo que dicen los medios, o eso que se llama opinión pública, que es una cosa completamente difusa, que no se sabe realmente qué es. La opinión pública tiene que estar medida lo mejor posible.
+Ahí se confunde con la democracia directa, pero no es eso. El tema es medir bien. Que lo que se diga en nombre del pueblo tenga accountability, que sea la sumatoria de las opiniones individuales y no lo que dicen los medios, o eso que se llama [[voluntad-inferida|opinión pública]], que es una cosa completamente difusa, que no se sabe realmente qué es. La opinión pública tiene que estar medida lo mejor posible.
 
 Es como cuando para saber de dónde viene el viento sacás el dedo, te lo mojás, y sí, viene de por acá, del sureste. Tenemos que tener metodologías de medición acordes a la época, y la época hoy es que con internet y la firma digital podemos medir realmente lo que la gente opina sobre todos los temas. Ahí está el punto de ampliar la democracia y medirla.
 
 ## Democracia pasiva y democracia activa
 
-Siguiendo con el concepto confuso de democracia, a mi entender democracia hay siempre, pasiva o activa. Es decir, siempre que hay un "líder" (como le gusta llamar a la hegemonía, que como sea que haya llegado a ese lugar de responsabilidad, de supuesto mérito y honor, beneficio, etc.), este extrae el poder de los que lidera y de todo lo que se genera de esa o esas relaciones, y mientras se acepte ese liderazgo se da una democracia pasiva. Ahora, cuando ese liderazgo es cuestionado, se ponen en acción los mecanismos de una democracia activa.
+Siguiendo con el concepto confuso de democracia, a mi entender democracia hay siempre, pasiva o activa. Es decir, siempre que hay un "líder" (como le gusta llamar a [[el-poder-es-percibido|la hegemonía]], que como sea que haya llegado a ese lugar de responsabilidad, de supuesto mérito y honor, beneficio, etc.), este extrae el poder de los que lidera y de todo lo que se genera de esa o esas relaciones, y mientras se acepte ese liderazgo se da una democracia pasiva. Ahora, cuando ese liderazgo es cuestionado, se ponen en acción los mecanismos de una democracia activa.
 
 Hace poco se ha puesto en boga un escritor francés, Pierre Rosanvallon, que habla del poder que tiene la población para ejercer su dominación desde la oposición a los "proyectos" (acciones, caminos, ideas). Es un sistema muy ineficiente el que describe y nos da una pauta de cómo funciona la organización de una sociedad: esperar que se vaya para un lado para oponerse, poner temas en agenda para medir oposición, es muy desgastante para el que propone. Hoy la tecnología nos permitiría mejorar este funcionamiento acelerando esta mecánica. Pero no hay que olvidar que es importante saber quién controla la agenda para comprender por dónde circula el poder.
 

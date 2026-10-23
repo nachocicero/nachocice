@@ -26,9 +26,9 @@ Y sobre este último punto me quiero detener: no es lo mismo lo que se presume q
 
 ## Reacción no es opinión
 
-Lo que hacemos en internet, buscar, reaccionar, compartir, es la forma en que la hegemonía mide lo que la gente supuestamente quiere, pero en realidad a nadie le preguntan. Es una reacción visceral frente a determinados temas, y la agenda la manejan ellos, la van manejando ellos, pero nadie le pregunta nada a nadie.
+Lo que hacemos en internet, buscar, reaccionar, compartir, es la forma en que [[el-poder-es-percibido|la hegemonía]] mide lo que la gente supuestamente quiere, pero en realidad a nadie le preguntan. Es una reacción visceral frente a determinados temas, y la agenda la manejan ellos, la van manejando ellos, pero nadie le pregunta nada a nadie.
 
-Y encima la pueden distorsionar, porque no existe la unicidad, la firma. Capaz que una persona sí reacciona, pero después ponen un montón de bots haciendo como que reaccionan, como si fuese gente frente a un tema. Y después otros tienen la misma reacción por una cuestión de espejo, de copiar.
+Y encima la pueden distorsionar, porque no existe [[una-persona-una-voz|la unicidad, la firma]]. Capaz que una persona sí reacciona, pero después ponen un montón de bots haciendo como que reaccionan, como si fuese gente frente a un tema. Y después otros tienen la misma reacción por una cuestión de espejo, de copiar.
 
 Una persona, una firma: eso es lo que falta.
 
