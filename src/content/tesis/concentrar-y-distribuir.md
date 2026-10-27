@@ -12,6 +12,7 @@ fuentes:
 cambios:
   - "Doc: solo ortografía, tildes y puntuación (inico → inicio, valde → balde, sistama → sistema, q → que)."
   - "Afuera del Doc: la frase «con eso conformate che… el 40% de la gente lo hace», que depende del tono del video original. Se puede recuperar."
+  - "La sección «La longevidad» se fundió acá el 23/10 por decisión de Nacho (antes era la tesis «longevidad: concentrar o explorar», armada en conversación). La redactó Claude."
   - "Las secciones «Un ciclo» y «Bitcoin» las redactó Claude a partir de lo que Nacho dijo por voz el 19/10. Revisar."
   - "La distinción entre problemas conocidos y desconocidos es un aporte de Claude en la charla del 26/09, y así se aclara en el texto."
   - "La última línea (enlaces) es de navegación, de Claude."
@@ -35,6 +36,10 @@ En la línea histórica grande el capitalismo distribuye, porque viene de algo c
 Ahora, cuando ya tenés algo concreto, ya sea un problema o una solución que querés escalar, ahí necesitás concentrar capital. O si querés resolver un problema concreto, también necesitás concentrar para investigar cómo resolverlo. O sea, cuando tenés bien identificado el objetivo, hay que centralizar. Cuando no tenés el objetivo claro, lo mejor es la distribución, no acaparar. Y hay que marcar bien el límite de cuándo eso fue resuelto.
 
 En la charla en que lo pensamos, Claude lo puso en otros términos: lo vertical resuelve problemas conocidos, lo distribuido descubre soluciones a problemas que todavía no sabemos que tenemos.
+
+## La longevidad
+
+En la salud pasa lo mismo. Lo que ya se sabe que funciona, se ejecuta concentrando recursos. La ciencia básica, la que todavía no sabe qué va a encontrar, necesita exploración distribuida. Ver [[la-salud-solo-cubre-enfermedades]].
 
 ## Bitcoin
 

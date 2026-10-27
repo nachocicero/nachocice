@@ -117,3 +117,11 @@ details.fuente summary { cursor: pointer; font-weight: 600; }
   .nav { gap: .6rem; font-size: .68rem; letter-spacing: .02em; }
   .tema { width: 1.7rem; height: 1.7rem; }
 }
+
+/* Nivel de cada tesis */
+.nivel { font: 600 .66rem/1 var(--f-ui); text-transform: uppercase; letter-spacing: .08em; padding: .3rem .45rem; border-radius: 3px; border: 1px solid currentColor; white-space: nowrap; cursor: help; }
+.nivel-fundamento { color: var(--oliva-medio); }
+.nivel-diagnostico { color: var(--acento); }
+.nivel-propuesta { color: var(--tinta-suave); }
+:root[data-tema="oscuro"] .nivel-fundamento { color: #B9C59A; }
+@media (prefers-color-scheme: dark) { :root:not([data-tema="claro"]) .nivel-fundamento { color: #B9C59A; } }

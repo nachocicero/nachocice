@@ -5,6 +5,7 @@ import Engranajes from '../components/Engranajes.astro';
 import Mapa from '../components/Mapa.astro';
 import { tesisVisibles, minutos } from '../lib/datos';
 import { ejes } from '../lib/ejes';
+import { niveles } from '../lib/niveles';
 const lista = await tesisVisibles();
 const porEje = ejes.map(e => ({ ...e, tesis: lista.filter(t => t.data.eje === e.id) })).filter(e => e.tesis.length);
 ---
@@ -29,7 +30,7 @@ const porEje = ejes.map(e => ({ ...e, tesis: lista.filter(t => t.data.eje === e.
         {e.bajada && <p class="meta" style="font-size:.9rem">{e.bajada}</p>}
         <ol class="indice">
           {e.tesis.map(t => (
-            <li><a href={url(`/tesis/${t.id}/`)}><span class="tt">{t.data.titulo}</span>{t.data.estado !== 'aprobada' && <span class="chip">{t.data.estado}</span>}<span class="mn">{minutos(t)} min</span></a>{t.data.bajada && <p>{t.data.bajada}</p>}</li>
+            <li><a href={url(`/tesis/${t.id}/`)}><span class="tt">{t.data.titulo}</span>{t.data.nivel && <span class={`nivel nivel-${t.data.nivel}`} title={niveles[t.data.nivel].ayuda}>{niveles[t.data.nivel].etiqueta}</span>}{t.data.estado !== 'aprobada' && <span class="chip">{t.data.estado}</span>}<span class="mn">{minutos(t)} min</span></a>{t.data.bajada && <p>{t.data.bajada}</p>}</li>
           ))}
         </ol>
       </div>

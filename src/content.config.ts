@@ -16,6 +16,9 @@ const tesis = defineCollection({
     // Qué se tocó respecto de la fuente
     cambios: z.array(z.string()).default([]),
     cita: z.string().optional(),
+    // fundamento: lo comparte cualquiera, sin importar el bando (EPP se apoya solo en esto)
+    // diagnostico: la lectura de Nacho de por qué no se cumple · propuesta: qué hacer
+    nivel: z.enum(['fundamento', 'diagnostico', 'propuesta']).optional(),
     actualizado: z.coerce.date().optional(),
   }),
 });
