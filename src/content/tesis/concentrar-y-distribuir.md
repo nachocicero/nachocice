@@ -4,6 +4,7 @@ bajada: "Lo que cambió fue que se distribuyó la decisión de dónde invertir."
 eje: poder
 orden: 2
 estado: borrador
+nivel: diagnostico
 cita: "La inversión siempre existió. Lo que cambió fue que se distribuyó la decisión de dónde invertir."
 fuentes:
   - "Doc «El lento proceso retrodemocratizador del poder», notas del «4to video»: el capitalismo, la inversión que siempre existió y la decisión distribuida (texto literal)."

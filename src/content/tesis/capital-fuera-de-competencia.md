@@ -4,6 +4,7 @@ bajada: "Hay un costo que no se está midiendo, que es el costo de oportunidad d
 eje: quien-paga
 orden: 5
 estado: borrador
+nivel: diagnostico
 cita: "El problema no es lo que el heredero hace mal, es lo que nunca llegó a hacerse."
 fuentes:
   - "Doc «El lento proceso retrodemocratizador del poder»: «la herencia no está mal pero no puede ser desproporcionada…» y «por el mero hecho fortuito de una herencia es completamente injusto» (texto literal)."

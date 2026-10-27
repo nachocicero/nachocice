@@ -4,6 +4,7 @@ bajada: "Si vos sos parte de un Estado, tenés igual de derecho que cualquiera a
 eje: libertad
 orden: 7
 estado: borrador
+nivel: fundamento
 cita: "No le estás pidiendo un favor, le estás dando un trabajo."
 fuentes:
   - "Charla por voz con Claude, 23/10/2026: el dueño de la casa y el arquitecto, «petición» como palabra equivocada, el resabio fascista, la partecita del Estado y «o somos todos o son ellos» (frases textuales de Nacho)."

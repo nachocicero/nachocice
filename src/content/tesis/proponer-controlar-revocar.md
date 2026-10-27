@@ -4,6 +4,7 @@ bajada: "Por temas y delegación de voto removible y constante."
 eje: obligacion
 orden: 4
 estado: borrador
+nivel: propuesta
 cita: "Por temas y delegación de voto removible y constante."
 fuentes:
   - "Doc «El lento proceso retrodemocratizador del poder»: «Obviamente si estamos hablando de ampliar la participación…», «Entonces: por temas y delegación de voto removible y constante…» y «Apertura de información…» (texto literal)."

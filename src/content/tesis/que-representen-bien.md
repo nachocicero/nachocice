@@ -4,6 +4,7 @@ bajada: "La república es un límite a las dictaduras de las mayorías, pero no 
 eje: libertad
 orden: 6
 estado: aprobada
+nivel: fundamento
 cita: "La república es un límite a las dictaduras de las mayorías, pero no puede ser la dictadura de una minoría plutocrática."
 fuentes:
   - "Doc «El lento proceso retrodemocratizador del poder»: «La explicación simple es que es una cuestión organizativa…» y «Entonces la democracia hoy es representativa…» (bloque del framework república)."

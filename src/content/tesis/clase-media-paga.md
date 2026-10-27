@@ -4,6 +4,7 @@ bajada: "El del medio paga por todos lados y no se puede correr."
 eje: quien-paga
 orden: 1
 estado: borrador
+nivel: diagnostico
 cita: "Si la pone el Estado, la pone la clase media."
 fuentes:
   - "Memoria del proyecto, «La columna vertebral: quién paga y quién se corre» (octubre 2026): el argumento completo es de Nacho."

@@ -4,6 +4,7 @@ bajada: "La libertad sin cierta igualdad es una falacia o algo secundario."
 eje: libertad
 orden: 1
 estado: aprobada
+nivel: fundamento
 cita: "Libertad e igualdad son la misma moneda."
 fuentes:
   - "Doc «El lento proceso retrodemocratizador del poder», bloque «Libertad e igualdad» (el parlante y la libertad de expresión) y la línea «sobre la libertad»."

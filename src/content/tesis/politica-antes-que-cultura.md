@@ -4,6 +4,7 @@ bajada: "La política es un grupo de gente unida para resolver algo, y lo cultur
 eje: global
 orden: 1
 estado: borrador
+nivel: diagnostico
 cita: "Política no es un partido político o lo que sea que hoy se llame política."
 fuentes:
   - "Conversación «salud y longevidad» (20/09/2026): mensaje escrito de Nacho, «política es preexistente a la cultura porque la política es un grupo de gente unida para resolver algo y lo cultural llega mucho después» (texto casi literal)."

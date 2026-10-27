@@ -4,6 +4,7 @@ bajada: "Si vamos a pagar un sueldo pero no nos representa, nos están estafando
 eje: quien-paga
 orden: 3
 estado: borrador
+nivel: diagnostico
 cita: "Si vos contratás a un pintor para que pinte tu casa y le das la llave y te vas, y arreglaste que haga todo el trabajo por 100 pesos, ¿vos realmente te pensás que no te va a robar?"
 fuentes:
   - "Doc «El lento proceso retrodemocratizador del poder», bloque «¿Cuánto vale la hora del político?» (primera versión, con el pintor y el gerente de compras) y la línea «los partidos políticos representan a quienes los sostuvieron económicamente, quien pagó la campaña…» (texto literal)."

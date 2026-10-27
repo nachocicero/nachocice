@@ -4,6 +4,7 @@ bajada: "La plata no se ahorró: se le transfirió al dueño del suelo."
 eje: trabajo
 orden: 3
 estado: borrador
+nivel: diagnostico
 fuentes:
   - "Conversación «Nacionalidad argentina e inversión» (13/10/2026): que la tierra también se disparó en Argentina, aunque no seamos un país desarrollado, y la comparación entre países, los planteó Nacho."
   - "Misma conversación: los datos los investigó Claude (Warren y Tyagi, «The Two-Income Trap», 2003; Knoll, Schularick y Steger, precios de vivienda en 14 países desarrollados; la soja y el ladrillo como refugio en Argentina; el índice precio-ingreso)."

@@ -4,6 +4,7 @@ bajada: "La facultad de los pobres es la primaria, la secundaria y comer."
 eje: quien-paga
 orden: 10
 estado: borrador
+nivel: diagnostico
 cita: "La facultad de los pobres es la primaria, la secundaria y comer."
 fuentes:
   - "Doc «El lento proceso retrodemocratizador del poder»: «lo importante que es mayor igualdad real para los miembros de la comunidad, y esto es igualdad de oportunidades…» (texto literal)."

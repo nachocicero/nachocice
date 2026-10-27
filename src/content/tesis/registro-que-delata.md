@@ -4,6 +4,7 @@ bajada: "El que se arma un fideicomiso para esquivarlo se está delatando solo."
 eje: quien-paga
 orden: 7
 estado: borrador
+nivel: propuesta
 fuentes:
   - "Conversación «Justificaciones para sostener la herencia» (26/09/2026): el registro como instrumento de revelación y no de recaudación es de Nacho («el punto está en después comunicar que X familias están haciendo todas las estructuras financieras para evadir»). El registro de beneficiario final como condición técnica lo aportó Claude."
   - "Memoria del proyecto (salud portable): la extensión a los aportes de salud es de Nacho."

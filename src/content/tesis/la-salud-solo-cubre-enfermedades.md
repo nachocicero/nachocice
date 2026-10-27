@@ -4,6 +4,7 @@ bajada: "Si la salud la tomás como algo amplio, no solamente como una enfermeda
 eje: longevidad
 orden: 1
 estado: borrador
+nivel: diagnostico
 fuentes:
   - "Charla por voz con Claude, 23/10/2026: la legalidad basada en si algo es enfermedad o no, el deterioro desde los 25 o 30, las enfermedades cerebrales como deterioros de años, la salud amplia, la solución burocrática y el dato de la OMS."
   - "Conversación «Obstáculos para la redistribución del poder» (599db6f4-8aef-4cab-89c7-8280ff1ef55d): no reconocer el envejecimiento como tratable funciona como prohibición que solo pagan los pobres."

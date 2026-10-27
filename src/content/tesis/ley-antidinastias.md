@@ -4,6 +4,7 @@ bajada: "Yo y la mayoría de la gente va a querer que no se formen dinastías. Y
 eje: quien-paga
 orden: 6
 estado: borrador
+nivel: propuesta
 cita: "Noventa y nueve de cada cien no pagan nada, y el que se arma un fideicomiso para esquivarlo se está delatando solo."
 fuentes:
   - "Conversación «Justificaciones para sostener la herencia» (26/09/2026): el objetivo (desconcentrar, no recaudar), el piso de diez viviendas y la idea de comunicar quién arma estructuras para eludir son de Nacho. Gravar al receptor y sumar lo recibido en toda la vida es el consenso académico que trajo Claude (Atkinson, Piketty, OCDE 2021)."

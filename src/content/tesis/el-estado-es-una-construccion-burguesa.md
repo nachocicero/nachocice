@@ -4,6 +4,7 @@ bajada: "Nadie se cree que esa construcción burguesa va a querer una democracia
 eje: poder
 orden: 3
 estado: borrador
+nivel: diagnostico
 cita: "Si nos van a hacer ese relato, te tomo el relato y te lo profundizo a fondo."
 fuentes:
   - "Doc «El lento proceso retrodemocratizador del poder»: «Las repúblicas (muy post imperio romano) y el resurgir del término democracia…» (texto literal)."

@@ -4,6 +4,7 @@ bajada: "Por suerte innegable aunque sospechosa existe internet."
 eje: obligacion
 orden: 1
 estado: borrador
+nivel: fundamento
 cita: "¿Vieron alguna vez esos experimentos donde dejan las jaulas abiertas y el cautivo no se va?"
 fuentes:
   - "Idea de Nacho, razón de ser de El Pueblo Propone desde 2007: la firma verificada obliga, la petición no."

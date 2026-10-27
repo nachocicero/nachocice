@@ -4,6 +4,7 @@ bajada: "Basta de en nombre del pueblo, midamos mejor lo que dice que quiere el 
 eje: libertad
 orden: 4
 estado: borrador
+nivel: fundamento
 cita: "Es como medir los nudos náuticos con una soga."
 fuentes:
   - "Doc «El lento proceso retrodemocratizador del poder»: «la idea es ampliarla pero no una total democracia directa…» y la línea que sigue («o sea basta de en nombre del pueblo…»)."

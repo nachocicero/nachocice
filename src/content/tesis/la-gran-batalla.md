@@ -4,6 +4,7 @@ bajada: "El nacionalismo es la forma de permitir que algunos valgan más."
 eje: libertad
 orden: 8
 estado: borrador
+nivel: fundamento
 cita: "El nacionalismo es la forma de permitir que algunos valgan más."
 fuentes:
   - "Charla por voz con Claude, 23/10/2026: todos los humanos somos iguales y eso trasciende al Estado, el pensamiento occidental que pone a la persona como centro, el nacionalismo, la batalla entre Occidente y Oriente, China y las manos atadas (la frase del nacionalismo es textual)."

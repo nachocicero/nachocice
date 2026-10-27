@@ -4,6 +4,7 @@ bajada: "La plata aportada no desapareció, alguien la tiene."
 eje: quien-paga
 orden: 9
 estado: borrador
+nivel: propuesta
 fuentes:
   - "Memoria del proyecto, «Salud portable» (octubre 2026): el argumento completo y los tres caminos para cobrar son de Nacho (el tercero, precios de transferencia, lo sumó él)."
   - "Conversación «Evasión fiscal y paraísos fiscales» (15 a 18/10/2026): el aporte de un amigo de Nacho sobre el umbral del Pilar 2."

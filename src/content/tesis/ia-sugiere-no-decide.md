@@ -4,6 +4,7 @@ bajada: "Que ponga el link de dónde lo saca."
 eje: obligacion
 orden: 5
 estado: borrador
+nivel: propuesta
 fuentes:
   - "Decisiones de diseño de Nacho para El Pueblo Propone (octubre de 2026): la IA agrupa iniciativas parecidas sin fusionarlas, propone redacciones que acepta el autor y busca cómo votó cada representante en fuentes oficiales, pero publica una persona."
   - "Charla por voz con Claude, 23/10/2026: transcribir un voto de una fuente oficial no es decidir, el chequeo humano es para atajar errores y algún día puede no hacer falta, cada voto se publica con el link a su fuente (planteo de Nacho)."

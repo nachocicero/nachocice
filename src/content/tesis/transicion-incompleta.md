@@ -4,6 +4,7 @@ bajada: "Se le sacó la contrapartida y se le dejó el guion."
 eje: trabajo
 orden: 2
 estado: borrador
+nivel: diagnostico
 fuentes:
   - "Conversación «Violencia de género y estadísticas de mortalidad» (17/09/2026): el segundo sueldo que empata al primero sin el pago del cuidado, y la asimetría del cortejo, los planteó Nacho."
   - "Misma conversación: el salario real de 2024 contra el pico de 1974 lo investigó Claude, y también la formulación «se le sacó la contrapartida y se le dejó el guion»."

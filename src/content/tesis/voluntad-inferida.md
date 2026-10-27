@@ -4,6 +4,7 @@ bajada: "No es lo mismo lo que se presume que la población quiere, que la sumat
 eje: libertad
 orden: 5
 estado: aprobada
+nivel: fundamento
 cita: "No es lo mismo lo que se presume que la población quiere, que la sumatoria agregada de las opiniones individuales."
 fuentes:
   - "Doc «El lento proceso retrodemocratizador del poder», bloque «Opinión pública, legitimidad de origen y legitimidad de ejercicio» y los dos párrafos que siguen."

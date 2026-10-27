@@ -4,6 +4,7 @@ bajada: "La desigualdad o concentración de riqueza como nueva forma de concentr
 eje: libertad
 orden: 2
 estado: aprobada
+nivel: diagnostico
 cita: "La casta es el custodio ejecutor, es la guardia pretoriana del sector hegemónico."
 fuentes:
   - "Conversación «Matrix y la predicción del dominio de máquinas» (18/09/2026): la cadena delegación, asimetría, desigualdad, dominación la ordenó Claude a partir del planteo de Nacho sobre las élites que negocian en nombre de todos."

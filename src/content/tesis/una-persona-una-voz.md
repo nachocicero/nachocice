@@ -4,6 +4,7 @@ bajada: "Acceso único, debe resultar una persona un voto."
 eje: obligacion
 orden: 2
 estado: borrador
+nivel: fundamento
 cita: "Ojo que con un celu ya está, no es ese el punto, sino que no haya cuentas ficticias."
 fuentes:
   - "Doc «El lento proceso retrodemocratizador del poder»: «Y el otro punto, por supuesto, es que cada ser tiene acceso…» (texto literal)."

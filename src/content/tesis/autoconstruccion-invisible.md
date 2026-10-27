@@ -4,6 +4,7 @@ bajada: "El tipo construyó un patrimonio y, en los papeles, no hizo nada."
 eje: trabajo
 orden: 4
 estado: borrador
+nivel: diagnostico
 fuentes:
   - "Conversación «Nacionalidad argentina e inversión» (13/10/2026): el varón que construye con sus manos un activo carísimo, y que el objetivo no es pelear entre hombres y mujeres sino zanjar esa pelea, los planteó Nacho."
   - "Misma conversación: que la autoconstrucción queda afuera de las cuentas de trabajo no pago y de la inversión, el problema del terreno propio o informal y la idea de medir la carga global de trabajo los aportó Claude."

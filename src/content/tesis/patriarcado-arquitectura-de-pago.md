@@ -4,6 +4,7 @@ bajada: "El patriarcado no fue dominación por fuerza, fue monopolio del canal d
 eje: trabajo
 orden: 1
 estado: borrador
+nivel: diagnostico
 cita: "El cuidado no fue gratis: fue pagado al intermediario."
 fuentes:
   - "Conversación «Violencia de género y estadísticas de mortalidad» (17/09/2026): la tesis del monopolio del canal de cobro, los tres pilares, el cuidado pagado al intermediario y el cierre del patriarcado son de Nacho."

@@ -4,6 +4,7 @@ bajada: "Una wallet de opinión."
 eje: obligacion
 orden: 3
 estado: borrador
+nivel: propuesta
 fuentes:
   - "Idea de Nacho registrada en el proyecto El Pueblo Propone: «una wallet de opinión», la firma descentralizada en el teléfono de cada persona."
   - "Charla por voz con Claude, 23/10/2026: Nacho la confirma tal como está."

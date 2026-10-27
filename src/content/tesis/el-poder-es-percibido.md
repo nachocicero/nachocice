@@ -4,6 +4,7 @@ bajada: "El poder es algo que es percibido por el otro."
 eje: poder
 orden: 1
 estado: borrador
+nivel: diagnostico
 cita: "Es más fácil que se organice una minoría que todo el pueblo."
 fuentes:
   - "Charla por voz con Claude, 19/10/2026 (manejando): el poder como percepción, el pueblo que no se percibe como fuente, la minoría organizada, internet y Suiza como excepción."

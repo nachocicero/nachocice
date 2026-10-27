@@ -4,6 +4,7 @@ bajada: "Lo público financia, lo privado se queda con la cura."
 eje: longevidad
 orden: 2
 estado: borrador
+nivel: diagnostico
 fuentes:
   - "Conversaciones «salud y longevidad» (0a4260b6-2295-4466-ae09-763968105077) y «Obstáculos para la redistribución del poder» (599db6f4-8aef-4cab-89c7-8280ff1ef55d): el modelo de las cuatro capas y el test de reemplazabilidad los propuso Claude; Nacho decidió reformular la sección de los multimillonarios."
   - "Charla por voz con Claude, 23/10/2026: Nacho adopta el modelo («sí»)."

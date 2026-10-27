@@ -4,6 +4,7 @@ bajada: "La cobertura es barata, el privilegio es caro."
 eje: quien-paga
 orden: 2
 estado: borrador
+nivel: diagnostico
 fuentes:
   - "Conversación «Evasión fiscal y paraísos fiscales» (15 a 18/10/2026): datos de CIPPEC investigados por Claude. El matiz «privilegio no es riqueza» lo propuso Claude y Nacho lo aceptó (confirmado por voz el 23/10)."
 cambios:

@@ -4,6 +4,7 @@ bajada: "Si hay Estado hay gobierno, si hay gobierno tiene que ser del pueblo, d
 eje: libertad
 orden: 3
 estado: borrador
+nivel: fundamento
 cita: "Democracia hay siempre que haya pueblo, a menos que este esté siendo dominado por algo externo."
 fuentes:
   - "Doc «El lento proceso retrodemocratizador del poder», bloque «La democracia es un pleonasmo (antónimo de oxímoron) y no un sistema» (sección «videos»)."

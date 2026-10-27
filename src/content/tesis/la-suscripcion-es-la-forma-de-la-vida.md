@@ -4,6 +4,7 @@ bajada: "Siempre es una suscripción, y tiene que ver con un rango."
 eje: longevidad
 orden: 3
 estado: borrador
+nivel: diagnostico
 cita: "Siempre es una suscripción, y tiene que ver con un rango."
 fuentes:
   - "Conversación «salud y longevidad» (0a4260b6-2295-4466-ae09-763968105077): Nacho plantea que es inevitable que sea suscripción, como ya pasa con la insulina, el sueño y todo, y que el problema es la distribución de la riqueza (textual). Claude formuló «la suscripción no es un modelo de negocio, es la forma que tiene la vida»."

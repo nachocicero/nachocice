@@ -4,6 +4,7 @@ bajada: "Ya estamos en el mismo esquema, con la única diferencia de que en vez 
 eje: longevidad
 orden: 4
 estado: borrador
+nivel: diagnostico
 cita: "En vez de ser 14 años van a ser 50 de diferencia. O más."
 fuentes:
   - "Conversación «salud y longevidad» (0a4260b6-2295-4466-ae09-763968105077): el cierre de los 50 años o más es de Nacho (textual)."

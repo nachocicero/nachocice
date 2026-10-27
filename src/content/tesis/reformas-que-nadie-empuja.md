@@ -4,6 +4,7 @@ bajada: "El objetivo de El Pueblo Propone es poder organizar a la gran masa de g
 eje: quien-paga
 orden: 4
 estado: borrador
+nivel: diagnostico
 fuentes:
   - "Conversación «Justificaciones para sostener la herencia» (26/09/2026): la aplicación de Olson a las reformas que no se votan la identificó Nacho."
   - "Charla por voz con Claude, 23/10/2026: Nacho confirma que EPP es para organizar a la gran masa de gente."

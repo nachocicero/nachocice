@@ -4,6 +4,7 @@ bajada: "No es que el trabajo no se pague: se le paga a otro."
 eje: trabajo
 orden: 5
 estado: borrador
+nivel: diagnostico
 fuentes:
   - "Síntesis de Claude a partir de las tesis de esta parte y de la Parte IV (salud portable, deuda evadida, clase media)."
   - "Charla con Claude, 23/10/2026: Nacho la aprobó como cierre de la Parte V, con el cuadro."

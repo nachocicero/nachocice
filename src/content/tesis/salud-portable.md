@@ -4,6 +4,7 @@ bajada: "Lo importante no es el token, sino que la gente grande tenga derecho a 
 eje: quien-paga
 orden: 8
 estado: borrador
+nivel: propuesta
 fuentes:
   - "Memoria del proyecto, «Salud portable: aportes, cupo cruzado y la deuda hacia atrás» (octubre 2026): todo el proyecto es de Nacho (la premisa del derecho, el rechazo de la analogía con el seguro del auto, el cupo cruzado, las cuatro piezas, la primera reforma)."
   - "Conversación «Evasión fiscal y paraísos fiscales» (15 a 18/10/2026)."
