@@ -3,18 +3,19 @@ titulo: El poder es percibido
 bajada: "El poder es algo que es percibido por el otro."
 eje: poder
 orden: 1
-estado: borrador
+estado: aprobada
 nivel: diagnostico
 cita: "Es más fácil que se organice una minoría que todo el pueblo."
 fuentes:
   - "Charla por voz con Claude, 19/10/2026 (manejando): el poder como percepción, el pueblo que no se percibe como fuente, la minoría organizada, internet y Suiza como excepción."
   - "Doc «El lento proceso retrodemocratizador del poder»: «no es de real importancia quien gobierna sino quien acumula el poder y en donde recae el peso de la decisión» y «es importante saber quién controla la agenda para comprender por dónde circula el poder»."
 cambios:
+  - "Aprobada por Nacho por voz el 28/10."
   - "Todo lo que no es cita del Doc lo redactó Claude a partir de lo que Nacho dijo por voz el 19/10. Revisar."
   - "La sección «La agenda» resume los «tres momentos del poder» (definir el problema, decidir si es conocido o desconocido, declararlo resuelto). Nacho aclaró que salieron de una charla en conjunto y que en el fondo es manejar la agenda, algo sabido: por eso va como párrafo interno y no como tesis."
   - "La mención a Olson y el dato de Suiza los aportó Claude en conversaciones anteriores."
   - "La última línea (enlaces) es de navegación, de Claude."
-actualizado: 2026-10-19
+actualizado: 2026-10-30
 ---
 
 El poder es algo que es percibido por el otro. Tenés poder en la medida en que el otro cree que lo tenés.

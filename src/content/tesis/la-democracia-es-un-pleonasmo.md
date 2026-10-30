@@ -11,13 +11,15 @@ fuentes:
   - "Mismo Doc, bloque «La democracia no es un sistema, es un pleonasmo» y párrafos anteriores («La democracia es un pleonasmo, quiero decir…»)."
   - "Mismo Doc, bloque «La democracia es un término fallido» (etimología)."
 cambios:
+  - "Secciones «Lo que dice la Constitución» y «Las dos objeciones» redactadas por Claude el 30/10 a partir de lo que Nacho dijo por voz el 28/10 (el parche del 94, la dictadura que llega con apoyo y se autolegitima, república como procedimiento). Datos verificados: art. 1 «representativa republicana federal»; art. 14 bis (reforma de 1957) «organización sindical libre y democrática»; arts. 36 y 38 (reforma de 1994), el 38 define a los partidos como «instituciones fundamentales del sistema democrático». Aportes académicos de Claude en la charla, no citados en el texto: La Boétie y Hume (el consentimiento del tirano), Linz y O'Donnell (dictaduras), Schumpeter y Dahl (democracia procedimental), Huntington (tercera ola). Revisar."
+  - "Nacho la considera uno de los puntos centrales del libro y pidió blindarla contra las objeciones antes de aprobarla."
   - "Solo ortografía, tildes y puntuación (democratico → democrático, q → que, Dalh → Dahl, metes → metés)."
   - "Corrección de contenido aprobada por Nacho el 16/09/2026: poli viene de polys, «muchos»; pan es «todo»."
   - "Afuera: la frase dirigida a un comentarista («Lamento desilusionarte…») y la referencia al fotolog, que dependen de su contexto original."
   - "Corrección de dato aprobada por Nacho el 19/10/2026: Polyarchy de Dahl es de 1971 (el Doc decía 1960)."
   - "Sin puente final: Nacho decidió el 19/10 que termine donde termina su texto. La línea de enlaces es de navegación."
   - "Orden: los tres bloques se unieron en este orden, sin agregar conectores. Bajada, cita y subtítulo son frases textuales del Doc."
-actualizado: 2026-10-19
+actualizado: 2026-10-30
 ---
 
 Por favor, dejen de confundir república con democracia.
@@ -45,6 +47,20 @@ Alguna vez un profesor me dijo que gobernar es llevar la agenda, y creo que es l
 La democracia no es un sistema, es un pleonasmo: ¿qué otra cosa puede haber en un Estado sino poder del pueblo?
 
 Nuestra Constitución habla de sistema representativo y tiene un artículo 22, de los viejos e inamovibles, que da asco. Recién en el 94 se comienza a nombrar la democracia realmente, previo a eso se la menciona con suerte una o dos veces al pasar. Incorpora dos [[que-representen-bien|artículos plenamente democráticos]] que no se utilizaron jamás y otro bien "casta", que le da muchísimo poder a los partidos.
+
+## Lo que dice la Constitución
+
+El artículo 1 dice que la Nación adopta para su gobierno la forma representativa republicana federal. La palabra democracia no está ahí. Antes del 94 aparece una sola vez, en el artículo 14 bis, que entra con la reforma de 1957 y habla de una organización sindical libre y democrática.
+
+En el 94 la palabra entra de lleno, con los artículos 36 y 38. Es la época de la caída de la Unión Soviética, cuando la democracia como concepto se lleva a un montón de lugares y a un montón de constituciones. El 38 dice que los partidos políticos son instituciones fundamentales del sistema democrático. Pero un partido es un instrumento de representación, no de democracia.
+
+Y si antes del 94 ya existían los partidos y ya existía el sistema representativo, funcionando sin la palabra democracia, agregarla no cambió nada de fondo. Es un parche, le pusieron otro nombre a lo mismo. La democracia funciona ahí como legitimación, no como sistema.
+
+## Las dos objeciones
+
+La primera: en una dictadura el poder no sale del pueblo. Sí sale. Ningún tirano gobierna sin que la mayoría obedezca, aunque sea por miedo. Y las dictaduras muchas veces llegan con legitimidad de origen: por la coyuntura, porque la gente pide mano dura porque está pasando algo grave, se apoya el ascenso de un gobierno de facto. Una vez ahí, se ocupan de ir quitándole al pueblo el debate público y la participación, hasta que ya no se sostienen por legitimidad sino por la fuerza, se autolegitiman. La dictadura no es la excepción al pleonasmo, es la prueba: el poder salió del pueblo y se lo fueron sacando. Es el mismo mecanismo del [[dumping-democratico]].
+
+La segunda: democracia no es de dónde sale el poder, es un procedimiento, elecciones competitivas. Eso es la república, el cómo. Y justamente por eso la pregunta no es si hay democracia, sino cuánta.
 
 ## La democracia es un término fallido
 

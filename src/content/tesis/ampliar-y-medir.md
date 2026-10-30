@@ -3,7 +3,7 @@ titulo: Ampliar la democracia y medirla
 bajada: "Basta de en nombre del pueblo, midamos mejor lo que dice que quiere el pueblo, no lo que se interpreta desde arriba."
 eje: libertad
 orden: 4
-estado: borrador
+estado: aprobada
 nivel: fundamento
 cita: "Es como medir los nudos náuticos con una soga."
 fuentes:
@@ -11,12 +11,13 @@ fuentes:
   - "Doc, mismo archivo: «Siguiendo con el concepto confuso de democracia…» (democracia pasiva y activa, Rosanvallon, la agenda, la soga)."
   - "Doc, mismo archivo: «Si quieres ser parte de las decisiones o por lo menos estar realmente representado, dos pasos son básicos» y legitimidad de origen y de ejercicio."
 cambios:
+  - "Aprobada por Nacho por voz el 28/10, con dos agregados redactados por Claude a partir de lo que dijo: la explicación de los nudos (soga contra GPS), porque no todos la iban a entender, y la opinión pública como monopolio de los medios y Twitter como muestra sesgada."
   - "Solo ortografía, tildes y puntuación (dondo → donde, habra → habrá, vasta → basta, justaficativo → justificativo, q → que, vote → voten)."
   - "Afuera: los ejemplos del PRO y de Milei poniendo temas en agenda, porque dependen de la coyuntura. Se pueden recuperar."
   - "La oración del Doc que termina en «la legitimación es popular pero no querés» estaba cortada en el original. Nacho la completó por voz el 19/10: «…medir lo que el pueblo realmente quiere»."
   - "La sección «No es democracia directa» la redactó Claude a partir de lo que Nacho dijo por voz el 19/10 (accountability, la suma de las opiniones individuales, la opinión pública difusa, el dedo mojado). Revisar."
   - "Orden: los tres bloques se unieron en este orden, sin agregar conectores. La última línea (enlaces) es de navegación, de Claude."
-actualizado: 2026-10-19
+actualizado: 2026-10-30
 ---
 
 La idea es ampliarla, pero no una total democracia directa donde todo pase por la votación y plebiscito de las decisiones, sino un aumento en esa tendencia, que habrá que medir y ajustar en cuánto, pero no se puede seguir sosteniendo este freno inamovible cuando el justificativo, la legitimación, es popular pero no querés medir lo que el pueblo realmente quiere.
@@ -38,6 +39,10 @@ Hace poco se ha puesto en boga un escritor francés, Pierre Rosanvallon, que hab
 La posibilidad que hoy nos permite internet de medir mucho más exhaustivamente la demanda social, el interés subjetivo agregado de cada individuo, y seguir dependiendo de consultoras con métodos cuanti o cuali y ponderaciones, cuando hoy se podría incentivar a que la población opine constantemente sobre temas, e incluso proponga.
 
 Es como medir los nudos náuticos con una soga. Los metros con los pasos, etc.
+
+Los marineros medían la velocidad del barco tirando al agua una soga con nudos y contando cuántos pasaban. Hoy hay GPS. Medir lo que quiere la gente con encuestas es eso: tenemos la tecnología para medir la legitimidad popular mucho mejor.
+
+Y no es que falte tecnología, es que se la usa para medir mal. La opinión pública es la piedra fundamental donde se apoya todo, y hoy es un monopolio de los medios hegemónicos. Cuando se dice que algo es lo que piensa la gente porque se dijo en Twitter o en alguna red social, la muestra es chica, completamente sesgada y llena de bots, y se la usa como legitimadora. Es otra vez medir mal algo que se podría medir mucho mejor, y es la misma [[la-tecnologia-reparte-poder|contraofensiva]] de siempre: la hegemonía ya vio venir lo que internet permite.
 
 ## Dos pasos básicos
 

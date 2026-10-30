@@ -3,7 +3,7 @@ titulo: Una persona, una voz
 bajada: "Acceso único, debe resultar una persona un voto."
 eje: obligacion
 orden: 2
-estado: borrador
+estado: aprobada
 nivel: fundamento
 cita: "Ojo que con un celu ya está, no es ese el punto, sino que no haya cuentas ficticias."
 fuentes:
@@ -11,11 +11,12 @@ fuentes:
   - "Charla por voz con Claude, 23/10/2026: no existe debatir en el anonimato sin unicidad, el voto secreto, el rechazo del RENAPER, los bots que convierten el debate en tendencia (planteo de Nacho)."
   - "Conversación «Rechazo del Renaper a Epp» (08/10/2026): el dictamen del RENAPER que sostuvo que proponer y debatir pueden ser anónimos."
 cambios:
+  - "Aprobada por Nacho por voz el 28/10."
   - "Doc: solo ortografía, tildes y puntuación (esta → está)."
   - "Reemplaza a la tesis prevista «Se puede debatir en el anonimato, no se puede obligar en el anonimato»: Nacho la corrigió el 23/10, el punto es la unicidad y no el anonimato."
   - "Las secciones «Anónimo no es lo mismo que sin unicidad» y «Debatir también» las redactó Claude a partir de lo que Nacho dijo por voz el 23/10. Revisar."
   - "La última línea (enlaces) es de navegación, de Claude."
-actualizado: 2026-10-23
+actualizado: 2026-10-30
 ---
 
 Y el otro punto, por supuesto, es que cada ser tiene acceso. Pocos años atrás era una excusa en contra, ya que mucha gente no tenía acceso a un dispositivo. Hoy ya se demostró que es una cuestión de ejecución, y por eso tiene que ser el argumento estrella. Por eso acceso único, debe resultar una persona un voto (y ojo que con un celu ya está, no es ese el punto, sino que no haya cuentas ficticias).

@@ -3,7 +3,7 @@ titulo: Una petición llama la atención, una firma obliga
 bajada: "Por suerte innegable aunque sospechosa existe internet."
 eje: obligacion
 orden: 1
-estado: borrador
+estado: aprobada
 nivel: fundamento
 cita: "¿Vieron alguna vez esos experimentos donde dejan las jaulas abiertas y el cautivo no se va?"
 fuentes:
@@ -13,6 +13,7 @@ fuentes:
   - "Doc, mismo archivo: «el relato está roto desde los 90 porque internet permite una participación mayor…» (texto literal)."
   - "Informe «Peticiones online: estado del movimiento» (11/10/2026), investigación de Claude a pedido de Nacho: el caso de los humedales y We the People."
 cambios:
+  - "Aprobada por Nacho por voz el 28/10."
   - "Doc: solo ortografía, tildes y puntuación (q → que, esta → está)."
   - "Las secciones «Atención y obligación» y «Una válvula de escape» las redactó Claude a partir de lo que Nacho dijo por voz el 23/10. Revisar."
   - "Datos aportados por Claude: las firmas de los humedales, We the People, Thiel en Facebook (2004) y la ronda de change.org de 2014."
@@ -21,7 +22,7 @@ cambios:
   - "Verificado el 23/10/2026: Peter Thiel fue el primer inversor externo de Facebook, en agosto de 2004, con 500.000 dólares (Wikipedia). La petición de los humedales tiene más de 825.000 firmas (página de la petición)."
   - "Corregido el 23/10/2026: We the People funcionó de 2011 a 2021; Obama respondió 321 de 323 peticiones que llegaron al umbral y la gestión de Trump no respondió ninguna en su primer año, sin cifra confirmada para todo el mandato (Wikipedia, CBS). Decía «Trump ninguna»."
   - "Corregido el 23/10/2026: Pierre Omidyar no figura en la ronda de 2014 (su fondo lideró las rondas anteriores). Los inversores confirmados de 2014 son Gates, Branson, Hoffman y Huffington, entre otros (TechCrunch, CNN)."
-actualizado: 2026-10-23
+actualizado: 2026-10-30
 ---
 
 ## Atención y obligación

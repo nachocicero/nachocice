@@ -1,18 +1,18 @@
 ---
 titulo: La firma es del ciudadano, no de la plataforma
 bajada: "Una wallet de opinión."
-eje: obligacion
-orden: 3
+eje: anexo
+orden: 2
 estado: borrador
-nivel: propuesta
 fuentes:
   - "Idea de Nacho registrada en el proyecto El Pueblo Propone: «una wallet de opinión», la firma descentralizada en el teléfono de cada persona."
   - "Charla por voz con Claude, 23/10/2026: Nacho la confirma tal como está."
 cambios:
+  - "Movida al anexo «Cómo se hace El Pueblo Propone» el 28/10: Nacho la considera instrumentación de la idea, no filosofía política."
   - "Todo el texto lo redactó Claude a partir de la idea de Nacho. No hay texto escrito por él de esta tesis. Revisar."
   - "El segundo párrafo (la custodia como lugar donde se concentra el poder, Bitcoin al revés) es un argumento de Claude que conecta la idea con «Concentrar y distribuir». Nacho no lo dijo: confirmar o sacar."
   - "La última línea (enlaces) es de navegación, de Claude."
-actualizado: 2026-10-23
+actualizado: 2026-10-30
 ---
 
 La firma tiene que ser del ciudadano, no de la plataforma. Una wallet de opinión: la clave y el DNI quedan en el teléfono de cada persona, y se desbloquean con la huella o con un PIN. El Pueblo Propone nunca custodia identidades.

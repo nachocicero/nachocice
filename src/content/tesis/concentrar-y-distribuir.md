@@ -3,7 +3,7 @@ titulo: Concentrar para lo concreto, distribuir para descubrir
 bajada: "Lo que cambió fue que se distribuyó la decisión de dónde invertir."
 eje: poder
 orden: 2
-estado: borrador
+estado: aprobada
 nivel: diagnostico
 cita: "La inversión siempre existió. Lo que cambió fue que se distribuyó la decisión de dónde invertir."
 fuentes:
@@ -11,13 +11,14 @@ fuentes:
   - "Conversación «Organización vertical vs descentralización» (26/09/2026): la tesis de lo vertical y lo distribuido es de Nacho; la distinción entre problemas conocidos y desconocidos y el ejemplo de Bitcoin salieron de la charla en conjunto."
   - "Charla por voz con Claude, 19/10/2026 (manejando): el capitalismo distribuye en la línea histórica larga, el monarca, el ciclo concentrar y distribuir, Bitcoin."
 cambios:
+  - "Aprobada por Nacho por voz el 28/10."
   - "Doc: solo ortografía, tildes y puntuación (inico → inicio, valde → balde, sistama → sistema, q → que)."
   - "Afuera del Doc: la frase «con eso conformate che… el 40% de la gente lo hace», que depende del tono del video original. Se puede recuperar."
   - "La sección «La longevidad» se fundió acá el 23/10 por decisión de Nacho (antes era la tesis «longevidad: concentrar o explorar», armada en conversación). La redactó Claude."
   - "Las secciones «Un ciclo» y «Bitcoin» las redactó Claude a partir de lo que Nacho dijo por voz el 19/10. Revisar."
   - "La distinción entre problemas conocidos y desconocidos es un aporte de Claude en la charla del 26/09, y así se aclara en el texto."
   - "La última línea (enlaces) es de navegación, de Claude."
-actualizado: 2026-10-19
+actualizado: 2026-10-30
 ---
 
 El capitalismo sacó a mucha gente de la pobreza, mejoró el nivel de vida. En realidad fue el avance tecnológico, pero este fue debido a la inversión, es decir, al capitalismo.

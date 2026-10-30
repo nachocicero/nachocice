@@ -3,20 +3,21 @@ titulo: El Estado es una construcción burguesa
 bajada: "Nadie se cree que esa construcción burguesa va a querer una democracia plena."
 eje: poder
 orden: 3
-estado: borrador
+estado: aprobada
 nivel: diagnostico
 cita: "Si nos van a hacer ese relato, te tomo el relato y te lo profundizo a fondo."
 fuentes:
   - "Doc «El lento proceso retrodemocratizador del poder»: «Las repúblicas (muy post imperio romano) y el resurgir del término democracia…» (texto literal)."
   - "Charla por voz con Claude, 19/10/2026: los Estados nacionales como construcción burguesa, el relato democrático tomado a fondo, Malvinas y Estados Unidos «el que atiende el bar en Twin Peaks» (frases textuales)."
 cambios:
+  - "Aprobada por Nacho por voz el 28/10, sin la frase de Twin Peaks (pidió sacarla para que no dependa de conocer la serie)."
   - "Doc: solo ortografía, tildes y puntuación."
   - "Todo lo que no es el párrafo del Doc lo redactó Claude a partir de lo que Nacho dijo por voz el 19/10. Las frases del relato y de Twin Peaks son textuales. Revisar."
   - "El párrafo «El Pueblo Propone nunca fue pensado para un país…» lo redactó Claude a partir de lo que Nacho dijo por voz el 23/10 (el límite nunca es el Estado, EPP siempre fue global). Revisar."
   - "Dato aportado por Claude: el petróleo de Malvinas se descubrió en 2010 y lo nuevo es que ahora se va a explotar. Verificar antes de publicar."
   - "La última línea (enlaces) es de navegación, de Claude."
   - "Verificado el 23/10/2026: el yacimiento Sea Lion se descubrió en 2010, Navitas y Rockhopper tomaron la decisión final de inversión y el primer petróleo está previsto para el primer trimestre de 2028 (Rockhopper, prensa del sector)."
-actualizado: 2026-10-23
+actualizado: 2026-10-30
 ---
 
 Las repúblicas (muy post Imperio romano) y el resurgir del término democracia son consecuencia de las caídas de los gobiernos monárquicos y el ascenso de la burguesía al poder. Esto es un hecho, no tiene discusión histórica: nunca se habló de democracias anteriormente porque las fuentes de poder eran "dioses o Dios".
@@ -35,6 +36,6 @@ El tema es que, si nos van a hacer ese relato, te tomo el relato y te lo profund
 
 Cuando se dice que un país quiere algo, son las burguesías las que quieren. Las Malvinas también le interesan a la burguesía: antes eran otros recursos naturales, ahora es el petróleo, que se descubrió en 2010 y que ahora se va a explotar, con el primer petróleo previsto para 2028, y está también lo geopolítico del paso que quiere Estados Unidos.
 
-Y otra vez: Estados Unidos no es Estados Unidos, el que atiende el bar en Twin Peaks. Son las burguesías yanquis.
+Y otra vez: Estados Unidos no es su gente. Son las burguesías yanquis.
 
 Ver también [[concentrar-y-distribuir]] y [[que-representen-bien]].

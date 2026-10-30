@@ -3,7 +3,7 @@ titulo: No es un favor, es un encargo
 bajada: "Si vos sos parte de un Estado, tenés igual de derecho que cualquiera a opinar sobre tu partecita del Estado."
 eje: libertad
 orden: 7
-estado: borrador
+estado: revision
 nivel: fundamento
 cita: "No le estás pidiendo un favor, le estás dando un trabajo."
 fuentes:
@@ -12,11 +12,12 @@ fuentes:
   - "Doc, mismo archivo: «Del teocentrismo al antropocentrismo. Si bien han pasado varios siglos es evidente que la lógica sigue siendo la de peticionar al proveedor» (texto literal)."
   - "Doc, mismo archivo: «entender cómo funciona cualquier contratado donde se pauta un resultado y se controla la ejecución» (texto literal)."
 cambios:
+  - "Aprobada en principio por Nacho por voz el 28/10. Falta que la lea entera."
   - "Doc: solo ortografía, tildes y puntuación (q → que, el → él)."
   - "Las secciones «El dueño y el arquitecto» y «O somos todos o son ellos» las redactó Claude a partir de lo que Nacho dijo por voz el 23/10. Revisar."
   - "Nacho la llamó «el argumento base de cualquier charla». Va en la Parte I por ese motivo."
   - "La última línea (enlaces) es de navegación, de Claude."
-actualizado: 2026-10-23
+actualizado: 2026-10-30
 ---
 
 ## El dueño y el arquitecto
