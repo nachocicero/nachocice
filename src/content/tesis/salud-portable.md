@@ -3,15 +3,16 @@ titulo: Lo que aportaste es tuyo
 bajada: "Lo importante no es el token, sino que la gente grande tenga derecho a la salud sin pagar una fortuna para que la acepten."
 eje: quien-paga
 orden: 8
-estado: borrador
+estado: aprobada
 nivel: propuesta
 fuentes:
   - "Memoria del proyecto, «Salud portable: aportes, cupo cruzado y la deuda hacia atrás» (octubre 2026): todo el proyecto es de Nacho (la premisa del derecho, el rechazo de la analogía con el seguro del auto, el cupo cruzado, las cuatro piezas, la primera reforma)."
   - "Conversación «Evasión fiscal y paraísos fiscales» (15 a 18/10/2026)."
   - "Charla por voz con Claude, 23/10/2026: va tal cual."
 cambios:
+  - "Aprobada por Nacho por voz en la revisión de las Partes IV y V."
   - "Redactada por Claude a partir de lo que Nacho planteó en esas conversaciones, con el protocolo de estilo. Revisar."
-actualizado: 2026-10-23
+actualizado: 2026-11-03
 ---
 
 Toda la vida aportaste a tu obra social. Ese aporte pagó la salud de otros, y aunque no haya un fondo físico guardado con tu nombre, generó un derecho. El problema es que ese derecho hoy no existe en ningún lado: cuando sos grande, la prestadora te rechaza o te recarga, como si nunca hubieras puesto nada.

@@ -19,6 +19,10 @@ El primer intento (repos `civis` / `civisfull`) terminó sonando a ChatGPT porqu
 
 **Siempre:** cada tesis completa `fuentes` y `cambios` en el frontmatter (control de fuente). Bajada y `cita` tienen que ser frases textuales suyas.
 
+## Números grandes
+
+Regla de Nacho: cada número grande se traduce a algo que se sienta. La gente se pierde cuando hay muchos ceros. Ejemplo: contados a un dólar por segundo, 400 mil dólares son cuatro días y medio, 500 millones son casi 16 años. Y toda comparación de plata en el tiempo, en dólares, no en pesos.
+
 ## Matiz que no se puede perder
 
 Nacho propone **ampliar el grado de democracia y poder medirlo**, no una democracia directa total donde todo se plebiscita.

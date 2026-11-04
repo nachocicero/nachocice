@@ -3,18 +3,19 @@ titulo: Se terminó el monopolio, pero quedó el guion
 bajada: "Se le sacó la contrapartida y se le dejó el guion."
 eje: trabajo
 orden: 2
-estado: borrador
+estado: aprobada
 nivel: diagnostico
 fuentes:
   - "Conversación «Violencia de género y estadísticas de mortalidad» (17/09/2026): el segundo sueldo que empata al primero sin el pago del cuidado, y la asimetría del cortejo, los planteó Nacho."
   - "Misma conversación: el salario real de 2024 contra el pico de 1974 lo investigó Claude, y también la formulación «se le sacó la contrapartida y se le dejó el guion»."
   - "Charla por voz con Claude, 23/10/2026: Nacho confirma la tesis tal cual y el hilo de la hegemonía que digita quién cobra."
 cambios:
+  - "Aprobada por Nacho por voz en la revisión de las Partes IV y V. La sección «El cuerpo de la guerra» la redactó Claude a partir de lo que Nacho dijo ese día (el varón puso el cuerpo en las guerras). Los datos los aportó Claude: mujeres en las fábricas durante las guerras mundiales, Malvinas 1982, suspensión del servicio militar obligatorio en 1994 (Ley 24.429)."
   - "Lo redactó Claude a partir de lo que Nacho dijo en las conversaciones del 17/09 y el 23/10. Revisar."
   - "La bajada es una frase de Claude que Nacho adoptó en la charla del 17/09."
   - "La última línea (enlaces) es de navegación, de Claude."
   - "Verificado el 23/10/2026: el salario real de 2024 fue 37% menor que el pico de 1974 (Schteingart, Argendata/Fundar, en El Economista)."
-actualizado: 2026-10-23
+actualizado: 2026-11-03
 ---
 
 Entre 1968 y 1985 se desarmó el monopolio: capacidad civil plena, ingreso propio, patria potestad compartida. Terminó el canal único, terminó el [[patriarcado-arquitectura-de-pago|patriarcado]]. Lo que queda es inercia.
@@ -32,5 +33,11 @@ El hombre, para cortejar a una mujer, generalmente la tiene que invitar, tiene q
 Eso muestra que la transición no fue pareja: se desarmó por partes y a distinta velocidad, según le convino a quien decide [[quien-cobra-por-el-trabajo|quién cobra y quién paga]].
 
 Igual que con el patriarcado, es una descripción, no un pedido de volver atrás.
+
+## El cuerpo de la guerra
+
+Todo esto hay que ponerlo en el tiempo de las guerras. Durante el período de las grandes guerras el varón puso el cuerpo, porque era necesario el cuerpo. Las guerras mundiales fueron de ejércitos masivos, y justamente ahí las mujeres entraron a las fábricas a reemplazarlos. Con el tiempo las guerras dejaron de necesitar tantos cuerpos y pasaron a depender de la [[la-tecnologia-reparte-poder|tecnología]].
+
+En Argentina el ancla es propia: Malvinas en 1982 y el servicio militar obligatorio, que se suspendió en 1994. El guion del que asume riesgos no es un capricho cultural, viene de cuando hacía falta poner el cuerpo. La necesidad se fue achicando, el guion quedó.
 
 Ver también [[segundo-sueldo-a-la-tierra]].

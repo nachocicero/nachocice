@@ -3,16 +3,17 @@ titulo: El capital que sale de la competencia
 bajada: "Hay un costo que no se está midiendo, que es el costo de oportunidad de no haber distribuido esa riqueza."
 eje: quien-paga
 orden: 5
-estado: borrador
+estado: aprobada
 nivel: diagnostico
 cita: "El problema no es lo que el heredero hace mal, es lo que nunca llegó a hacerse."
 fuentes:
   - "Doc «El lento proceso retrodemocratizador del poder»: «la herencia no está mal pero no puede ser desproporcionada…» y «por el mero hecho fortuito de una herencia es completamente injusto» (texto literal)."
   - "Conversación «Justificaciones para sostener la herencia» (26/09/2026): el costo de oportunidad lo dijo Nacho (casi textual, en la bajada y la segunda sección). La formulación «el capital queda fuera de competencia» salió de la charla en conjunto y Nacho la llamó «el corazón de todo»."
 cambios:
+  - "Aprobada por Nacho por voz en la revisión de las Partes IV y V. Queda separada de la ley antidinastías y bien enlazada: esta es el porqué, aquella el qué hacer."
   - "Doc: solo ortografía, tildes y puntuación."
   - "La sección «Lo que nunca llegó a hacerse» la redactó Claude con lo que Nacho dijo en esa charla. La cita es de Claude en esa conversación, aceptada por Nacho. Revisar."
-actualizado: 2026-10-23
+actualizado: 2026-11-03
 ---
 
 El tema más complicado de explicar es la herencia. No está mal, pero no puede ser desproporcionada. Además, a lo largo de la historia se viene acumulando muchísima desigualdad de origen, mucha originada en actos violentos o robos.

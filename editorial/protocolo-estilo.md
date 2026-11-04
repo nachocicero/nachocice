@@ -443,3 +443,8 @@ Las marcas son: **[x2]**, **[x3]** o más para ideas repetidas o en varias versi
 - l. 914: "Hasta acá leí", una marca de lectura.
 
 *Quedan fuera de este mapa, por decisión editorial:* el pasaje sobre aborto, las notas de gestión municipal y los datos personales de terceros que hay al final del archivo.
+
+## Números grandes
+
+Regla de Nacho: cada número grande se traduce a algo que se sienta. La gente se pierde cuando hay muchos ceros. Ejemplo: contados a un dólar por segundo, 400 mil dólares son cuatro días y medio, 500 millones son casi 16 años. Y toda comparación de plata en el tiempo, en dólares, no en pesos.
+

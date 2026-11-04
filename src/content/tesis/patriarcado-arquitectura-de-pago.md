@@ -3,7 +3,7 @@ titulo: El patriarcado fue una arquitectura de pago
 bajada: "El patriarcado no fue dominación por fuerza, fue monopolio del canal de cobro."
 eje: trabajo
 orden: 1
-estado: borrador
+estado: aprobada
 nivel: diagnostico
 cita: "El cuidado no fue gratis: fue pagado al intermediario."
 fuentes:
@@ -12,12 +12,13 @@ fuentes:
   - "Doc «El lento proceso retrodemocratizador del poder»: «la lucha de las mujeres por realizarse económicamente, llevar adelante su proyecto de vida» (texto literal)."
   - "Charla por voz con Claude, 23/10/2026: el hilo de toda la parte (la hegemonía, a través del Estado burgués, digita quién cobra y quién paga)."
 cambios:
+  - "Aprobada por Nacho por voz en la revisión de las Partes IV y V."
   - "Doc: solo ortografía y puntuación."
   - "El resto lo redactó Claude a partir de lo que Nacho dijo en la conversación del 17/09 y por voz el 23/10. Revisar."
   - "Afuera por ahora: la parte de la conversación sobre mortalidad masculina y suicidio. Queda para que Nacho decida si entra y dónde."
   - "La última línea (enlaces) es de navegación, de Claude."
   - "Revisado el 23/10/2026: no se pudo confirmar que la ley de salario mínimo de 1964 hablara de una familia tipo. Queda la DUDA."
-actualizado: 2026-10-23
+actualizado: 2026-11-03
 ---
 
 El patriarcado existió, tuvo forma concreta y fecha de cierre. No fue dominación de varones sobre mujeres, fue monopolio del canal de cobro: el ingreso del hogar entraba por una sola persona, y esa persona era el jefe de casa. Patriarca en sentido literal.
