@@ -74,4 +74,4 @@ Polis es Estado, pequeño, lo que llamaríamos un pueblo o un Estado pequeño.
 
 Un Estado hoy, eso que se vincula a un país pero puede ser una provincia, para existir debe ser un territorio con un pueblo y un gobierno.
 
-Ver también [[ampliar-y-medir]] y [[libertad-e-igualdad]].
+Ver también [[ampliar-y-medir]], [[libertad-e-igualdad]] y [[politica-o-negocio]].

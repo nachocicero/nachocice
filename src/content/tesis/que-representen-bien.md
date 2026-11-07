@@ -39,4 +39,4 @@ Lo que quiere El Pueblo Propone es presionar, pero a través de instrumentos leg
 
 Y se entiende que eso después no se va a traducir en que sí o sí se tenga que hacer lo que la gente propone. O sea, yo entiendo que la república es un límite a las dictaduras de las mayorías, pero no puede ser la dictadura de una minoría plutocrática.
 
-Ver también [[de-la-delegacion-a-la-dominacion]], [[voluntad-inferida]] y los dos pasos básicos de [[ampliar-y-medir]].
+Ver también [[de-la-delegacion-a-la-dominacion]], [[politica-o-negocio]], [[voluntad-inferida]] y los dos pasos básicos de [[ampliar-y-medir]].

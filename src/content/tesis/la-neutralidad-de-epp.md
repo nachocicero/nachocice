@@ -2,8 +2,8 @@
 titulo: Entrar al campo sin bando
 bajada: "No le interesa ninguno de los bandos, le interesa mantener esa neutralidad."
 eje: global
-orden: 3
-estado: borrador
+orden: 4
+estado: aprobada
 nivel: fundamento
 fuentes:
   - "Conversación «Evasión fiscal y paraísos fiscales» (15 a 18/10/2026): el modelo tipo Cruz Roja para que El Pueblo Propone sea global sin depender de la ONU (propuesta discutida con Claude)."
@@ -11,11 +11,12 @@ fuentes:
   - "Charla por voz con Claude, 23/10/2026: el blog toma partido en algunas cosas, pero no en la base de El Pueblo Propone (planteo de Nacho)."
   - "Datos del Movimiento Internacional de la Cruz Roja y de la Media Luna Roja: fundación en Ginebra en 1863 por iniciativa de Henri Dunant, Comité Internacional, Federación y unas 190 sociedades nacionales, siete principios fundamentales, Cristal Rojo aprobado en 2005 (CICR, Cruz Roja Británica)."
 cambios:
+  - "Aprobada por Nacho en la charla por voz de noviembre de 2026 (después del 3/11)."
   - "Origen: armada en conversación con Claude, adoptada por Nacho. El giro de la política como guerra y la neutralidad como el valor de El Pueblo Propone es de Nacho."
   - "Redactada por Claude a partir de las charlas por voz del 23/10 y el 27/10. Revisar."
   - "Reemplaza a la tesis «protocolo tipo Cruz Roja» del inventario."
   - "La última línea (enlaces) es de navegación, de Claude."
-actualizado: 2026-10-27
+actualizado: 2026-11-07
 ---
 
 Una contienda electoral, lo que pasa entre los intereses que hay, es similar a una guerra. El Pueblo Propone lo que hace es ser neutral. No le interesa ninguno de los bandos, le interesa mantener esa neutralidad y darle la posibilidad a todos de que puedan proponer, debatir y votar.

@@ -2,8 +2,8 @@
 titulo: La política es anterior a la cultura
 bajada: "La política es un grupo de gente unida para resolver algo, y lo cultural llega mucho después."
 eje: global
-orden: 1
-estado: borrador
+orden: 2
+estado: aprobada
 nivel: diagnostico
 cita: "Política no es un partido político o lo que sea que hoy se llame política."
 fuentes:
@@ -11,12 +11,15 @@ fuentes:
   - "Misma conversación: la batalla cultural como batalla de comprensión, «comprensión de que el humano es lo importante, pero el humano en grupo, en comunidad» (planteo de Nacho)."
   - "Charla por voz con Claude, 23/10/2026: Nacho la confirma tal cual."
 cambios:
+  - "Aprobada por Nacho en la charla por voz de noviembre de 2026 (después del 3/11), con el pedido de abrirla con la definición: la política resuelve para todos y por eso es anterior a la cultura (mantener el fuego, cocinar, cazar, recolectar, protegerse). Ese primer párrafo lo redactó Claude a partir de lo que dijo Nacho y enlaza con «Política o negocio»."
   - "Origen: pensamiento de años de Nacho."
   - "Mensajes de Nacho: solo ortografía, tildes y puntuación (q → que, porq → porque)."
   - "La idea de que la batalla cultural es una política disfrazada de cultura la formuló Claude en esa conversación como consecuencia de la tesis de Nacho. Revisar."
   - "La última línea (enlaces) es de navegación, de Claude."
-actualizado: 2026-10-27
+actualizado: 2026-11-07
 ---
+
+La política es resolver algo para todos, y por eso es anterior a la cultura. Antes de cualquier símbolo hubo que mantener el fuego, cocinar, cazar, recolectar, protegerse. Eso es política, y [[politica-o-negocio|si no resuelve para todos, no es política]].
 
 La política es preexistente a la cultura, porque la política es un grupo de gente unida para resolver algo, y lo cultural llega mucho después. Política no es un partido político o lo que sea que hoy se llame política.
 

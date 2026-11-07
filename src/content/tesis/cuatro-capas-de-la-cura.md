@@ -3,7 +3,7 @@ titulo: Las cuatro capas de la cura
 bajada: "Lo público financia, lo privado se queda con la cura."
 eje: longevidad
 orden: 2
-estado: borrador
+estado: aprobada
 nivel: diagnostico
 fuentes:
   - "Conversaciones «salud y longevidad» (0a4260b6-2295-4466-ae09-763968105077) y «Obstáculos para la redistribución del poder» (599db6f4-8aef-4cab-89c7-8280ff1ef55d): el modelo de las cuatro capas y el test de reemplazabilidad los propuso Claude; Nacho decidió reformular la sección de los multimillonarios."
@@ -11,10 +11,11 @@ fuentes:
   - "Universidad de Toronto, «Insulin 100»: Banting, Best y Collip vendieron la patente de la insulina a la universidad por un dólar cada uno (1923)."
   - "Senado de EE.UU., comisión HELP (2023): la vacuna de Moderna se desarrolló junto con los NIH y con miles de millones de dólares públicos."
 cambios:
+  - "Aprobada por Nacho en la charla por voz de noviembre de 2026 (después del 3/11). Origen: armada en conversación con Claude, adoptada por Nacho."
   - "Armada en conversación con Claude, adoptada por Nacho."
   - "La redactó Claude. Los ejemplos de la insulina y de Moderna son datos de Claude, verificados el 27/10/2026. Revisar."
   - "La bajada es de Claude, no de Nacho. Cambiarla si no la sentís tuya."
-actualizado: 2026-10-27
+actualizado: 2026-11-07
 ---
 
 Cada avance médico tiene cuatro capas. Quién lo financia, quién lo hace, quién se queda con el resultado y quién decide qué se investiga primero. Casi nunca son los mismos.

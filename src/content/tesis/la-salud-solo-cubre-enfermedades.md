@@ -3,7 +3,7 @@ titulo: La salud solo cubre enfermedades
 bajada: "Si la salud la tomás como algo amplio, no solamente como una enfermedad concreta, te da la posibilidad de prevenir."
 eje: longevidad
 orden: 1
-estado: borrador
+estado: aprobada
 nivel: diagnostico
 fuentes:
   - "Charla por voz con Claude, 23/10/2026: la legalidad basada en si algo es enfermedad o no, el deterioro desde los 25 o 30, las enfermedades cerebrales como deterioros de años, la salud amplia, la solución burocrática y el dato de la OMS."
@@ -11,12 +11,13 @@ fuentes:
   - "Charla por voz con Claude, 19/10/2026: el COVID y lo exponencial."
   - "OMS, preguntas frecuentes sobre la CIE-11 y el código «old age»: el término se reemplazó por «deterioro de la capacidad intrínseca asociado al envejecimiento»."
 cambios:
+  - "Aprobada por Nacho en la charla por voz de noviembre de 2026 (después del 3/11)."
   - "Pensamiento de años de Nacho. La cadena (enfermedad, suscripción, dos especies) y la solución burocrática son suyas."
   - "La redactó Claude a partir de lo que Nacho dijo por voz el 19/10 y el 23/10. Revisar."
   - "Dato de la OMS aportado por Claude y verificado el 27/10/2026 en la página de la OMS sobre la CIE-11. Nacho pidió que vaya."
   - "El nombre «velocidad de escape de la longevidad» lo usa Aubrey de Grey. Nacho llegó a la idea por el camino del COVID, y así se aclara en el texto."
   - "Reemplaza a la tesis «envejecer no es enfermedad» del inventario."
-actualizado: 2026-10-27
+actualizado: 2026-11-07
 ---
 
 Toda la legalidad de la salud está basada en si algo es enfermedad o no. Y envejecer no es una enfermedad. Hoy es así, y está bien que no lo sea, pero ahí se origina el problema.

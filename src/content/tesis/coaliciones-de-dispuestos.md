@@ -2,7 +2,7 @@
 titulo: ¿Cómo empiezan algunos y arrastran al resto?
 bajada: "Mientras más haya, mejor, y si están los más grandes, también."
 eje: global
-orden: 2
+orden: 3
 estado: borrador
 nivel: propuesta
 fuentes:
@@ -11,10 +11,11 @@ fuentes:
   - "OCDE, acuerdo «side-by-side» del 5 de enero de 2026: los grupos con matriz en Estados Unidos quedan exentos de las reglas IIR y UTPR del impuesto mínimo global, para los ejercicios que empiezan desde el 1 de enero de 2026 (EY Global Tax News y otras firmas)."
   - "Comisión Europea: el período definitivo del CBAM empezó el 1 de enero de 2026 (acero, cemento, fertilizantes, entre otros)."
 cambios:
+  - "Sección «Desde abajo» redactada por Claude a partir de la charla por voz de noviembre de 2026 (después del 3/11): las burguesías anteriores a los Estados, las fronteras dibujadas, el capital que enfrenta Estados, El Pueblo Propone transnacional desde abajo y la resistencia de status («cagar un poco más alto que el otro», textual). Sigue como pregunta en construcción."
   - "Origen: armada en conversación con Claude, adoptada por Nacho. Tesis en construcción."
   - "Redactada por Claude a partir de la charla por voz del 27/10. Los dos mecanismos (UTPR y CBAM) los aportó Claude y se verificaron el 27/10/2026. Revisar."
   - "La última línea (enlaces) es de navegación, de Claude."
-actualizado: 2026-10-27
+actualizado: 2026-11-07
 ---
 
 Esta tesis está en construcción. Es una pregunta, no una respuesta.
@@ -32,5 +33,13 @@ El segundo es el ajuste de carbono en frontera de la Unión Europea, que desde e
 Los dos funcionan con la misma lógica: no esperan que el otro se ponga de acuerdo, le cobran en la puerta. Habría que modelar si eso se puede hacer con la riqueza, con los aportes, con [[registro-que-delata|el registro]] y con [[deuda-evadida-alguien-la-tiene|la deuda evadida]], y quién tiene que estar adentro para que funcione.
 
 El límite nunca es el Estado, porque [[el-estado-es-una-construccion-burguesa|el Estado es una construcción burguesa]]. Pero mientras los Estados existan, alguien tiene que empezar.
+
+## Desde abajo
+
+Las burguesías son anteriores a los Estados nación. Las fronteras son líneas que se dibujaron, y el capital las cruza y pone a un Estado contra otro. Por eso el empuje no puede venir de un gobierno solo. Tiene que venir de abajo y de muchos países a la vez, y por eso El Pueblo Propone tiene que ser transnacional: una sección en cada país, como [[la-neutralidad-de-epp|la Cruz Roja]], presionando juntas por lo mismo.
+
+Y la resistencia de los de arriba no es económica, es de status. Pagar un poco más no les cambia la vida. Lo que no quieren es dejar de cagar un poco más alto que el otro.
+
+[FALTA: el poder de policía y el veto en la ONU, la vuelta teórica, para discutir.]
 
 Ver también [[la-neutralidad-de-epp]].
