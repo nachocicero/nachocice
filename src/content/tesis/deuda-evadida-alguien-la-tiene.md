@@ -9,10 +9,12 @@ fuentes:
   - "Memoria del proyecto, «Salud portable» (octubre 2026): el argumento completo y los tres caminos para cobrar son de Nacho (el tercero, precios de transferencia, lo sumó él)."
   - "Conversación «Evasión fiscal y paraísos fiscales» (15 a 18/10/2026): el aporte de un amigo de Nacho sobre el umbral del Pilar 2."
   - "Charla por voz con Claude, 23/10/2026: enlazar con la clase media que paga."
+  - "OIT, informe sobre trabajo doméstico en Argentina (abril de 2025, vía Perfil): el 77% de las trabajadoras de casas particulares no está registrada."
 cambios:
+  - "Párrafo del servicio doméstico redactado por Claude a partir de la charla por voz del 08/11/2026: Nacho lo propuso como justificativo para cobrarle al que más tiene, no como cobro por sector (Claude marcó que por sector le caería a la clase media, y Nacho aclaró que no era su idea)."
   - "Aprobada por Nacho por voz en la revisión de las Partes IV y V. La sección «Una deuda, no un castigo» la redactó Claude a partir de lo que Nacho dijo ese día: es el hilo de toda la Parte IV, la deuda evadida justifica que antidinastías financie la salud portable."
   - "Redactada por Claude a partir de esas conversaciones. Revisar."
-actualizado: 2026-11-03
+actualizado: 2026-11-08
 ---
 
 El que no aportó formalmente probablemente trabajó en negro. Su aporte no desapareció: alguien se lo quedó. El empleador que no lo pagó, la empresa que lo eludió.
@@ -32,5 +34,7 @@ Hacia adelante, lo resuelve [[registro-que-delata|el registro]].
 ## Una deuda, no un castigo
 
 Las dinastías tienen que aportar algo porque en algún momento se quedaron con algo que no era suyo. Y eso se lo sacaron a gente que en algún momento va a necesitar que alguien le pague la salud. Por eso [[ley-antidinastias|lo que se cobre a las grandes herencias]] tiene que ir a [[salud-portable|cubrir la salud]] de los que no tienen aportes.
+
+Un ejemplo es el servicio doméstico, que es el sector con más trabajo en negro: casi 8 de cada 10 trabajadoras no están registradas. Las grandes familias tuvieron empleados domésticos durante generaciones, y probablemente nunca les aportaron nada. No es para cobrarle por sector, porque también tiene una empleada unas horas por semana mucha clase media. Es el justificativo de por qué hay que cobrarle al que más tiene, por patrimonio.
 
 No es que esté mal ser rico. Es que hay una cuenta sin saldar. Ese argumento es mucho más fuerte que el moral, que no se sabe en qué se apoya.

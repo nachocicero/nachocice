@@ -12,7 +12,9 @@ fuentes:
   - "Comisión Europea: el período definitivo del CBAM empezó el 1 de enero de 2026 (acero, cemento, fertilizantes, entre otros)."
   - "Charla por voz con Claude, 07/11/2026: el veto tiene que dejar de existir, representantes en la ONU elegidos directamente por la gente como en el Parlamento Europeo o el Parlasur, crear otra ONU si no se reforma como pasó con la Sociedad de las Naciones, los grandes adentro pero sin más peso, y el cobro en la frontera como resultado de que la mayoría se organice, igual que en un país (planteo de Nacho)."
   - "Datos: la reforma de la Carta de la ONU requiere la ratificación de dos tercios de los miembros, incluidos los cinco permanentes (art. 108). La Sociedad de las Naciones (1920-1946): Estados Unidos nunca entró, Alemania y Japón se fueron en 1933 e Italia en 1937. India y China suman alrededor del 35% de la población mundial."
+  - "Parlamento Europeo: proporcionalidad decreciente (los países chicos tienen más bancas que las que les tocarían por población)."
 cambios:
+  - "Párrafo del reparto de votos redactado por Claude a partir de la charla por voz del 08/11/2026: las dos cámaras como Diputados y Senadores son idea de Nacho. La condición de la elección directa la propuso Claude (para no meter el dumping democrático adentro del parlamento) y Nacho la aceptó («me gusta, va a pasar un quilombo bárbaro, China no va a querer»)."
   - "Secciones «La ONU» y «Es todo lo mismo» redactadas por Claude a partir de la charla por voz del 07/11/2026. Aportes de Claude en la charla: el reparto de votos en un parlamento mundial (queda como FALTA), la reforma de la Carta vetable por los cinco, y que la ONU nació de una guerra y no de un reclamo. La campaña por una Asamblea Parlamentaria de la ONU existe pero no se cita."
   - "Sección «Desde abajo» redactada por Claude a partir de la charla por voz de noviembre de 2026 (después del 3/11): las burguesías anteriores a los Estados, las fronteras dibujadas, el capital que enfrenta Estados, El Pueblo Propone transnacional desde abajo y la resistencia de status («cagar un poco más alto que el otro», textual). Sigue como pregunta en construcción."
   - "Origen: armada en conversación con Claude, adoptada por Nacho. Tesis en construcción."
@@ -47,7 +49,9 @@ Y la resistencia de los de arriba no es económica, es de status. Pagar un poco 
 
 El tema de los cinco países que tienen veto no va. Eso tiene que dejar de existir. Es lo contrario de [[una-persona-una-voz|una persona, una voz]]: cinco países valen más que todos los demás.
 
-Y la ONU debería tener representantes elegidos directamente por la gente, no solo los embajadores que mandan los gobiernos, como pasa en Europa con el Parlamento Europeo o en el Mercosur con el Parlasur. [FALTA: cómo se reparten los votos. Con una persona un voto, India y China juntas tienen más de un tercio. Con un voto por país, Tuvalu vale lo mismo que India.]
+Y la ONU debería tener representantes elegidos directamente por la gente, no solo los embajadores que mandan los gobiernos, como pasa en Europa con el Parlamento Europeo o en el Mercosur con el Parlasur.
+
+Para repartir los votos, por algo existen la Cámara de Diputados y la de Senadores, que se arman distinto. Tendría que haber algo así: una cámara por población y otra con un voto igual por país, para que no mande ninguno de los dos extremos. Y una condición: para tener bancas, los representantes tienen que salir de una elección directa. El que no cumple, no ocupa esas bancas. China no va a querer, pero es el mismo problema que el veto, el grande no quiere perder privilegios.
 
 Para sacar el veto hay que reformar la Carta de la ONU, y esa reforma la pueden vetar los mismos cinco. La única forma es la gente exigiéndolo, y es algo a largo plazo, estamos lejísimos. Pero de última, si no se quiere cambiar, se crea otra ONU. Ya pasó: la Sociedad de las Naciones fracasó y la reemplazó la ONU. Y quizás fracasó por la misma razón, porque los grandes se iban cuando no les convenía.
 

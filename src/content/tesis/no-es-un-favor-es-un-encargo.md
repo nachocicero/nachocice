@@ -12,6 +12,7 @@ fuentes:
   - "Doc, mismo archivo: «Del teocentrismo al antropocentrismo. Si bien han pasado varios siglos es evidente que la lógica sigue siendo la de peticionar al proveedor» (texto literal)."
   - "Doc, mismo archivo: «entender cómo funciona cualquier contratado donde se pauta un resultado y se controla la ejecución» (texto literal)."
 cambios:
+  - "Ejemplos por época propuestos por Claude y aceptados por Nacho en la charla por voz del 08/11/2026, sin nombrar familias. Son hechos históricos generales (publicanos de la república romana, monopolio del comercio con América desde la Casa de Contratación de Sevilla, 1503, contrabando por Buenos Aires en el siglo XVII)."
   - "Leída entera por Nacho en la charla por voz del 07/11/2026. Sigue en revisión. Cambios que pidió: el arquitecto propone sobre lo que el dueño ya le dijo que quiere; «la gente no sabe nada» no se dice en voz alta, se piensa, y es el motivo por el que muchos prefieren que su opinión no valga antes que darle voz al otro; nueva sección «Siempre hubo beneficiarios» (instituciones creadas por la gente de las que salen beneficiados unos pocos que las sostienen, en todas las formas de Estado; lo reconocen desde los anarcocapitalistas hasta la izquierda; nada de hipermillonarios, una empresa grande de un municipio que vive de licitaciones, sin nombre y sin la palabra corrupción; el político pagado con dos pesos con cincuenta). Redactado por Claude a partir de esa charla."
   - "Aprobada en principio por Nacho por voz el 28/10. Falta que la lea entera."
   - "Doc: solo ortografía, tildes y puntuación (q → que, el → él)."
@@ -47,7 +48,7 @@ Yo quiero pensar que somos todos.
 
 Y no es de ahora. Hace miles de años la gente se organizó y creó instituciones, y de esas instituciones salieron beneficiados unos pocos, que se hicieron ricos y que a la vez sostienen toda la estructura. Pasó en el imperio, en la monarquía, y pasa en el Estado burgués. Cambia la forma, el mecanismo es el mismo.
 
-[FALTA: un ejemplo por época, como mucho, a elegir con Nacho.]
+En Roma, el Estado licitaba el cobro de impuestos a privados, los publicanos, que pagaban por adelantado y después cobraban lo que podían. En las monarquías, el rey daba monopolios, como el derecho exclusivo de comerciar con las colonias. En la colonia, en el Río de la Plata, el comercio tenía que pasar por los puertos autorizados, y muchos se hicieron ricos con el contrabando. En todos los casos la institución la pone el Estado, y el beneficio se lo llevan unos pocos que la sostienen.
 
 Que en el Estado moderno hay beneficiarios, empresarios que hacen ganancias extraordinarias por su relación con el Estado, no hace falta probarlo mucho: lo dicen desde los anarcocapitalistas hasta la izquierda.
 

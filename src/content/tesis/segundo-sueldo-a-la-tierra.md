@@ -3,20 +3,21 @@ titulo: El segundo sueldo se lo llevó la tierra
 bajada: "La plata no se ahorró: se le transfirió al dueño del suelo."
 eje: trabajo
 orden: 3
-estado: borrador
+estado: aprobada
 nivel: diagnostico
 fuentes:
   - "Conversación «Nacionalidad argentina e inversión» (13/10/2026): que la tierra también se disparó en Argentina, aunque no seamos un país desarrollado, y la comparación entre países, los planteó Nacho."
   - "Misma conversación: los datos los investigó Claude (Warren y Tyagi, «The Two-Income Trap», 2003; Knoll, Schularick y Steger, precios de vivienda en 14 países desarrollados; la soja y el ladrillo como refugio en Argentina; el índice precio-ingreso)."
   - "Charla por voz con Claude, 23/10/2026: Nacho la confirma y le pone el hilo de toda la parte (la hegemonía digita quién cobra, la clase media se mueve como les conviene)."
 cambios:
+  - "Aprobada por Nacho en la charla por voz del 08/11/2026, con el matiz de que en la ciudad la plata volvió en parte a los que ya tenían tierra, pero no toda."
   - "Sección «¿De quién era la tierra?» agregada el 3/11/2026 a partir de lo que Nacho pidió por voz el 30/10: su hipótesis como pregunta abierta, con evidencia a favor y en contra investigada por Claude (CNA 2018 vía Bichos de Campo; Ramírez 2021, «Los loteos populares en el Gran Buenos Aires», Territorios 44, sobre Quilmes; Infesta y Valencia 1987 y Oddone 1967 sobre la tierra pública). Revisar."
   - "Corregido el 3/11/2026: el dato de «cinco o diez años de sueldo en un país con crédito, veinte o treinta acá» no tenía fuente. Se reemplazó por el cálculo de La Nación (junio de 2026) para un dos ambientes de 50 m2 en CABA con el ingreso promedio del INDEC: 13 años en Villa del Parque, unos 20 en Palermo o Núñez (de 6 en Villa Lugano a 35 en Puerto Madero). Se sacó la comparación con otros países."
   - "Lo redactó Claude a partir de lo que Nacho dijo en las conversaciones del 13/10 y el 23/10. La bajada es una frase de Claude de esa charla. Revisar."
   - "La última línea (enlaces) es de navegación, de Claude."
   - "Verificado el 23/10/2026: una familia de dos sueldos gana 75% más que una de un sueldo de una generación antes y le queda menos ingreso libre (Warren y Tyagi, Wharton Magazine 2003)."
   - "Corregido el 23/10/2026: decía 81%, es «hasta un 80%» (Knoll, Schularick y Steger, «No Price Like Home», VoxEU)."
-actualizado: 2026-11-03
+actualizado: 2026-11-08
 ---
 
 Si entró un segundo sueldo al hogar, el hogar debería tener más plata libre. Y no la tiene.

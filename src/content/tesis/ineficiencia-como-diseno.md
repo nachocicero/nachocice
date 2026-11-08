@@ -14,7 +14,11 @@ fuentes:
   - "Charla por voz con Claude, 23/10/2026: el sueldo por objetivos como licitación, la plataforma electoral como contrato y quién paga las campañas."
   - "Charla por voz con Claude, 07/11/2026: el sueldo atado al superávit, el piso de salud, seguridad y educación que no se toca y tiene que subir, y la seguridad social como dar plata en vez de servicios (planteo de Nacho). El riesgo de que el superávit salga de recortar lo básico lo planteó Claude."
   - "Argendata (Fundar), tópico Gasto público, con la serie de Gasto Público Consolidado 1980-2023 del Ministerio de Economía: previsión social 5% → 10% del PIB, salud 3,2% → 6,3%, educación, cultura, ciencia y técnica de menos de 3% a casi 6%. Ministerio de Economía, Informe de Gasto Público Consolidado 2009-2024: 35,6% del PIB en 2024, 6 puntos menos que en 2023. Gasto militar: 3,1% del PIB en 1980, 0,73% en 2020 (SIPRI, vía Macrotrends)."
+  - "Ministerio de Economía, Informe de Gasto Público Consolidado 2009-2024: en 2024, servicios sociales 69,4% del gasto, funcionamiento del Estado 16,1%, servicios económicos 9,2%, deuda 5,3%. Dentro de lo social, previsión, salud y educación con la estructura de 2023 de Argendata (10%, 6,3% y casi 6% del PIB sobre un gasto de 41,6%). Los tres renglones sociales son aproximados."
+  - "Ministerio de Salud, Informe de gasto en salud 2017-2022: en 2022 el gasto público fue 2,8% del PBI, la seguridad social (obras sociales y PAMI) 3,4% y el privado 4,4%."
+  - "Chequeado, 2025, con datos de la ANSES (BESS, marzo de 2025): 5,7 millones de jubilaciones, 3,9 millones por moratoria. La primera moratoria es de 2005."
 cambios:
+  - "«Servicios o plata» rehecha a partir de la charla por voz del 08/11/2026: Nacho vio los números y cambió el argumento. Ya no es que el Estado abandonó los servicios: «en los papeles la distribución está bien, habría que ver si se gasta bien». Se sacó la DUDA de la versión anterior. Lo de que muchas jubilaciones no tuvieron aporte y que la terminamos pagando todos juntos es de Nacho. El tramo de salud (obras sociales y PAMI) y la tabla los aportó Claude."
   - "Secciones «Atado al superávit» y «Servicios o plata» redactadas por Claude a partir de la charla por voz del 07/11/2026. Los datos del gasto los buscó Claude el 08/11 y no confirman del todo que salud y educación hayan caído: quedan en una DUDA para hablarlo."
   - "Doc: solo ortografía, tildes y puntuación (q → que, pensas → pensás, manja → maneja). El bloque está repetido en el Doc en tres versiones: se usó la primera completa."
   - "Las secciones «La correa de control» y «Sueldo por licitación» las redactó Claude a partir de lo que Nacho dijo por voz el 19 y el 23/10. Revisar."
@@ -64,7 +68,23 @@ Pero con un piso. No se puede recortar en las cosas básicas, que son lo mínimo
 
 Hay un tema acá, que es el gasto en seguridad social: jubilaciones, pensiones, asignaciones. En Argentina es muy importante, y en los países europeos también. Eso no es darle salud o educación a la gente. Le estás dando plata, para que la gaste en lo que quiera.
 
-Ese es uno de los grandes problemas del Estado moderno: dejó de invertir en las cosas que tiene que dar, y directamente le da plata a la gente. [DUDA: con el gasto consolidado de Nación, provincias y municipios, entre 1980 y 2023 la previsión social pasó del 5% al 10% del PIB, pero la salud también se duplicó (de 3,2% a 6,3%) y la educación casi (de menos del 3% a casi 6%). Lo que sí cayó fue defensa, del 3,1% del PIB en 1980 a menos del 1%. Y en 2024 el gasto total bajó 6 puntos del PIB, la caída más grande desde 2002. Hablar con Nacho cómo queda el argumento: si es el peso de la seguridad social sobre el total, la calidad de los servicios o los recortes recientes.]
+Mirado en números, de cada 100 pesos que gasta el Estado, sumando Nación, provincias y municipios, unos 70 van a lo social:
+
+| Rubro | De cada 100 pesos |
+|---|---|
+| Jubilaciones y pensiones | 24 |
+| Salud | 15 |
+| Educación, cultura y ciencia | 14 |
+| Planes, asignaciones, vivienda, agua y otros sociales | 16 |
+| Funcionamiento del Estado (administración, justicia, seguridad y defensa) | 16 |
+| Subsidios y obras | 9 |
+| Intereses de la deuda | 5 |
+
+En los papeles, la distribución está bien. El problema es si se gasta bien.
+
+Y en salud, más de la mitad no es el hospital público: son las obras sociales y el PAMI, que se pagan con aportes. En 2022 el sistema público fue el 2,8% del PBI, y las obras sociales y el PAMI el 3,4%.
+
+Si sumás jubilaciones, planes y subsidios, casi la mitad del gasto es transferencia. Y muchas jubilaciones no tuvieron aporte: de los 5,7 millones de jubilaciones de la ANSES, unos 3,9 millones salieron por moratoria, casi 7 de cada 10. Esa gente trabajó y se merece cobrar. Pero el aporte que no hizo el que la tuvo en negro no lo paga él, lo terminamos pagando todos juntos. Es [[deuda-evadida-alguien-la-tiene|la deuda evadida]].
 
 Y todo eso no sirve si no se sabe quién paga la campaña. Hoy la paga el mismo que después le cobra el favor al político: sos un burgués con mucha plata, le pagás la campaña a uno, o a dos o tres, y una vez que está ocupando el puesto te devuelve los favores que quieras. Por eso va junto con la transparencia de fondos de campaña, para saber quién financia a los representantes.
 
