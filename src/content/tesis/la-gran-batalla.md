@@ -3,7 +3,7 @@ titulo: La gran batalla
 bajada: "El nacionalismo es la forma de permitir que algunos valgan más."
 eje: libertad
 orden: 8
-estado: borrador
+estado: aprobada
 nivel: fundamento
 cita: "El nacionalismo es la forma de permitir que algunos valgan más."
 fuentes:
@@ -12,11 +12,12 @@ fuentes:
   - "Doc «El lento proceso retrodemocratizador del poder»: «Del teocentrismo al antropocentrismo», «nunca se habló de democracias anteriormente porque las fuentes de poder eran dioses o Dios» y «el inherente componente fascista o del desprecio por el otro»."
   - "Conversación «salud y longevidad» (20/09/2026): la batalla cultural como disputa por quién es el sujeto político, la nación o la comunidad global (planteo de Nacho)."
 cambios:
+  - "Aprobada por Nacho en la charla por voz del 07/11/2026."
   - "Todo el texto lo redactó Claude a partir de lo que Nacho dijo por voz el 23/10 y el 28/10. Revisar."
   - "Nacho pidió sacar «regional»: el pensamiento es occidental en su origen, pero vale para todos."
   - "Separada el 28/10 por decisión de Nacho: acá queda el fundamento (la igualdad). China, el dumping democrático y lo global pasaron a «Dumping democrático», que es diagnóstico."
   - "La última línea (enlaces) es de navegación, de Claude."
-actualizado: 2026-10-30
+actualizado: 2026-11-08
 ---
 
 Todos los humanos somos iguales. Eso es la piedra fundamental de todo, y es algo que trasciende a un Estado.

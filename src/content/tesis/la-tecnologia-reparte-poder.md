@@ -3,16 +3,17 @@ titulo: La tecnología reparte poder
 bajada: "Lo que antes necesitaba un equipo, hoy lo puedo hacer casi solo."
 eje: libertad
 orden: 10
-estado: borrador
+estado: aprobada
 nivel: diagnostico
 fuentes:
   - "Charla por voz con Claude, 28/10/2026: Nacho pidió ejemplos «del tamaño de la imprenta», muchos y fuertes, eligió la escritura, la pólvora, la moneda y el ferrocarril con el telégrafo, y agregó el remate: a menos que la hegemonía haga el mismo análisis y lo frene."
   - "Fechas verificadas el 30/10/2026: imprenta de Gutenberg hacia 1450, Reforma de 1517, primer Índice de libros prohibidos de 1559, Código de Hammurabi hace casi 4.000 años, Doce Tablas en el siglo V antes de Cristo (fuentes enciclopédicas)."
 cambios:
+  - "Aprobada por Nacho en la charla por voz del 07/11/2026, con un cambio: internet no es el próximo salto, debería haber sido, y ya no pasó. Las redes sociales son el freno, y la forma de manejarlo sigue siendo la misma que con la imprenta (planteo de Nacho). La sección «Internet» se reescribió así."
   - "Ejemplos aportados por Claude y elegidos por Nacho. El remate de la contraofensiva es de Nacho. Redactada por Claude. Revisar."
   - "La bajada resume lo que Nacho dijo por voz el 28/10 sobre retomar El Pueblo Propone casi solo; no es frase textual. Cambiarla si no la sentís tuya."
   - "La última línea (enlaces) es de navegación, de Claude."
-actualizado: 2026-10-30
+actualizado: 2026-11-08
 ---
 
 Cada vez que aparece una tecnología que abarata saber u organizarse, el poder se reparte. No por buena voluntad de nadie, sino porque lo que antes solo podían hacer unos pocos, lo empiezan a hacer muchos.
@@ -41,8 +42,8 @@ Hay casos más recientes, como Wikipedia o vTaiwan, donde la gente debate leyes 
 
 ## Internet
 
-Internet es el próximo salto de ese tamaño, porque baja el costo de organizar a la mayoría, que es justo lo que siempre fue más difícil que [[el-poder-es-percibido|organizar a una minoría]]. Y permite [[ampliar-y-medir|medir]] lo que la gente quiere como nunca antes. Yo lo vivo: El Pueblo Propone lo pensé en 2007, nadie me dio pelota, y hoy lo puedo sostener casi solo.
+Internet debería haber sido el próximo salto de ese tamaño, porque baja el costo de organizar a la mayoría, que es justo lo que siempre fue más difícil que [[el-poder-es-percibido|organizar a una minoría]]. Y permite [[ampliar-y-medir|medir]] lo que la gente quiere como nunca antes. Yo lo vivo: El Pueblo Propone lo pensé en 2007, nadie me dio pelota, y hoy lo puedo sostener casi solo.
 
-A menos que la hegemonía haga el mismo análisis y lo frene. Con la imprenta lo intentó: vinieron la censura, las licencias para imprimir y, en 1559, el Índice de libros prohibidos. Con internet ya lo está haciendo, con [[atencion-vs-obligacion|la válvula de escape]].
+Pero no pasó. La hegemonía hizo el mismo análisis y lo frenó, y la forma de manejarlo sigue siendo la misma. Con la imprenta vinieron la censura, las licencias para imprimir y, en 1559, el Índice de libros prohibidos. Con internet fueron las redes sociales, que justamente son un intento de frenarlo: en vez de prohibir, distraen y miden mal. Son [[atencion-vs-obligacion|la válvula de escape]].
 
 Ver también [[concentrar-y-distribuir]] y [[proponer-controlar-revocar]].

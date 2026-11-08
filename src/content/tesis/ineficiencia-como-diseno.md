@@ -12,13 +12,16 @@ fuentes:
   - "Memoria del proyecto, «La columna vertebral»: la ineficiencia como diseño y la corrupción como correa de control son de Nacho."
   - "Charla por voz con Claude, 19/10/2026: los casos de presos y enjuiciados, la conquista de trincheras y el castigo graduado según la llegada a los sectores reales."
   - "Charla por voz con Claude, 23/10/2026: el sueldo por objetivos como licitación, la plataforma electoral como contrato y quién paga las campañas."
+  - "Charla por voz con Claude, 07/11/2026: el sueldo atado al superávit, el piso de salud, seguridad y educación que no se toca y tiene que subir, y la seguridad social como dar plata en vez de servicios (planteo de Nacho). El riesgo de que el superávit salga de recortar lo básico lo planteó Claude."
+  - "Argendata (Fundar), tópico Gasto público, con la serie de Gasto Público Consolidado 1980-2023 del Ministerio de Economía: previsión social 5% → 10% del PIB, salud 3,2% → 6,3%, educación, cultura, ciencia y técnica de menos de 3% a casi 6%. Ministerio de Economía, Informe de Gasto Público Consolidado 2009-2024: 35,6% del PIB en 2024, 6 puntos menos que en 2023. Gasto militar: 3,1% del PIB en 1980, 0,73% en 2020 (SIPRI, vía Macrotrends)."
 cambios:
+  - "Secciones «Atado al superávit» y «Servicios o plata» redactadas por Claude a partir de la charla por voz del 07/11/2026. Los datos del gasto los buscó Claude el 08/11 y no confirman del todo que salud y educación hayan caído: quedan en una DUDA para hablarlo."
   - "Doc: solo ortografía, tildes y puntuación (q → que, pensas → pensás, manja → maneja). El bloque está repetido en el Doc en tres versiones: se usó la primera completa."
   - "Las secciones «La correa de control» y «Sueldo por licitación» las redactó Claude a partir de lo que Nacho dijo por voz el 19 y el 23/10. Revisar."
   - "Afuera del Doc: la alegoría del negocio de 1.000 y 800 y el párrafo final sobre la Guerra Fría y otro planeta, que abren otro tema."
   - "Verificado el 23/10/2026: Menem estuvo detenido en 2001 y fue condenado en 2013 por contrabando de armas; Cristina Kirchner cumple desde junio de 2025 seis años en prisión domiciliaria (causa Vialidad); Lula estuvo preso 580 días (2018-2019) y sus condenas se anularon; Bolsonaro, condenado a 27 años y 3 meses, cumple prisión domiciliaria (prensa argentina y brasileña)."
   - "Corregido el 23/10/2026: decía «De la Rúa, Macri, enjuiciados», es «De la Rúa, juzgado y absuelto (coimas en el Senado). Macri, procesado y sobreseído (espionaje ARA San Juan)» (prensa argentina)."
-actualizado: 2026-10-23
+actualizado: 2026-11-08
 ---
 
 ¿Cuánto vale la hora del político? ¿En cuánto se consigue un político? Un representante, ¿se entiende la pregunta? ¿Cuánto cuesta ese representante? ¿Vale lo que se le paga por sueldo o cuesta todo lo que implica?
@@ -50,6 +53,18 @@ Esto está en construcción. Es un rediseño del Estado, que hoy está pensado d
 El objetivo del mandatario sale de dos lados. Uno es la agenda que la gente propone y vota en una plataforma, sea El Pueblo Propone o cualquier otra estatal. El otro es su plataforma electoral, donde declara lo que va a hacer. Eso es el contrato. Y mientras tanto la gente va controlando lo que se hace, como cuando contratás a un arquitecto: si no te hace la casa que le pediste, no le pagás, le hacés un juicio. Con el político, lo mismo. Ver [[no-es-un-favor-es-un-encargo]] y [[proponer-controlar-revocar]].
 
 Es como una licitación. El candidato dice: yo voy a llevar adelante este proyecto, con este presupuesto, y quiero ganar tanto, yo y todos mis ministros y toda mi plantilla. Si lo eligen, ese presupuesto queda aprobado de entrada, y cobra lo que está en la licitación a medida que cumple. Tiene posibilidad de corrupción, claro. Pero el que licita demasiado barato queda a la vista, como el pintor de los 100 pesos.
+
+## Atado al superávit
+
+Los objetivos pueden ser de dos tipos. Unos los puede definir el pueblo, con consultas. Otros se miden solos, como el superávit: el político gana si garantiza que haya superávit.
+
+Pero con un piso. No se puede recortar en las cosas básicas, que son lo mínimo del Estado: salud, seguridad, educación. Y ese piso de hecho tendría que subir, porque ya de por sí está recontra bajo. Así el superávit no sale de recortar lo básico.
+
+## Servicios o plata
+
+Hay un tema acá, que es el gasto en seguridad social: jubilaciones, pensiones, asignaciones. En Argentina es muy importante, y en los países europeos también. Eso no es darle salud o educación a la gente. Le estás dando plata, para que la gaste en lo que quiera.
+
+Ese es uno de los grandes problemas del Estado moderno: dejó de invertir en las cosas que tiene que dar, y directamente le da plata a la gente. [DUDA: con el gasto consolidado de Nación, provincias y municipios, entre 1980 y 2023 la previsión social pasó del 5% al 10% del PIB, pero la salud también se duplicó (de 3,2% a 6,3%) y la educación casi (de menos del 3% a casi 6%). Lo que sí cayó fue defensa, del 3,1% del PIB en 1980 a menos del 1%. Y en 2024 el gasto total bajó 6 puntos del PIB, la caída más grande desde 2002. Hablar con Nacho cómo queda el argumento: si es el peso de la seguridad social sobre el total, la calidad de los servicios o los recortes recientes.]
 
 Y todo eso no sirve si no se sabe quién paga la campaña. Hoy la paga el mismo que después le cobra el favor al político: sos un burgués con mucha plata, le pagás la campaña a uno, o a dos o tres, y una vez que está ocupando el puesto te devuelve los favores que quieras. Por eso va junto con la transparencia de fondos de campaña, para saber quién financia a los representantes.
 

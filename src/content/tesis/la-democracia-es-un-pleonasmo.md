@@ -3,7 +3,7 @@ titulo: La democracia es un pleonasmo
 bajada: "Si hay Estado hay gobierno, si hay gobierno tiene que ser del pueblo, debe de alguna manera estar legitimado por el pueblo."
 eje: libertad
 orden: 3
-estado: borrador
+estado: aprobada
 nivel: fundamento
 cita: "Democracia hay siempre que haya pueblo, a menos que este esté siendo dominado por algo externo."
 fuentes:
@@ -11,6 +11,7 @@ fuentes:
   - "Mismo Doc, bloque «La democracia no es un sistema, es un pleonasmo» y párrafos anteriores («La democracia es un pleonasmo, quiero decir…»)."
   - "Mismo Doc, bloque «La democracia es un término fallido» (etimología)."
 cambios:
+  - "Aprobada por Nacho en la charla por voz del 07/11/2026."
   - "Secciones «Lo que dice la Constitución» y «Las dos objeciones» redactadas por Claude el 30/10 a partir de lo que Nacho dijo por voz el 28/10 (el parche del 94, la dictadura que llega con apoyo y se autolegitima, república como procedimiento). Datos verificados: art. 1 «representativa republicana federal»; art. 14 bis (reforma de 1957) «organización sindical libre y democrática»; arts. 36 y 38 (reforma de 1994), el 38 define a los partidos como «instituciones fundamentales del sistema democrático». Aportes académicos de Claude en la charla, no citados en el texto: La Boétie y Hume (el consentimiento del tirano), Linz y O'Donnell (dictaduras), Schumpeter y Dahl (democracia procedimental), Huntington (tercera ola). Revisar."
   - "Nacho la considera uno de los puntos centrales del libro y pidió blindarla contra las objeciones antes de aprobarla."
   - "Solo ortografía, tildes y puntuación (democratico → democrático, q → que, Dalh → Dahl, metes → metés)."
@@ -19,7 +20,7 @@ cambios:
   - "Corrección de dato aprobada por Nacho el 19/10/2026: Polyarchy de Dahl es de 1971 (el Doc decía 1960)."
   - "Sin puente final: Nacho decidió el 19/10 que termine donde termina su texto. La línea de enlaces es de navegación."
   - "Orden: los tres bloques se unieron en este orden, sin agregar conectores. Bajada, cita y subtítulo son frases textuales del Doc."
-actualizado: 2026-10-30
+actualizado: 2026-11-08
 ---
 
 Por favor, dejen de confundir república con democracia.

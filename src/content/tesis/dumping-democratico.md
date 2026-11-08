@@ -3,7 +3,7 @@ titulo: Dumping democrático
 bajada: "Es como cuando el riesgo país de Argentina es alto porque hizo default."
 eje: libertad
 orden: 9
-estado: borrador
+estado: aprobada
 nivel: diagnostico
 cita: "Es como cuando el riesgo país de Argentina es alto porque hizo default."
 fuentes:
@@ -11,11 +11,12 @@ fuentes:
   - "Organización Mundial del Comercio, estadísticas de defensa comercial: China es, por lejos, el país más investigado y con más medidas antidumping del mundo (dato aportado por Claude, verificado el 30/10/2026)."
   - "Dependencia alimentaria: China importa la mayor parte de la soja que consume, sobre todo de Brasil y EE.UU., y en 2025 se fijó como meta reducir esas importaciones para 2035 (USDA, farmdoc daily de la Universidad de Illinois; dato aportado por Claude, verificado el 30/10/2026)."
 cambios:
+  - "Aprobada por Nacho en la charla por voz del 07/11/2026."
   - "Concepto de Nacho, redactado por Claude. Separada de «La gran batalla» el 28/10 por decisión de Nacho, porque es diagnóstico y no fundamento."
   - "«Legitimidad por desempeño» es el término académico que aportó Claude. Leerla como dumping es el aporte de Nacho."
   - "El argumento por antecedentes y la analogía del riesgo país son de Nacho (28/10)."
   - "La última línea (enlaces) es de navegación, de Claude."
-actualizado: 2026-10-30
+actualizado: 2026-11-08
 ---
 
 La gran batalla es la que se viene ahora entre Occidente y Oriente. China crece muchísimo, pero no deja que las personas sean, no tienen la libertad de decir lo que quieran. Es el caso extremo de [[concentrar-y-distribuir|lo vertical]].
