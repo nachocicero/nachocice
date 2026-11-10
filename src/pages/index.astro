@@ -25,7 +25,7 @@ const porEje = ejes.map(e => ({ ...e, tesis: lista.filter(t => t.data.eje === e.
   <section class="envoltura" style="margin-top:3rem">
     {porEje.map((e, n) => (
       <div class="parte">
-        <p class="eyebrow">Parte {n + 1}</p>
+        <p class="eyebrow">{e.id === 'base' ? 'Antes de empezar' : `Parte ${porEje.filter(x => x.id !== 'base').indexOf(e) + 1}`}</p>
         <h2>{e.titulo}</h2>
         {e.bajada && <p class="meta" style="font-size:.9rem">{e.bajada}</p>}
         <ol class="indice">

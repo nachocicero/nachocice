@@ -2,6 +2,7 @@
 // Títulos provisorios, tomados del inventario de tesis. Los define Nacho.
 // anexo: «Cómo se hace EPP», estrategia y reglamento, no pensamiento político.
 export const ejes = [
+  { id: 'base', titulo: 'Punto de partida', bajada: 'Lo que hay que dejar en claro antes que todo.' },
   { id: 'libertad', titulo: 'Libertad es no ser dominado', bajada: '' },
   { id: 'poder', titulo: 'Dónde está el poder', bajada: '' },
   { id: 'obligacion', titulo: 'De la atención a la obligación', bajada: '' },
