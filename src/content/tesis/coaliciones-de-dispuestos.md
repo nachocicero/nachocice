@@ -3,7 +3,7 @@ titulo: ¿Cómo empiezan algunos y arrastran al resto?
 bajada: "Mientras más haya, mejor, y si están los más grandes, también."
 eje: global
 orden: 3
-estado: borrador
+estado: aprobada
 nivel: propuesta
 fuentes:
   - "Conversación «Evasión fiscal y paraísos fiscales» (15 a 18/10/2026): la idea de avanzar sin esperar unanimidad, con los países que quieran (investigación y propuesta de Claude, discutida con Nacho)."
@@ -14,16 +14,15 @@ fuentes:
   - "Datos: la reforma de la Carta de la ONU requiere la ratificación de dos tercios de los miembros, incluidos los cinco permanentes (art. 108). La Sociedad de las Naciones (1920-1946): Estados Unidos nunca entró, Alemania y Japón se fueron en 1933 e Italia en 1937. India y China suman alrededor del 35% de la población mundial."
   - "Parlamento Europeo: proporcionalidad decreciente (los países chicos tienen más bancas que las que les tocarían por población)."
 cambios:
+  - "Aprobada por Nacho en la charla por voz del 10/11/2026, con la sección «Quién hace cumplir» (planteo de Nacho: si la organización está bien representada y con control popular, la policía es un brazo ejecutor como cualquier otro; los países que participan aportan y arman una policía transnacional). Claude objetó en la charla que el problema no es la legitimidad sino la fuerza (quién obliga a Estados Unidos o a China), y propuso la policía económica del cobro en la frontera, que queda como la otra herramienta. Se sacó «Esta tesis está en construcción. Es una pregunta, no una respuesta.»"
   - "Párrafo del reparto de votos redactado por Claude a partir de la charla por voz del 08/11/2026: las dos cámaras como Diputados y Senadores son idea de Nacho. La condición de la elección directa la propuso Claude (para no meter el dumping democrático adentro del parlamento) y Nacho la aceptó («me gusta, va a pasar un quilombo bárbaro, China no va a querer»)."
   - "Secciones «La ONU» y «Es todo lo mismo» redactadas por Claude a partir de la charla por voz del 07/11/2026. Aportes de Claude en la charla: el reparto de votos en un parlamento mundial (queda como FALTA), la reforma de la Carta vetable por los cinco, y que la ONU nació de una guerra y no de un reclamo. La campaña por una Asamblea Parlamentaria de la ONU existe pero no se cita."
   - "Sección «Desde abajo» redactada por Claude a partir de la charla por voz de noviembre de 2026 (después del 3/11): las burguesías anteriores a los Estados, las fronteras dibujadas, el capital que enfrenta Estados, El Pueblo Propone transnacional desde abajo y la resistencia de status («cagar un poco más alto que el otro», textual). Sigue como pregunta en construcción."
   - "Origen: armada en conversación con Claude, adoptada por Nacho. Tesis en construcción."
   - "Redactada por Claude a partir de la charla por voz del 27/10. Los dos mecanismos (UTPR y CBAM) los aportó Claude y se verificaron el 27/10/2026. Revisar."
   - "La última línea (enlaces) es de navegación, de Claude."
-actualizado: 2026-11-08
+actualizado: 2026-11-10
 ---
-
-Esta tesis está en construcción. Es una pregunta, no una respuesta.
 
 Cobrarle a la riqueza que se esconde, o al aporte evadido, choca siempre con lo mismo: si lo hace un solo país, la plata se va a otro. Es la excusa de siempre, y la usan para que no se haga nada, para que siga pagando [[clase-media-paga|la clase media]].
 
@@ -56,6 +55,10 @@ Para repartir los votos, por algo existen la Cámara de Diputados y la de Senado
 Para sacar el veto hay que reformar la Carta de la ONU, y esa reforma la pueden vetar los mismos cinco. La única forma es la gente exigiéndolo, y es algo a largo plazo, estamos lejísimos. Pero de última, si no se quiere cambiar, se crea otra ONU. Ya pasó: la Sociedad de las Naciones fracasó y la reemplazó la ONU. Y quizás fracasó por la misma razón, porque los grandes se iban cuando no les convenía.
 
 Los grandes tienen que estar adentro, pero no pueden tener más peso que los demás.
+
+## Quién hace cumplir
+
+El poder de policía es bastante simple. Si tenés una organización bien representada, donde hay participación y control popular de todo, después termina siendo una policía como cualquier policía: el brazo ejecutor de las normas. Los países que participan tienen que aportar y armar una policía transnacional. Y además está el cobro en la frontera.
 
 ## Es todo lo mismo
 

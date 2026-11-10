@@ -3,13 +3,14 @@ titulo: La herencia común
 bajada: "Todo ese conocimiento que tiene la humanidad tiene un valor."
 eje: base
 orden: 1
-estado: borrador
+estado: aprobada
 nivel: fundamento
 cita: "Hay gente que le está sacando algo que deberían heredar todos, por nacer en la humanidad."
 fuentes:
   - "Charla por voz con Claude, 10/11/2026 (caminando): Nacho lo planteó como «lo más importante de todo» y pidió que sea el punto base del libro. El instrumento del médico, la tendencia a lo individual y a la libertad como libertad de mercado, el mercado como los que tienen plata decidiendo, el piso para que todos puedan operar en el mercado y la herencia que se le saca al que nace (planteo de Nacho, casi textual)."
   - "Herbert Simon, «UBI and the Flat Tax», Boston Review (octubre-noviembre de 2000), en el foro sobre ingreso básico de Philippe Van Parijs: es difícil concebir que el capital social produzca menos de cerca del 90% del ingreso en las sociedades ricas, y por razones morales se podría defender un impuesto plano del 90% para devolver esa riqueza a sus verdaderos dueños. Simon ganó el Nobel de Economía en 1978."
 cambios:
+  - "Aprobada por Nacho en la charla por voz del 10/11/2026, «por ahora»: conceptualmente está bien y puede cambiar más adelante. Quedan como están el nombre de la parte, «Punto de partida», y la frase «el piso no es caridad»."
   - "Tesis nueva, primera del libro, en una parte nueva «Punto de partida» (título provisorio de Claude). Origen: pensamiento de años de Nacho, formulado por primera vez como tesis en esta charla. Ya aparecía desparramado en el manuscrito como «el poder de la polis»."
   - "Redactada por Claude a partir de la charla por voz, con el protocolo de estilo. Revisar."
   - "Nacho pidió no usar la palabra «colectivo», que hoy es peyorativa. El texto dice «entre todos»."

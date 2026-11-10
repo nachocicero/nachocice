@@ -71,6 +71,70 @@ def main():
         subprocess.run(['ffmpeg', '-y', '-loglevel', 'error', '-i', str(wav), '-ac', '1', '-b:a', '64k', str(mp3)], check=True)
         wav.unlink(); marca.write_text(h)
         print('nuevo', md.stem)
+    libro(lambda t, w: voz.synthesize_wav(t, w))
+
+NUMEROS = ['uno', 'dos', 'tres', 'cuatro', 'cinco', 'seis', 'siete', 'ocho', 'nueve', 'diez']
+
+def orden_de_lectura():
+    """Devuelve [(titulo_de_parte, [slugs])] en el orden del índice."""
+    ejes = re.findall(r"id: '([\w-]+)', titulo: '([^']*)'", (RAIZ / 'src/lib/ejes.ts').read_text(encoding='utf-8'))
+    tesis = {}
+    for md in TESIS.glob('*.md'):
+        fm, _ = frontmatter(md.read_text(encoding='utf-8'))
+        orden = campo(fm, 'orden')
+        tesis.setdefault(campo(fm, 'eje'), []).append((float(orden or 99), md.stem))
+    salida, n = [], 0
+    for id_, titulo in ejes:
+        if id_ not in tesis:
+            continue
+        if id_ == 'base':
+            intro = f'Antes de empezar. {titulo}.'
+        elif id_ == 'anexo':
+            intro = f'{titulo}.'
+        else:
+            n += 1
+            intro = f'Parte {NUMEROS[n - 1] if n <= len(NUMEROS) else n}. {titulo}.'
+        salida.append((intro, [s for _, s in sorted(tesis[id_])]))
+    return salida
+
+def libro(sintetizar):
+    """Une todos los audios en un solo MP3, en orden de lectura, con el título de cada parte."""
+    partes = orden_de_lectura()
+    clave = hashlib.sha1(repr([(i, [(s, (SALIDA / f'{s}.hash').read_text() if (SALIDA / f'{s}.hash').exists() else '') for s in ss]) for i, ss in partes]).encode()).hexdigest()
+    mp3, marca = SALIDA / 'libro-completo.mp3', SALIDA / 'libro-completo.hash'
+    if mp3.exists() and marca.exists() and marca.read_text() == clave:
+        print('igual', 'libro-completo'); return
+    tmp = SALIDA / '_libro'; tmp.mkdir(exist_ok=True)
+    piezas = []
+    pausa = tmp / 'pausa.wav'
+    subprocess.run(['ffmpeg', '-y', '-loglevel', 'error', '-f', 'lavfi', '-i', 'anullsrc=r=22050:cl=mono', '-t', '1.5', str(pausa)], check=True)
+    intro = tmp / 'intro.wav'
+    with wave.open(str(intro), 'wb') as w:
+        sintetizar('El lento proceso retrodemocratizador del poder. De Nacho Cicero.', w)
+    piezas += [intro, pausa]
+    for k, (titulo, slugs) in enumerate(partes):
+        wav = tmp / f'parte-{k}.wav'
+        with wave.open(str(wav), 'wb') as w:
+            sintetizar(titulo, w)
+        piezas += [pausa, wav, pausa]
+        for s in slugs:
+            if (SALIDA / f'{s}.mp3').exists():
+                piezas += [SALIDA / f'{s}.mp3', pausa]
+    # Todo a WAV con el mismo formato, así el concat no mezcla códecs.
+    uniformes = []
+    for j, p in enumerate(piezas):
+        u = tmp / f'u{j:04d}.wav'
+        subprocess.run(['ffmpeg', '-y', '-loglevel', 'error', '-i', str(p), '-ac', '1', '-ar', '22050', '-sample_fmt', 's16', str(u)], check=True)
+        uniformes.append(u)
+    lista = tmp / 'lista.txt'
+    lista.write_text(''.join(f"file '{p.resolve()}'\n" for p in uniformes))
+    subprocess.run(['ffmpeg', '-y', '-loglevel', 'error', '-f', 'concat', '-safe', '0', '-i', str(lista),
+                    '-ac', '1', '-ar', '22050', '-b:a', '32k', str(mp3)], check=True)
+    for f in tmp.iterdir():
+        f.unlink()
+    tmp.rmdir()
+    marca.write_text(clave)
+    print('nuevo', 'libro-completo')
 
 if __name__ == '__main__':
     try:

@@ -18,6 +18,7 @@ fuentes:
   - "Ministerio de Salud, Informe de gasto en salud 2017-2022: en 2022 el gasto público fue 2,8% del PBI, la seguridad social (obras sociales y PAMI) 3,4% y el privado 4,4%."
   - "Chequeado, 2025, con datos de la ANSES (BESS, marzo de 2025): 5,7 millones de jubilaciones, 3,9 millones por moratoria. La primera moratoria es de 2005."
 cambios:
+  - "Revisada en la charla por voz del 10/11/2026: nueva sección «Llegar sale carísimo» con el planteo de Nacho (la caja, los favores, la publicidad inflada, el partido, todo en negro, los militantes que esperan un puesto, y la contradicción con la república donde todos pueden ser candidatos). «El que llega, llega debiendo» es de Claude. La tesis gira hacia que el problema no es en qué se gasta sino cómo se gasta y quién lo controla (Nacho: «tiene que girar hacia eso»). Sigue en borrador."
   - "«Servicios o plata» rehecha a partir de la charla por voz del 08/11/2026: Nacho vio los números y cambió el argumento. Ya no es que el Estado abandonó los servicios: «en los papeles la distribución está bien, habría que ver si se gasta bien». Se sacó la DUDA de la versión anterior. Lo de que muchas jubilaciones no tuvieron aporte y que la terminamos pagando todos juntos es de Nacho. El tramo de salud (obras sociales y PAMI) y la tabla los aportó Claude."
   - "Secciones «Atado al superávit» y «Servicios o plata» redactadas por Claude a partir de la charla por voz del 07/11/2026. Los datos del gasto los buscó Claude el 08/11 y no confirman del todo que salud y educación hayan caído: quedan en una DUDA para hablarlo."
   - "Doc: solo ortografía, tildes y puntuación (q → que, pensas → pensás, manja → maneja). El bloque está repetido en el Doc en tres versiones: se usó la primera completa."
@@ -25,7 +26,7 @@ cambios:
   - "Afuera del Doc: la alegoría del negocio de 1.000 y 800 y el párrafo final sobre la Guerra Fría y otro planeta, que abren otro tema."
   - "Verificado el 23/10/2026: Menem estuvo detenido en 2001 y fue condenado en 2013 por contrabando de armas; Cristina Kirchner cumple desde junio de 2025 seis años en prisión domiciliaria (causa Vialidad); Lula estuvo preso 580 días (2018-2019) y sus condenas se anularon; Bolsonaro, condenado a 27 años y 3 meses, cumple prisión domiciliaria (prensa argentina y brasileña)."
   - "Corregido el 23/10/2026: decía «De la Rúa, Macri, enjuiciados», es «De la Rúa, juzgado y absuelto (coimas en el Senado). Macri, procesado y sobreseído (espionaje ARA San Juan)» (prensa argentina)."
-actualizado: 2026-11-08
+actualizado: 2026-11-10
 ---
 
 ¿Cuánto vale la hora del político? ¿En cuánto se consigue un político? Un representante, ¿se entiende la pregunta? ¿Cuánto cuesta ese representante? ¿Vale lo que se le paga por sueldo o cuesta todo lo que implica?
@@ -41,6 +42,12 @@ O sea, si vos contratás a un pintor para que pinte tu casa y le das la llave y 
 Así como un gerente de compras muchas veces es sospechado de estar tentado por el lado oscuro y es imprescindible para la gerencia general controlar, con la política pasa algo similar.
 
 La política hoy es la representación de los poderes: los partidos políticos representan a quienes los sostuvieron económicamente, a quien pagó la campaña y a quien les va a garantizar un estado de cosas para que pueda desarrollar sus proyectos.
+
+## Llegar sale carísimo
+
+No es solamente que lo empuja a robar porque gana poco. El sistema mismo hace que la política sea carísima. Para poder hacer política tenés que tener una caja enorme, tenés que devolver favores, y la publicidad política está súper inflada. Hacer un partido político, todo sale plata. Encima está todo en negro, y muchos de los militantes están militando para que después, en algún momento, les den algún puesto.
+
+Eso va en contra de la república representativa, donde todos pueden ser candidatos. Es falso: para ser candidato necesitás una cantidad de plata astronómica. Y todo eso también te obliga a robar. El que llega, llega debiendo.
 
 ## La correa de control
 
@@ -80,7 +87,7 @@ Mirado en números, de cada 100 pesos que gasta el Estado, sumando Nación, prov
 | Subsidios y obras | 9 |
 | Intereses de la deuda | 5 |
 
-En los papeles, la distribución está bien. El problema es si se gasta bien.
+En los papeles, la distribución está bien. El problema no es en qué se gasta, es cómo se gasta y quién lo controla.
 
 Y en salud, más de la mitad no es el hospital público: son las obras sociales y el PAMI, que se pagan con aportes. En 2022 el sistema público fue el 2,8% del PBI, y las obras sociales y el PAMI el 3,4%.
 

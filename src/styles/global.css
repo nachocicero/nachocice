@@ -125,3 +125,6 @@ details.fuente summary { cursor: pointer; font-weight: 600; }
 .nivel-propuesta { color: var(--tinta-suave); }
 :root[data-tema="oscuro"] .nivel-fundamento { color: #B9C59A; }
 @media (prefers-color-scheme: dark) { :root:not([data-tema="claro"]) .nivel-fundamento { color: #B9C59A; } }
+
+.libro-audio{margin-top:1rem}
+.libro-audio audio{width:100%;max-width:28rem}

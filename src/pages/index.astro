@@ -7,6 +7,9 @@ import { tesisVisibles, minutos } from '../lib/datos';
 import { ejes } from '../lib/ejes';
 import { niveles } from '../lib/niveles';
 const lista = await tesisVisibles();
+import { existsSync, statSync } from 'node:fs';
+const libroMp3 = 'public/audio/libro-completo.mp3';
+const libroMb = existsSync(libroMp3) ? Math.round(statSync(libroMp3).size / 1e6) : 0;
 const porEje = ejes.map(e => ({ ...e, tesis: lista.filter(t => t.data.eje === e.id) })).filter(e => e.tesis.length);
 ---
 <Base seccion="inicio">
@@ -17,6 +20,13 @@ const porEje = ejes.map(e => ({ ...e, tesis: lista.filter(t => t.data.eje === e.
         <h1>El lento proceso retrodemocratizador del poder</h1>
         <p class="bajada">¿Qué otra cosa puede haber en un Estado sino poder del pueblo?</p>
         <p class="meta">Un libro que se lee en cualquier orden. Cada tesis enlaza con las que la sostienen y con las que la retoman.</p>
+        {libroMb > 0 && (
+          <div class="libro-audio">
+            <p class="meta"><strong>El libro entero para escuchar</strong>, de corrido y en orden ({libroMb} MB). Se puede escuchar con la pantalla apagada.</p>
+            <audio controls preload="none" src={url('/audio/libro-completo.mp3')}></audio>
+            <p class="meta"><a href={url('/audio/libro-completo.mp3')} download>Descargar el MP3</a></p>
+          </div>
+        )}
       </div>
       <Engranajes animar tam={180} />
     </div>
