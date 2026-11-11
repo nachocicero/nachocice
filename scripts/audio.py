@@ -72,19 +72,27 @@ def main():
         wav.unlink(); marca.write_text(h)
         print('nuevo', md.stem)
     libro(lambda t, w: voz.synthesize_wav(t, w))
+    libro(lambda t, w: voz.synthesize_wav(t, w), 'pendientes', solo_pendientes=True)
 
 NUMEROS = ['uno', 'dos', 'tres', 'cuatro', 'cinco', 'seis', 'siete', 'ocho', 'nueve', 'diez']
 
-def orden_de_lectura():
+def orden_de_lectura(solo_pendientes=False):
     """Devuelve [(titulo_de_parte, [slugs])] en el orden del índice."""
     ejes = re.findall(r"id: '([\w-]+)', titulo: '([^']*)'", (RAIZ / 'src/lib/ejes.ts').read_text(encoding='utf-8'))
-    tesis = {}
+    tesis, con_tesis = {}, set()
     for md in TESIS.glob('*.md'):
         fm, _ = frontmatter(md.read_text(encoding='utf-8'))
         orden = campo(fm, 'orden')
+        con_tesis.add(campo(fm, 'eje'))
+        if solo_pendientes and campo(fm, 'estado') == 'aprobada':
+            continue
         tesis.setdefault(campo(fm, 'eje'), []).append((float(orden or 99), md.stem))
     salida, n = [], 0
     for id_, titulo in ejes:
+        if id_ not in con_tesis:
+            continue
+        if id_ not in ('base', 'anexo'):
+            n += 1
         if id_ not in tesis:
             continue
         if id_ == 'base':
@@ -92,25 +100,24 @@ def orden_de_lectura():
         elif id_ == 'anexo':
             intro = f'{titulo}.'
         else:
-            n += 1
             intro = f'Parte {NUMEROS[n - 1] if n <= len(NUMEROS) else n}. {titulo}.'
         salida.append((intro, [s for _, s in sorted(tesis[id_])]))
     return salida
 
-def libro(sintetizar):
+def libro(sintetizar, nombre='libro-completo', solo_pendientes=False):
     """Une todos los audios en un solo MP3, en orden de lectura, con el título de cada parte."""
-    partes = orden_de_lectura()
+    partes = orden_de_lectura(solo_pendientes)
     clave = hashlib.sha1(repr([(i, [(s, (SALIDA / f'{s}.hash').read_text() if (SALIDA / f'{s}.hash').exists() else '') for s in ss]) for i, ss in partes]).encode()).hexdigest()
-    mp3, marca = SALIDA / 'libro-completo.mp3', SALIDA / 'libro-completo.hash'
+    mp3, marca = SALIDA / f'{nombre}.mp3', SALIDA / f'{nombre}.hash'
     if mp3.exists() and marca.exists() and marca.read_text() == clave:
-        print('igual', 'libro-completo'); return
-    tmp = SALIDA / '_libro'; tmp.mkdir(exist_ok=True)
+        print('igual', nombre); return
+    tmp = SALIDA / f'_{nombre}'; tmp.mkdir(exist_ok=True)
     piezas = []
     pausa = tmp / 'pausa.wav'
     subprocess.run(['ffmpeg', '-y', '-loglevel', 'error', '-f', 'lavfi', '-i', 'anullsrc=r=22050:cl=mono', '-t', '1.5', str(pausa)], check=True)
     intro = tmp / 'intro.wav'
     with wave.open(str(intro), 'wb') as w:
-        sintetizar('El lento proceso retrodemocratizador del poder. De Nacho Cicero.', w)
+        sintetizar('Lo que falta aprobar.' if solo_pendientes else 'El lento proceso retrodemocratizador del poder. De Nacho Cicero.', w)
     piezas += [intro, pausa]
     for k, (titulo, slugs) in enumerate(partes):
         wav = tmp / f'parte-{k}.wav'
@@ -134,7 +141,7 @@ def libro(sintetizar):
         f.unlink()
     tmp.rmdir()
     marca.write_text(clave)
-    print('nuevo', 'libro-completo')
+    print('nuevo', nombre)
 
 if __name__ == '__main__':
     try:

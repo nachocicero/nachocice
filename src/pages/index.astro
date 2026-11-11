@@ -7,8 +7,11 @@ import { tesisVisibles, minutos } from '../lib/datos';
 import { ejes } from '../lib/ejes';
 import { niveles } from '../lib/niveles';
 const lista = await tesisVisibles();
+const borradores = import.meta.env.PUBLIC_BORRADORES === '1';
 import { existsSync, statSync } from 'node:fs';
 const libroMp3 = 'public/audio/libro-completo.mp3';
+const pendMp3 = 'public/audio/pendientes.mp3';
+const pendMb = existsSync(pendMp3) ? Math.round(statSync(pendMp3).size / 1e6) : 0;
 const libroMb = existsSync(libroMp3) ? Math.round(statSync(libroMp3).size / 1e6) : 0;
 const porEje = ejes.map(e => ({ ...e, tesis: lista.filter(t => t.data.eje === e.id) })).filter(e => e.tesis.length);
 ---
@@ -19,12 +22,20 @@ const porEje = ejes.map(e => ({ ...e, tesis: lista.filter(t => t.data.eje === e.
         <p class="eyebrow">Ensayos enlazados · en construcción</p>
         <h1>El lento proceso retrodemocratizador del poder</h1>
         <p class="bajada">¿Qué otra cosa puede haber en un Estado sino poder del pueblo?</p>
+        <p class="piso">«Lo único que defiendo a muerte es que somos todos iguales, y que todos deberíamos tener derecho a decidir sobre el futuro, la realidad, el presente. Todo lo demás son propuestas.»</p>
         <p class="meta">Un libro que se lee en cualquier orden. Cada tesis enlaza con las que la sostienen y con las que la retoman.</p>
         {libroMb > 0 && (
           <div class="libro-audio">
             <p class="meta"><strong>El libro entero para escuchar</strong>, de corrido y en orden ({libroMb} MB). Se puede escuchar con la pantalla apagada.</p>
             <audio controls preload="none" src={url('/audio/libro-completo.mp3')}></audio>
             <p class="meta"><a href={url('/audio/libro-completo.mp3')} download>Descargar el MP3</a></p>
+          </div>
+        )}
+        {borradores && pendMb > 0 && (
+          <div class="libro-audio">
+            <p class="meta"><strong>Solo lo que falta aprobar</strong>: las tesis en borrador y en revisión, de corrido ({pendMb} MB).</p>
+            <audio controls preload="none" src={url('/audio/pendientes.mp3')}></audio>
+            <p class="meta"><a href={url('/audio/pendientes.mp3')} download>Descargar el MP3</a></p>
           </div>
         )}
       </div>
