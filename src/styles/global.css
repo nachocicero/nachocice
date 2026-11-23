@@ -130,3 +130,10 @@ details.fuente summary { cursor: pointer; font-weight: 600; }
 .libro-audio audio{width:100%;max-width:28rem}
 
 .piso{font-family:var(--serif,inherit);font-size:1.05rem;border-left:3px solid var(--cobre,#B87333);padding-left:.8rem;margin:1rem 0}
+
+/* Tablas */
+table { display: block; overflow-x: auto; border-collapse: collapse; margin: 1.6rem 0; font: 400 .88rem/1.35 var(--f-ui); }
+th, td { padding: .5rem .8rem; border-bottom: 1px solid var(--linea); text-align: left; white-space: nowrap; }
+th { font-weight: 600; color: var(--tinta-suave); border-bottom-width: 2px; }
+details.detalle { margin: 1.6rem 0; }
+details.detalle summary { cursor: pointer; font: 600 .9rem/1.4 var(--f-ui); color: var(--acento); }

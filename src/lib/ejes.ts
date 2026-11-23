@@ -10,6 +10,7 @@ export const ejes = [
   { id: 'trabajo', titulo: 'El trabajo de quién', bajada: '' },
   { id: 'longevidad', titulo: 'Vivir más, ¿quiénes?', bajada: '' },
   { id: 'global', titulo: 'Lo global ya existe', bajada: '' },
+  { id: 'medir', titulo: 'La democracia directa en el mundo', bajada: 'Qué tiene cada país y qué le falta. Título provisorio.' },
   { id: 'anexo', titulo: 'Anexo: cómo se hace El Pueblo Propone', bajada: 'Estrategia y funcionamiento, no pensamiento político.' },
 ] as const;
 

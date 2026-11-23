@@ -25,10 +25,16 @@ def limpiar(cuerpo):
         if l.strip().startswith('Ver también'):
             continue
         lineas.append(l)
-    t = '\n'.join(lineas)
+    t = '\n'.join(lineas).replace('\\|', '|')
     t = re.sub(r'\[(FALTA|DUDA):[^\]]*\]', '', t)
+    # Lo desplegable (tablas de detalle) no se lee
+    t = re.sub(r'<details.*?</details>', '', t, flags=re.S)
+    t = re.sub(r'<[^>]+>', '', t)
     t = re.sub(r'\[\[[a-z0-9-]+\|([^\]]+)\]\]', r'\1', t)
     t = re.sub(r'\[\[([a-z0-9-]+)\]\]', lambda m: m.group(1).replace('-', ' '), t)
+    # Tablas: cada fila se lee como una oración
+    t = re.sub(r'^\|[-| :]+\|\s*$\n?', '', t, flags=re.M)
+    t = re.sub(r'^\|\s*(.*?)\s*\|\s*$', lambda m: re.sub(r'\s*\|\s*', ', ', m.group(1)) + '.', t, flags=re.M)
     t = re.sub(r'\[([^\]]+)\]\([^)]+\)', r'\1', t)
     t = re.sub(r'^#+\s*(.*)$', r'\1.', t, flags=re.M)
     t = re.sub(r'^\s*\d+\.\s+', '', t, flags=re.M)
