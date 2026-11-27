@@ -8,9 +8,16 @@ export type Tesis = CollectionEntry<'tesis'>;
 const verBorradores = import.meta.env.DEV || import.meta.env.PUBLIC_BORRADORES === '1';
 
 export async function tesisVisibles(): Promise<Tesis[]> {
-  const todas = await getCollection('tesis', t => verBorradores || t.data.estado === 'aprobada');
+  const todas = await getCollection('tesis', t => t.data.eje !== 'archivo' && (verBorradores || t.data.estado === 'aprobada'));
   const ordenEje = (id: string) => { const i = ejes.findIndex(e => e.id === id); return i < 0 ? 99 : i; };
   return todas.sort((a, b) => ordenEje(a.data.eje) - ordenEje(b.data.eje) || a.data.orden - b.data.orden);
+}
+
+// Archivo: lo que salió del libro. No aparece en la portada, el mapa ni el audio del libro.
+// Oculto, no privado: se entra solo por la dirección /archivo/.
+export async function tesisArchivo(): Promise<Tesis[]> {
+  const todas = await getCollection('tesis', t => t.data.eje === 'archivo');
+  return todas.sort((a, b) => a.data.orden - b.data.orden);
 }
 
 const RE = /\[\[([a-z0-9-]+)(?:\|[^\]]+)?\]\]/g;

@@ -62,4 +62,4 @@ En Francia y en Bélgica se pelea por la edad jubilatoria y nadie discute de dó
 
 No es casualidad. Si [[el-estado-es-una-construccion-burguesa|el Estado es una construcción burguesa]], el que no se puede correr es el que no tiene cómo construirse su salida legal. Por eso las soluciones no pueden pensarse dentro de un solo país: el límite nunca es el Estado.
 
-Ver también [[privilegio-no-es-riqueza]] y [[quien-cobra-por-el-trabajo]].
+Ver también [[quien-cobra-por-el-trabajo]].

@@ -1,0 +1,26 @@
+---
+import Base from '../../layouts/Base.astro';
+import { url } from '../../lib/url';
+import { tesisArchivo, minutos } from '../../lib/datos';
+const lista = await tesisArchivo();
+---
+<Base titulo="Archivo" descripcion="Lo que salió del libro." noindex>
+  <article class="envoltura" style="margin:3rem auto 4rem">
+    <p class="eyebrow">Archivo</p>
+    <h1>Lo que salió del libro</h1>
+    <p class="meta" style="font-size:.9rem">Textos que no van en el libro y se guardan acá. Esta página no está enlazada desde ningún lado.</p>
+    <ol class="lista">
+      {lista.map(t => (
+        <li><a href={url(`/archivo/${t.id}/`)}><strong>{t.data.titulo}</strong><span>{minutos(t)} min</span></a>{t.data.bajada && <p>{t.data.bajada}</p>}</li>
+      ))}
+    </ol>
+    {lista.length === 0 && <p>No hay nada archivado.</p>}
+  </article>
+</Base>
+<style>
+  .lista { list-style: none; padding: 0; margin: 2rem 0 0; }
+  .lista li { border-top: 1px solid var(--linea); padding: .9rem 0; margin: 0; }
+  .lista a { display: flex; justify-content: space-between; gap: 1rem; text-decoration: none; font-family: var(--f-titulo); font-size: 1.15rem; }
+  .lista a span { font: 400 .8rem/1.6 var(--f-ui); color: var(--tinta-suave); white-space: nowrap; }
+  .lista p { margin: .25rem 0 0; color: var(--tinta-suave); font-size: 1rem; }
+</style>

@@ -1,0 +1,33 @@
+---
+import { url } from '../../lib/url';
+import { render } from 'astro:content';
+import Base from '../../layouts/Base.astro';
+import Lector from '../../components/Lector.astro';
+import { tesisArchivo, minutos } from '../../lib/datos';
+
+export async function getStaticPaths() {
+  return (await tesisArchivo()).map(t => ({ params: { slug: t.id }, props: { t } }));
+}
+const { t } = Astro.props;
+const { Content } = await render(t);
+---
+<Base titulo={t.data.titulo} descripcion={t.data.bajada} noindex>
+  <article class="envoltura" data-leer>
+    <p class="eyebrow" style="margin-top:3rem"><a href={url('/archivo/')} style="text-decoration:none;color:inherit">Archivo</a></p>
+    <h1>{t.data.titulo}</h1>
+    {t.data.bajada && <p class="bajada">{t.data.bajada}</p>}
+    <div class="meta" style="margin-bottom:1rem"><span>{minutos(t)} min de lectura</span></div>
+    <p class="aviso-borrador">Fuera del libro. Guardado en el archivo.</p>
+    <Lector slug={t.id} titulo={t.data.titulo} />
+    <Content />
+  </article>
+  <div class="envoltura" style="margin-bottom:4rem">
+    {(t.data.fuentes.length > 0 || t.data.cambios.length > 0) && (
+      <details class="fuente">
+        <summary>Control de fuente</summary>
+        {t.data.fuentes.length > 0 && <><p><strong>De dónde sale el texto</strong></p><ul>{t.data.fuentes.map(f => <li>{f}</li>)}</ul></>}
+        {t.data.cambios.length > 0 && <><p><strong>Qué se tocó</strong></p><ul>{t.data.cambios.map(c => <li>{c}</li>)}</ul></>}
+      </details>
+    )}
+  </div>
+</Base>

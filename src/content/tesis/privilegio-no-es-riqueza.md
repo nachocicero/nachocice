@@ -1,8 +1,8 @@
 ---
 titulo: El privilegio no es riqueza
 bajada: "La cobertura es barata, el privilegio es caro."
-eje: quien-paga
-orden: 2
+eje: archivo
+orden: 1
 estado: borrador
 nivel: diagnostico
 fuentes:
@@ -10,6 +10,7 @@ fuentes:
   - "Rafael Rofman, «El costo de la excepción: una revisión de los regímenes previsionales en Argentina», CIPPEC, Documento de políticas públicas 251, octubre de 2025 (datos 2024 y marzo 2025)."
   - "Charla por voz con Claude, 30/10/2026: Nacho no está convencido de que la explicación sea solo poder corporativo y pide investigar otras."
 cambios:
+  - "27/11/2026: sale del libro por decisión de Nacho en la caminata del 23/11 («es un tema interesante, pero no lo pondría en el libro»). Queda en el archivo oculto, fuera de la portada, el mapa, el audio del libro y los buscadores. Se sacaron los enlaces que apuntaban acá desde «La clase media paga» y «Reformas que nadie empuja»."
   - "Reescrita a partir de la charla por voz del 10/11/2026: el centro pasa a ser quién paga la diferencia (cualquier régimen vale si lo paga el que lo cobra). Las explicaciones quedan como lo que dicen los que defienden cada régimen. Nacho agregó el mérito dado vuelta (sociedad latinoamericana fracasada, jueces y relaciones internacionales) y pidió dejarlo como mención al pasar, por categoría y sin nombres. Sigue en borrador."
   - "Revisada en la charla por voz del 08/11/2026: sigue en borrador. A Nacho no le cierra ninguna de las explicaciones y quedan como hipótesis. Sumó el criterio (más jubilación solo si hubo más aporte, para cualquier régimen) y pidió no nombrar a los jueces: se sacó la frase sobre los judiciales."
   - "Para investigar con Nacho. Reescrita el 03/11/2026: en lugar de cerrar en «poder corporativo», presenta cuatro explicaciones como hipótesis con la evidencia que trae CIPPEC. El documento usa «cerca de un 42%» en el texto y «43%» en el resumen (tabla 2024: 4.219.914 de 10.012.145 beneficios), y se dejó 43%. El gasto es 59,1% del previsional y 5,2% del PBI. El haber promedio de los regímenes de excepción está 93% por encima del promedio general."
@@ -18,7 +19,7 @@ cambios:
   - "Redactada por Claude: los datos y el encuadre son aportes de Claude aceptados por Nacho. Revisar."
   - "La frase de la bajada es de Claude en esa conversación, no de Nacho. Cambiarla si no la sentís tuya."
   - "Corregido el 27/10/2026 por decisión de Nacho: la cifra 17% / 35% no se encontró en fuentes públicas. Se usa CIPPEC, «El costo de la excepción» (datos 2024), que cuenta todos los regímenes especiales: 43% de los beneficios y 59,1% del gasto. Se sacó la frase sobre moratorias, que dependía de la definición anterior."
-actualizado: 2026-11-10
+actualizado: 2026-11-27
 ---
 Los regímenes especiales, los que tienen reglas propias, reúnen el 43% de los beneficios previsionales y se llevan el 59% del gasto, unos 5 puntos del PBI. Cada uno de esos beneficios cobra en promedio casi el doble que uno del régimen general. La cobertura es barata, el privilegio es caro.
 

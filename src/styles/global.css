@@ -112,7 +112,8 @@ details.fuente summary { cursor: pointer; font-weight: 600; }
 
 @media (max-width: 30rem) {
   body { font-size: 1.1rem; }
-  .cabecera .ancho { gap: .5rem; }
+  .cabecera .ancho { gap: .5rem; flex-wrap: wrap; }
+  .nav { flex-wrap: wrap; align-items: center; }
   .marca { font-size: .95rem; gap: .4rem; }
   .nav { gap: .6rem; font-size: .68rem; letter-spacing: .02em; }
   .tema { width: 1.7rem; height: 1.7rem; }
